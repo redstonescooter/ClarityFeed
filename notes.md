@@ -3,6 +3,11 @@ python3 -m venv myenv
 ### Step 3: Activate the Virtual Environment
 source myenv/bin/activate
 
+### start chrome from wsl terminal :
+google-chrome --no-sandbox
+### google chrome with proxy :
+google-chrome --no-sandbox --proxy-server="http=172.27.192.1:10811;https=172.27.192.1:10811"
+
 
 Host system is missing dependencies to run browsers. ║
 ║ Missing libraries:                                   ║

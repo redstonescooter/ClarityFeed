@@ -1,4 +1,6 @@
-# go to root
-# run : source myenv/bin/activate
+#!/bin/bash
+source ../.env
+
+
 
 
