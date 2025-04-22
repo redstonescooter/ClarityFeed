@@ -66,3 +66,6 @@ You can start your first spider with:
 ```
 
 
+### initlialize project :
+first manually run : chmod +x ./initialize_project.sh
+then run : ./initialize_project.sh

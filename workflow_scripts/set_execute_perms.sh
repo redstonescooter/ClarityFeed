@@ -11,3 +11,5 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 find "$SCRIPT_DIR" -type f \( -name "*.sh" -o -name "*.bash" \) -exec chmod +x {} \;
 
 echo "All scripts in $SCRIPT_DIR have been made executable."
+
+
