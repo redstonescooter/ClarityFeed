@@ -15,3 +15,5 @@ source "$SCRIPT_DIR/set_wsl_proxy_vars.sh"
 
 # finilize the env file
 cp ../.env.pre ../.env
+
+bun run build
