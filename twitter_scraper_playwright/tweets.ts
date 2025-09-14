@@ -1,9 +1,4 @@
-import fs from "fs";
-// import * as cheerio from "cheerio";
 
-/**
- * Extracts author, text, retweet info, and media from a tweet HTML element.
- */
 export function extractTweetInfo(tweetEl, $) {
   const tweetData = {} as{
     author:string,
@@ -44,22 +39,5 @@ export function extractTweetInfo(tweetEl, $) {
   return tweetData;
 }
 
-/**
- * Parses a saved Twitter timeline HTML file and extracts tweets.
- */
-// function parseTimeline(htmlPath) {
-//   const html = fs.readFileSync(htmlPath, "utf-8");
-//   const $ = cheerio.load(html);
 
-//   const tweets = [];
-//   $("article[data-testid='tweet']").each((_, tweet) => {
-//     tweets.push(extractTweetInfo(tweet, $));
-//   });
-
-//   return tweets;
-// }
-
-// // Example usage
-// const tweets = parseTimeline("twitter_timeline_1_full.html");
-// console.log(tweets);
  
