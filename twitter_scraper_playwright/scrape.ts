@@ -136,8 +136,10 @@ async function getVisibleNewTweets(page, seenTweetIds,logger) {
                 
                 // Extract tweet info
                 // const tweetParsed = await extractTweetInfo(tweetHandle, documentHandle);
-                const tweetParsed = await extractTweetInfoPlaywright(tweetHandle,logger);
-                
+                const tweetParsedObj = await extractTweetInfoPlaywright(tweetHandle);
+                const tweetParsed = tweetParsedObj.tweetData;
+                const tweetLogs = tweetParsedObj.logs;
+                tweetLogs.forEach(log=>logger.log(log));
                 // Create a unique ID for the tweet (adjust based on your tweet structure)
                 const tweetId = generateTweetId(tweetParsed);
                 
@@ -246,103 +248,151 @@ async function outputResults(tweets, logger) {
     }
 }
 
-async function extractTweetInfoPlaywright(tweetLocator,logger) {
-    // Use Playwright's evaluate to extract tweet data directly from the DOM
-    function retweetInfo(tweetEl) {
-      try {
-        const retweetInfo = {
-          is_retweet: false,
-          retweet_author: null,
-          original_tweet: null,
-          retweet_content: null,
-          is_quote_tweet:false,
-          quoted_content:null,
-          quoted_author:null
-        };
-
-        // Method 1: Check for social context (most reliable)
-        const socialContextEl = tweetEl.querySelector("span[data-testid='socialContext']");
-        if (socialContextEl) {
-            const contextText = socialContextEl.textContent?.trim();
-            if (contextText && contextText.includes('Retweeted')) {
-                retweetInfo.is_retweet = true;
-                // Extract who retweeted it
-                const retweetMatch = contextText.match(/(.+)\s+Retweeted/);
-                if (retweetMatch) {
-                    retweetInfo.retweet_author = retweetMatch[1].trim();
-                }
-            }
-        }
-
-        // Method 2: Check for retweet icon in header (alternative detection)
-        if (!retweetInfo.is_retweet) {
-            const retweetHeaderEl = tweetEl.querySelector('[aria-label*="Retweet"]');
-            if (retweetHeaderEl && retweetHeaderEl.closest('[data-testid="tweet"]') === tweetEl) {
-                retweetInfo.is_retweet = true;
-            }
-        }
-
-        // Method 3: Check for quote tweet structure
-        if (!retweetInfo.is_retweet) {
-            const quoteEl = tweetEl.querySelector('div[role="link"][tabindex="0"]');
-            if (quoteEl) {
-                // This is a quote tweet, which is different from a retweet
-                const quotedContent = quoteEl.querySelector('[data-testid="tweetText"]');
-                if (quotedContent) {
-                    retweetInfo.is_quote_tweet = true;
-                    retweetInfo.quoted_content = quotedContent.textContent?.trim();
-                    
-                    // Extract quoted tweet author info
-                    const quotedAuthor = quoteEl.querySelector('[data-testid="User-Name"]');
-                    if (quotedAuthor) {
-                        retweetInfo.quoted_author = quotedAuthor.textContent?.trim();
-                    }
-                }
-            }
-        }
-
-        // Method 4: Check tweet structure for retweet indicators
-        // if (!retweetInfo.is_retweet) {
-        //     // Look for retweet indicator in the tweet header area
-        //     const tweetHeader = tweetEl.querySelector('[data-testid="User-Name"]')?.closest('div');
-        //     if (tweetHeader) {
-        //         const retweetIndicator = tweetHeader.querySelector('svg[viewBox="0 0 24 24"]');
-        //         if (retweetIndicator) {
-        //             const pathEl = retweetIndicator.querySelector('path[d*="4.5 3.88"]'); // Retweet icon path
-        //             if (pathEl) {
-        //                 retweetInfo.is_retweet = true;
-        //             }
-        //         }
-        //     }
-        // }
-
-        // Only set retweet_content if it's actually a retweet
-        if (retweetInfo.is_retweet) {
-            // For pure retweets, the content is the original tweet content
-            const tweetTextEl = tweetEl.querySelector('[data-testid="tweetText"]');
-            if (tweetTextEl) {
-                retweetInfo.retweet_content = tweetTextEl.textContent?.trim();
-            }
-        }
-
-        // Don't confuse interaction buttons with retweet status
-        // The retweet button in the action bar is for user interaction, not tweet classification
-        logger.log("Retweet info extracted: " + JSON.stringify(retweetInfo));
-        return retweetInfo;
-      } catch (error) {
-        logger.log("error in retweetInfo detection: " + error.message);
-      }
-    }
-    return await tweetLocator.evaluate((tweetEl) => {
+async function extractTweetInfoPlaywright(tweetLocator) {
+    return await tweetLocator.evaluate((tweetEl, loggerEnabled) => {
         const tweetData = {
             author: '',
             content: '',
-            retweetInfo:{},
+            retweetInfo: {},
             media: [],
             timestamp: null,
             id: null
-            
         };
+        let logData=[];
+        function logMessage(message) {
+          logData.push(message);
+            if (loggerEnabled) {
+                console.log(message);
+            }
+        }
+
+        function extractRetweetInfo(tweetEl) {
+            try {
+                const retweetInfo = {
+                    is_retweet: false,
+                    retweet_author: null,
+                    original_tweet: null,
+                    retweet_content: null,
+                    is_quote_tweet: false,
+                    quoted_content: null,
+                    quoted_author: null
+                };
+
+                // Method 1: Check for social context - this is the most reliable indicator
+                const socialContextEl = tweetEl.querySelector("span[data-testid='socialContext']");
+                if (socialContextEl) {
+                    const contextText = socialContextEl.textContent?.trim();
+                    logMessage(`Found social context: ${contextText}`);
+                    
+                    if (contextText && (contextText.includes('Retweeted') || contextText.includes('retweeted'))) {
+                        retweetInfo.is_retweet = true;
+                        
+                        // Extract who retweeted it - look for pattern "Username Retweeted"
+                        const retweetMatch = contextText.match(/^(.+?)\s+(?:Retweeted|retweeted)/);
+                        if (retweetMatch) {
+                            retweetInfo.retweet_author = retweetMatch[1].trim();
+                        }
+                        
+                        logMessage(`Detected retweet by: ${retweetInfo.retweet_author}`);
+                        
+                        // Get the original tweet content
+                        const tweetTextEl = tweetEl.querySelector('[data-testid="tweetText"]');
+                        if (tweetTextEl) {
+                            retweetInfo.retweet_content = tweetTextEl.textContent?.trim();
+                        }
+                        
+                        return retweetInfo;
+                    }
+                }
+
+                // Method 2: Check for retweet icon in the tweet structure (not the action buttons)
+                // Look for retweet icon that appears above the tweet content
+                const retweetIconSelectors = [
+                    'svg[viewBox="0 0 24 24"] path[d*="4.5 3.88"]', // Retweet icon path
+                    'svg[viewBox="0 0 24 24"] path[d*="16.5 6H11V4h5.5"]', // Alternative retweet path
+                ];
+                
+                for (const selector of retweetIconSelectors) {
+                    const retweetIcon = tweetEl.querySelector(selector);
+                    if (retweetIcon) {
+                        // Make sure this icon is not in the action buttons area
+                        const actionArea = retweetIcon.closest('[role="group"]');
+                        if (!actionArea) {
+                            retweetInfo.is_retweet = true;
+                            logMessage('Detected retweet via icon structure');
+                            
+                            // Get content
+                            const tweetTextEl = tweetEl.querySelector('[data-testid="tweetText"]');
+                            if (tweetTextEl) {
+                                retweetInfo.retweet_content = tweetTextEl.textContent?.trim();
+                            }
+                            
+                            return retweetInfo;
+                        }
+                    }
+                }
+
+                // Method 3: Check for quote tweet structure
+                const quoteElements = tweetEl.querySelectorAll('div[role="link"][tabindex="0"]');
+                for (const quoteEl of quoteElements) {
+                    // Skip if this is just a regular link
+                    if (quoteEl.querySelector('a[href^="http"]')) continue;
+                    
+                    const quotedContent = quoteEl.querySelector('[data-testid="tweetText"]');
+                    if (quotedContent) {
+                        retweetInfo.is_quote_tweet = true;
+                        retweetInfo.quoted_content = quotedContent.textContent?.trim();
+                        
+                        // Extract quoted tweet author info
+                        const quotedAuthorElements = quoteEl.querySelectorAll('[data-testid="User-Name"] span');
+                        for (const authorEl of quotedAuthorElements) {
+                            const authorText = authorEl.textContent?.trim();
+                            if (authorText && !authorText.includes('@') && authorText.length > 0) {
+                                retweetInfo.quoted_author = authorText;
+                                break;
+                            }
+                        }
+                        
+                        logMessage(`Detected quote tweet. Author: ${retweetInfo.quoted_author}`);
+                        break;
+                    }
+                }
+
+                // Method 4: Look for "Show this thread" or similar retweet indicators
+                const threadIndicators = tweetEl.querySelectorAll('span');
+                for (const span of threadIndicators) {
+                    const text = span.textContent?.trim().toLowerCase();
+                    if (text && (text.includes('retweeted') || text.includes('retweet'))) {
+                        // Make sure it's not in the action buttons
+                        const actionGroup = span.closest('[role="group"]');
+                        if (!actionGroup) {
+                            retweetInfo.is_retweet = true;
+                            logMessage(`Detected retweet via text indicator: ${text}`);
+                            
+                            const tweetTextEl = tweetEl.querySelector('[data-testid="tweetText"]');
+                            if (tweetTextEl) {
+                                retweetInfo.retweet_content = tweetTextEl.textContent?.trim();
+                            }
+                            break;
+                        }
+                    }
+                }
+
+                return retweetInfo;
+                
+            } catch (error) {
+                logMessage("Error in retweetInfo detection: " + error.message);
+                return {
+                    is_retweet: false,
+                    retweet_author: null,
+                    original_tweet: null,
+                    retweet_content: null,
+                    is_quote_tweet: false,
+                    quoted_content: null,
+                    quoted_author: null
+                };
+            }
+        }
 
         try {
             // Author - look for the username/handle
@@ -353,9 +403,13 @@ async function extractTweetInfoPlaywright(tweetLocator,logger) {
             
             // Fallback: try different selectors for author
             if (!tweetData.author) {
-                const authorAltEl = tweetEl.querySelector('[data-testid="User-Name"] span');
-                if (authorAltEl) {
-                    tweetData.author = authorAltEl.textContent?.trim() || '';
+                const authorElements = tweetEl.querySelectorAll('[data-testid="User-Name"] span');
+                for (const el of authorElements) {
+                    const text = el.textContent?.trim();
+                    if (text && !text.includes('@') && text.length > 0) {
+                        tweetData.author = text;
+                        break;
+                    }
                 }
             }
 
@@ -365,8 +419,19 @@ async function extractTweetInfoPlaywright(tweetLocator,logger) {
                 tweetData.content = contentEl.textContent?.trim() || '';
             }
 
-            // Retweet info
-            tweetData.retweetInfo = retweetInfo(tweetEl);
+            // Extract retweet info
+            const retweetInfo = extractRetweetInfo(tweetEl);
+            tweetData.retweetInfo = retweetInfo;
+            
+            // Log the detection result
+            if (retweetInfo.is_retweet) {
+                logMessage(`✓ RETWEET DETECTED - Author: ${retweetInfo.retweet_author}, Content: ${retweetInfo.retweet_content?.substring(0, 50)}...`);
+            } else if (retweetInfo.is_quote_tweet) {
+                logMessage(`✓ QUOTE TWEET DETECTED - Quoted Author: ${retweetInfo.quoted_author}`);
+            } else {
+                logMessage(`○ Regular tweet - Author: ${tweetData.author}`);
+            }
+
             // Media links (images + videos)
             const mediaLinks = [];
             
@@ -384,7 +449,7 @@ async function extractTweetInfoPlaywright(tweetLocator,logger) {
                 if (src) mediaLinks.push(src);
             });
 
-            // Video thumbnails (sometimes videos show as images initially)
+            // Video thumbnails
             const videoThumbs = tweetEl.querySelectorAll("img[src*='video_thumb']");
             videoThumbs.forEach(thumb => {
                 const src = thumb.getAttribute('src');
@@ -393,14 +458,14 @@ async function extractTweetInfoPlaywright(tweetLocator,logger) {
 
             tweetData.media = mediaLinks;
 
-            // Additional metadata
+            // Timestamp
             tweetData.timestamp = null;
             const timeEl = tweetEl.querySelector('time');
             if (timeEl) {
                 tweetData.timestamp = timeEl.getAttribute('datetime') || timeEl.textContent?.trim();
             }
 
-            // Tweet ID from URL if available
+            // Tweet ID from URL
             tweetData.id = null;
             const linkEl = tweetEl.querySelector('a[href*="/status/"]');
             if (linkEl) {
@@ -412,11 +477,14 @@ async function extractTweetInfoPlaywright(tweetLocator,logger) {
             }
 
         } catch (error) {
-            console.error('Error extracting tweet data:', error);
+            logMessage('Error extracting tweet data: ' + error.message);
         }
 
-        return tweetData;
-    });
+        return {
+          "tweetData":tweetData,
+          "logs":logData
+        };
+    },true); // Pass a boolean flag for logging
 }
 
 // Keep all the existing functions (init, login, etc.) unchanged
