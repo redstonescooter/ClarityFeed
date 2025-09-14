@@ -8,6 +8,7 @@ import { security_question_sentiment } from './utils/button_sentiment.js';
 import { Logger } from './utils/log.js';
 import { extractTweetInfo } from './tweets';
 import fs from 'fs/promises';
+import { isDataView } from 'util/types';
 
 dotenvConfig({ path: path.resolve('/root/programming/clarityFeed/.env') });
 
@@ -36,7 +37,6 @@ async function main() {
     let context = null;
     let page = null;
     let allTweets = [];
-    
     try {
         const browserConfig = await getBrowserConfig(profileName);
         if (browserConfig.userDataDir) {
@@ -57,12 +57,13 @@ async function main() {
         await init(page, logger, profileName);
         
         // Start collecting tweets with scroll functionality
-        allTweets = await collectTweetsWithScroll(page, logger);
+        const {allTweets,newIDs} = await collectTweetsWithScroll(page, logger);
         
         console.log("Total unique tweets collected:", allTweets.length);
+        console.log("Total unique IDs collected:", newIDs.size);
         
         // Output results to file
-        await outputResults(allTweets, logger);
+        await outputResults(allTweets,newIDs, logger);
         
     } catch (error) {
         console.error('Error in main function:', error);
@@ -93,7 +94,7 @@ async function getBrowserConfig(profileName) {
   }
     if (profileName) {
         // Profile-based configuration
-        const profilesDir = path.resolve(process.env.ROOT_FS_ABS + '/profiles');
+        const profilesDir = path.resolve(process.env.ROOT_FS_ABS + '/playwright_profiles');
         const profilePath = path.join(profilesDir, profileName);
         
         try {
@@ -110,9 +111,35 @@ async function getBrowserConfig(profileName) {
     }
     return return_type;
 }
-
-async function collectTweetsWithScroll(page, logger, maxScrolls = 3) {
-    const seenTweetIds = new Set();
+async function getSeenIDs(profileName: string|null): Promise<Set<string>> {
+    const filePath = path.resolve(process.env.ROOT_FS_ABS + '/seen_unique_ids/' + profileName + '/ids.json');
+    try {
+        // Try reading the file
+        const data = await fs.readFile(filePath, 'utf8');
+        const arr = JSON.parse(data);
+        // Ensure it's an array and return as a Set
+        if (Array.isArray(arr)) {
+            return new Set(arr);
+        } else {
+            // If not an array, re-initialize
+            await fs.writeFile(filePath, JSON.stringify([]), 'utf8');
+            return new Set();
+        }
+    } catch (error) {
+        // If file doesn't exist, initialize with empty array
+        if (error.code === 'ENOENT') {
+            console.log(`Seen IDs file not found for profile "${profileName}", initializing new file.`);
+            await fs.mkdir(path.dirname(filePath), { recursive: true });
+            await fs.writeFile(filePath, JSON.stringify([]), 'utf8');
+            return new Set();
+        } else {
+            throw error;
+        }
+    }
+}
+async function collectTweetsWithScroll(page, logger, maxScrolls = 1) {
+    const seenTweetIds :Set<string> = await getSeenIDs(profileName);
+    console.log(`Loaded ${seenTweetIds.size} previously seen tweet IDs`);
     const allTweets = [];
     let scrollCount = 0;
     let noNewTweetsCount = 0;
@@ -151,12 +178,11 @@ async function collectTweetsWithScroll(page, logger, maxScrolls = 3) {
     }
     
     console.log(`\nFinished collecting tweets. Total scrolls: ${scrollCount}`);
-    return allTweets;
+    return {allTweets:allTweets,newIDs:seenTweetIds};
 }
 
-async function getVisibleNewTweets(page, seenTweetIds,logger) {
+async function getVisibleNewTweets(page, seenTweetIds :Set<string>,logger) {
     const newTweets = [];
-    
     try {
         // Get all tweet elements currently in the DOM
         const tweets_full = page.locator('[role="article"][tabindex="0"][data-testid="tweet"]');
@@ -254,7 +280,7 @@ async function scrollToLoadMore(page) {
     }
 }
 
-async function outputResults(tweets, logger) {
+async function outputResults(tweets,IDs, logger) {
     try {
         const outputData = {
             collectionInfo: {
@@ -271,7 +297,9 @@ async function outputResults(tweets, logger) {
         const outputPath = path.join(logger.root_folder, `tweets${profileSuffix}_${Date.now()}.json`);
         await fs.writeFile(outputPath, JSON.stringify(outputData, null, 2), 'utf8');
         console.log(`Results saved to: ${outputPath}`);
-        
+        // update seen ids for the current profile
+        console.log(`Saving ${IDs.size} seen IDs for profile "${profileName || 'default'}"`);
+        await fs.writeFile(path.resolve(process.env.ROOT_FS_ABS + '/seen_unique_ids/' + (profileName || 'default') + '/ids.json'), JSON.stringify(Array.from(IDs)), 'utf8');
         // Also output summary to console
         console.log("\n=== COLLECTION SUMMARY ===");
         console.log(`Total tweets collected: ${tweets.length}`);
@@ -483,14 +511,16 @@ async function extractTweetInfoPlaywright(tweetLocator) {
             const images = tweetEl.querySelectorAll("img[src*='pbs.twimg.com/media']");
             images.forEach(img => {
                 const src = img.getAttribute('src');
-                if (src) mediaLinks.push(src);
+                const alt = img.getAttribute('alt') || '';
+                if (src) mediaLinks.push({src:src,alt:alt});
             });
 
             // Videos
             const videos = tweetEl.querySelectorAll("video source");
             videos.forEach(vid => {
                 const src = vid.getAttribute('src');
-                if (src) mediaLinks.push(src);
+                const alt = vid.getAttribute('alt') || '';
+                if (src) mediaLinks.push({src:src,alt:alt});
             });
 
             // Video thumbnails
