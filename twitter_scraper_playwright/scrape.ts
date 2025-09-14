@@ -23,6 +23,11 @@ if (!httpProxy || !httpsProxy || !socksProxy) {
     process.exit(1);
 }
 
+// Parse command line arguments for profile support
+const profileName = process.env.PROFILE || null;
+
+console.log(`Profile mode: ${profileName ? `Using profile "${profileName}"` : 'Using credential login'}`);
+
 main();
 
 async function main() {
@@ -33,20 +38,23 @@ async function main() {
     let allTweets = [];
     
     try {
-        browser = await chromium.launch({
-            headless: false,
-            proxy: {
-                server: httpProxy,
-                username: '',
-                password: ''
-            }
-        });
+        const browserConfig = await getBrowserConfig(profileName);
+        if (browserConfig.userDataDir) {
+            // Already a BrowserContext
+            context = await chromium.launchPersistentContext(
+                browserConfig.userDataDir,
+                browserConfig.baseConfig
+            );
+            browser = context.browser(); // optional, if you need a Browser reference
+        } else {
+            browser = await chromium.launch(browserConfig.baseConfig);
+            context = await browser.newContext();
+            await context.clearCookies();
+        }
         
-        context = await browser.newContext();
-        await context.clearCookies();
         page = await context.newPage();
         
-        await init(page, logger);
+        await init(page, logger, profileName);
         
         // Start collecting tweets with scroll functionality
         allTweets = await collectTweetsWithScroll(page, logger);
@@ -62,15 +70,48 @@ async function main() {
         // Clean up resources
         try {
             if (page) await page.close();
-            if (context) await context.close();
-            if (browser) await browser.close();
+            if (context) await context.close(); // for both persistent & normal
+            if (browser && !browser.isConnected?.()) await browser.close();
         } catch (cleanupError) {
             console.error('Error during cleanup:', cleanupError);
         }
     }
 }
 
-async function collectTweetsWithScroll(page, logger, maxScrolls = 10) {
+async function getBrowserConfig(profileName) {
+  const baseConfig = {
+        headless: false,
+        proxy: {
+            server: httpProxy,
+            username: '',
+            password: ''
+        },
+    };
+  let return_type = {
+    baseConfig:baseConfig,
+    userDataDir:undefined
+  }
+    if (profileName) {
+        // Profile-based configuration
+        const profilesDir = path.resolve(process.env.ROOT_FS_ABS + '/profiles');
+        const profilePath = path.join(profilesDir, profileName);
+        
+        try {
+            // Ensure profiles directory exists
+            await fs.mkdir(profilesDir, { recursive: true });
+            
+            console.log(`Using browser profile: ${profilePath}`);
+            
+            return_type.userDataDir = profilePath;
+        } catch (error) {
+            console.error('Error setting up profile directory:', error);
+            throw error;
+        }
+    }
+    return return_type;
+}
+
+async function collectTweetsWithScroll(page, logger, maxScrolls = 3) {
     const seenTweetIds = new Set();
     const allTweets = [];
     let scrollCount = 0;
@@ -219,19 +260,22 @@ async function outputResults(tweets, logger) {
             collectionInfo: {
                 totalTweets: tweets.length,
                 collectedAt: new Date().toISOString(),
-                source: 'twitter_scraper'
+                source: 'twitter_scraper',
+                profile: profileName || 'credential_login'
             },
             tweets: tweets
         };
         
         // Output to JSON file
-        const outputPath = path.join(logger.root_folder, `tweets_${Date.now()}.json`);
+        const profileSuffix = profileName ? `_${profileName}` : '';
+        const outputPath = path.join(logger.root_folder, `tweets${profileSuffix}_${Date.now()}.json`);
         await fs.writeFile(outputPath, JSON.stringify(outputData, null, 2), 'utf8');
         console.log(`Results saved to: ${outputPath}`);
         
         // Also output summary to console
         console.log("\n=== COLLECTION SUMMARY ===");
         console.log(`Total tweets collected: ${tweets.length}`);
+        console.log(`Profile used: ${profileName || 'credential_login'}`);
         console.log(`Collection completed at: ${new Date().toISOString()}`);
         
         if (tweets.length > 0) {
@@ -487,8 +531,8 @@ async function extractTweetInfoPlaywright(tweetLocator) {
     },true); // Pass a boolean flag for logging
 }
 
-// Keep all the existing functions (init, login, etc.) unchanged
-const init = async(page, logger) => {
+// Updated init function to handle both profile and credential login
+const init = async(page, logger, profileName) => {
     try {
         console.time('x.com load');
         await page.goto('https://x.com', { waitUntil: "networkidle" });
@@ -499,12 +543,20 @@ const init = async(page, logger) => {
         const title = await page.title();
         console.log('Page Title:', title);
         
-        await login(page);
+        // Check if already logged in (for profile mode)
+        const isLoggedIn = await checkIfLoggedIn(page);
         
-        try {
-            await page.waitForLoadState('networkidle', { timeout: 10000 });
-        } catch (error) {
-            console.log('Warning: Page did not reach networkidle state after login:', error.message);
+        if (profileName && isLoggedIn) {
+            console.log('Already logged in with profile, skipping login process');
+        } else {
+            console.log('Proceeding with login...');
+            await login(page);
+            
+            try {
+                await page.waitForLoadState('networkidle', { timeout: 10000 });
+            } catch (error) {
+                console.log('Warning: Page did not reach networkidle state after login:', error.message);
+            }
         }
         
         await close_default_popup(page);
@@ -527,6 +579,59 @@ const init = async(page, logger) => {
         console.log('Page Title:', title, " - page url : ", url);
     } catch (error) {
         console.error('Error during post-login phase:', error);
+    }
+}
+
+async function checkIfLoggedIn(page) {
+    try {
+        // Wait a bit for the page to load
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        
+        // Check for elements that indicate we're logged in
+        const loggedInIndicators = [
+            '[data-testid="SideNav_AccountSwitcher_Button"]', // Profile button
+            '[data-testid="primaryColumn"]', // Main timeline column
+            // 'nav[role="navigation"]', // Navigation bar - ❌ appears for both states
+            '[data-testid="AppTabBar_Home_Link"]', // Home tab
+        ];
+        
+        for (const selector of loggedInIndicators) {
+            try {
+                const element = await page.waitForSelector(selector, { timeout: 3000 });
+                if (element) {
+                    console.log(`Found logged-in indicator: ${selector}`);
+                    return true;
+                }
+            } catch (error) {
+                // Continue checking other indicators
+                continue;
+            }
+        }
+        
+        // Check if we see login button (indicates not logged in)
+        try {
+            const loginButton = await page.waitForSelector('a[href="/login"]', { timeout: 2000 });
+            if (loginButton) {
+                console.log('Found login button - not logged in');
+                return false;
+            }
+        } catch (error) {
+            // Login button not found, might be logged in
+        }
+        
+        // Additional check: look at URL
+        const url = page.url();
+        if (url.includes('/home') || url.includes('/i/flow/login') === false) {
+            console.log('URL suggests logged in state');
+            return true;
+        }
+        
+        console.log('Could not determine login state, assuming not logged in');
+        return false;
+        
+    } catch (error) {
+        console.error('Error checking login state:', error);
+        return false;
     }
 }
 
