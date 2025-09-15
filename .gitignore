@@ -1,6 +1,6 @@
 .git
-./myenv
-./node_modules/
+myenv
+node_modules/
 .env
 .env.*
 !.env.example

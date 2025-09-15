@@ -24,14 +24,70 @@ if (!httpProxy || !httpsProxy || !socksProxy) {
 }
 
 // Parse command line arguments for profile support
-const profileName = process.env.PROFILE || null;
+let profileName = process.env.PROFILE || null;
 
-if(!profileName){
-  console.error('No profile specified. Please set the PROFILE environment variable. this will cause an error in everywhere something is saved to file including saving tweets , seen ids , screenshot');
-}
+// if(!profileName){
+//   console.error('WARMING:profile should be provided in args.'); // provide profile in args or this will cause an error in everywhere something is saved to file including saving tweets , seen ids , screenshot
+// }
 
 main();
+function handleArgs(){
+    const args = process.argv.slice(2);
+   let returnObj={
+    scrollsCount:5,
+    nameFromArgs:"",
+    profile:profileName,
+   }
+   //profile from args
+   let profile = null;
+   for (let i = 0; i < args.length; i++) {
+            if ((args[i] === '--profile' || args[i] === '-p') && args[i + 1]) {
+                profile = args[i + 1];
+                break;
+            }
+        }
+    if(profile != null){
+        returnObj.profile = profile;
+    }
+    if(returnObj.profile == null){
+      throw new Error("need to provide profile");
+    }
+      
+   //scroll count
+    let scrollsCount = "5"; // default
+    let scrollsArgExist = false;
+        
 
+        for (let i = 0; i < args.length; i++) {
+            if ((args[i] === '--scroll' || args[i] === '-s') && args[i + 1]) {
+                scrollsCount = args[i + 1];
+                scrollsArgExist = true;
+                break;
+            }
+        }
+    returnObj.scrollsCount = parseInt(scrollsCount) || 5;
+    //manual extra name extension
+    let nameFromArgs = "";
+
+        for (let i = 0; i < args.length; i++) {
+            if ((args[i] === '--name' || args[i] === '-n') && args[i + 1]) {
+                nameFromArgs = args[i + 1];
+                break;
+            }
+        }
+
+    returnObj.nameFromArgs = nameFromArgs || process.env.NAME_EXTENSION || "";
+
+    // auto addition to namestring from different args
+    if ((typeof nameFromArgs == "string") && (!nameFromArgs.includes("_scroll--") && scrollsArgExist) ){
+        returnObj.nameFromArgs += `_scroll--${returnObj.scrollsCount}`;
+    }
+    if ((typeof nameFromArgs == "string") && (!nameFromArgs.includes("_profile--") && scrollsArgExist) ){
+        returnObj.nameFromArgs += `_profile--${returnObj.profile}`;
+    }
+
+    return returnObj
+}
 async function main() {
     const logger = new Logger();
     let browser = null;
@@ -54,17 +110,23 @@ async function main() {
         }
         
         page = await context.newPage();
+
+        
         
         await init(page, logger, profileName);
-        
+        // handle scrollscount from arguments
+        const args = handleArgs();
         // Start collecting tweets with scroll functionality
-        const {allTweets,newIDs} = await collectTweetsWithScroll(page, logger);
+        const {allTweets,newIDs} = await collectTweetsWithScroll(page, logger,args.scrollsCount);
         
         console.log("Total unique tweets collected:", allTweets.length);
         console.log("Total unique IDs collected:", newIDs.size);
         
-        // Output results to file
-        await outputResults(allTweets,newIDs, logger);
+        // gather name extension from args or env
+        // const args = process.argv.slice(2);
+        
+        //call output
+        await outputResults(allTweets,newIDs, logger,args.nameFromArgs);
         
     } catch (error) {
         console.error('Error in main function:', error);
@@ -140,7 +202,7 @@ async function getSeenIDs(profileName: string|null): Promise<Set<string>> {
         }
     }
 }
-async function collectTweetsWithScroll(page, logger, maxScrolls = 1) {
+async function collectTweetsWithScroll(page, logger, maxScrolls = 5) {
     const seenTweetIds :Set<string> = await getSeenIDs(profileName);
     console.log(`Loaded ${seenTweetIds.size} previously seen tweet IDs`);
     const allTweets = [];
@@ -217,15 +279,18 @@ async function getVisibleNewTweets(page, seenTweetIds :Set<string>,logger) {
                 if (seenTweetIds.has(tweetId)) {
                     continue;
                 }
-                
+                const sqlDateTime = new Date().toISOString()
+                                    .slice(0, 19)
+                                    .replace('T', '_')
+                                    .replace(/:/g, '-');
+                                            
                 // Add to seen tweets and new tweets array
                 seenTweetIds.add(tweetId);
                 newTweets.push({
                     ...tweetParsed,
                     _uniqueId: tweetId,
-                    _collectedAt: new Date().toISOString()
+                    _collectedAt: sqlDateTime,
                 });
-                
                 console.log(`New tweet collected: ${tweetId}`);
                 
             } catch (error) {
@@ -283,12 +348,16 @@ async function scrollToLoadMore(page) {
     }
 }
 
-async function outputResults(tweets,IDs, logger) {
+async function outputResults(tweets,IDs, logger,nameFragments:string[]|string) {
     try {
+        const sqlDateTime = new Date().toISOString()
+                                    .slice(0, 19)
+                                    .replace('T', '_')
+                                    .replace(/:/g, '-');
         const outputData = {
             collectionInfo: {
                 totalTweets: tweets.length,
-                collectedAt: new Date().toISOString(),
+                collectedAt: sqlDateTime,
                 source: 'twitter_scraper',
                 profile: profileName || 'credential_login'
             },
@@ -298,7 +367,16 @@ async function outputResults(tweets,IDs, logger) {
         // Output to JSON file
         const outputDir = path.join(process.env.ROOT_FS_ABS, 'output', profileName);
         await fs.mkdir(outputDir, { recursive: true }); // Ensure directory exists
-        const outputPath = path.join(outputDir, `tweets_${Date.now()}.json`);
+        //handle name fragments , string / array . 
+        let fullName = "";
+        if (typeof nameFragments === "string") {
+            fullName = nameFragments;
+        } else if (Array.isArray(nameFragments)) {
+            fullName = nameFragments
+                .filter(frag => typeof frag === "string" && frag.length > 0)
+                .join("_");
+        }
+        const outputPath = path.join(outputDir, `tweets_${sqlDateTime}${fullName ? '_' + fullName : ''}.json`);
         await fs.writeFile(outputPath, JSON.stringify(outputData, null, 2), 'utf8');
         console.log(`Results saved to: ${outputPath}`);
         // update seen ids for the current profile
