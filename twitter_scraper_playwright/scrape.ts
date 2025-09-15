@@ -6,7 +6,6 @@ import { text } from 'stream/consumers';
 import { ref } from 'process';
 import { security_question_sentiment } from './utils/button_sentiment.js';
 import { Logger } from './utils/log.js';
-import { extractTweetInfo } from './tweets';
 import fs from 'fs/promises';
 import { isDataView } from 'util/types';
 
@@ -27,7 +26,9 @@ if (!httpProxy || !httpsProxy || !socksProxy) {
 // Parse command line arguments for profile support
 const profileName = process.env.PROFILE || null;
 
-console.log(`Profile mode: ${profileName ? `Using profile "${profileName}"` : 'Using credential login'}`);
+if(!profileName){
+  console.error('No profile specified. Please set the PROFILE environment variable. this will cause an error in everywhere something is saved to file including saving tweets , seen ids , screenshot');
+}
 
 main();
 
@@ -112,7 +113,9 @@ async function getBrowserConfig(profileName) {
     return return_type;
 }
 async function getSeenIDs(profileName: string|null): Promise<Set<string>> {
-    const filePath = path.resolve(process.env.ROOT_FS_ABS + '/seen_unique_ids/' + profileName + '/ids.json');
+    const outputDir = path.join(process.env.ROOT_FS_ABS, 'output', profileName);
+    await fs.mkdir(outputDir, { recursive: true }); // Ensure directory exists
+    const filePath = path.resolve(outputDir + '/ids.json');
     try {
         // Try reading the file
         const data = await fs.readFile(filePath, 'utf8');
@@ -293,13 +296,14 @@ async function outputResults(tweets,IDs, logger) {
         };
         
         // Output to JSON file
-        const profileSuffix = profileName ? `_${profileName}` : '';
-        const outputPath = path.join(logger.root_folder, `tweets${profileSuffix}_${Date.now()}.json`);
+        const outputDir = path.join(process.env.ROOT_FS_ABS, 'output', profileName);
+        await fs.mkdir(outputDir, { recursive: true }); // Ensure directory exists
+        const outputPath = path.join(outputDir, `tweets_${Date.now()}.json`);
         await fs.writeFile(outputPath, JSON.stringify(outputData, null, 2), 'utf8');
         console.log(`Results saved to: ${outputPath}`);
         // update seen ids for the current profile
         console.log(`Saving ${IDs.size} seen IDs for profile "${profileName || 'default'}"`);
-        await fs.writeFile(path.resolve(process.env.ROOT_FS_ABS + '/seen_unique_ids/' + (profileName || 'default') + '/ids.json'), JSON.stringify(Array.from(IDs)), 'utf8');
+        await fs.writeFile(path.resolve(outputDir + '/ids.json'), JSON.stringify(Array.from(IDs)), 'utf8');
         // Also output summary to console
         console.log("\n=== COLLECTION SUMMARY ===");
         console.log(`Total tweets collected: ${tweets.length}`);
@@ -567,8 +571,9 @@ const init = async(page, logger, profileName) => {
         console.time('x.com load');
         await page.goto('https://x.com', { waitUntil: "networkidle" });
         console.timeEnd('x.com load');
-        
-        await page.screenshot({ path: logger.root_folder + "/initial_screenshot.jpg" });
+        const outputDir = path.join(process.env.ROOT_FS_ABS, 'output', profileName);
+        await fs.mkdir(outputDir, { recursive: true }); // Ensure directory exists
+        await page.screenshot({ path: outputDir + "/initial_screenshot.jpg" });
         
         const title = await page.title();
         console.log('Page Title:', title);
