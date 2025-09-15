@@ -1,0 +1,69 @@
+{
+  "collectionInfo": {
+    "totalTweets": 3,
+    "collectedAt": "2025-09-14T19:34:21.477Z",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "Dan",
+      "content": "Some homework from my illustration course",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0rPmo6XUAAW2UE?format=jpg&name=small",
+          "alt": "A black and white skull drawing with large, expressive eyes and a wide grin. Red handwritten text reading \"BOOM\" with starburst lines extends above and below the skull."
+        }
+      ],
+      "timestamp": "2025-09-12T21:18:41.000Z",
+      "id": "1966612455146004984",
+      "_uniqueId": "1966612455146004984",
+      "_collectedAt": "2025-09-14T19:34:19.350Z"
+    },
+    {
+      "author": "RIO",
+      "content": "what's the course",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-12T22:49:59.000Z",
+      "id": "1966635429513331134",
+      "_uniqueId": "1966635429513331134",
+      "_collectedAt": "2025-09-14T19:34:19.384Z"
+    },
+    {
+      "author": "Clerk",
+      "content": "Ship Free Trials for your SaaS.\n\nClerk Billing makes SaaS trials easy — no custom code, no billing hacks.\n\nGet your users to their \"a-ha!\" moment and increase conversions.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": null,
+      "id": "1961568539644432879",
+      "_uniqueId": "1961568539644432879",
+      "_collectedAt": "2025-09-14T19:34:19.424Z"
+    }
+  ]
+}

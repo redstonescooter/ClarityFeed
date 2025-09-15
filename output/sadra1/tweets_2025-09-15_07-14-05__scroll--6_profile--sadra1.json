@@ -1,0 +1,884 @@
+{
+  "collectionInfo": {
+    "totalTweets": 40,
+    "collectedAt": "2025-09-15_07-14-05",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "wayden",
+      "content": "120+ Figma templates you wish you had from day 1:\n\n• 2025-ready.\n• Handpicked.\n• Personally tested.\n\nLike + Comment “FIGMA” and I’ll DM it to you instantly.\n\n(Must be following)",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0uo2jCbAAAjR9C?format=jpg&name=small",
+          "alt": "A tablet displaying a list of Figma templates on a screen, labeled \"120+ Free Figma Templates 2025.\" A smartphone shows a similar interface with text. An Apple Pencil is positioned near the tablet. The Figma logo is visible in the top left corner."
+        }
+      ],
+      "timestamp": "2025-09-13T13:07:52.000Z",
+      "id": "1966851324043292961",
+      "_uniqueId": "1966851324043292961",
+      "_collectedAt": "2025-09-15_07-13-26"
+    },
+    {
+      "author": "Developers",
+      "content": "Calling all developers! \n\nInnovate with our real-time and historical data on the X API.\n\nGet started with Pro",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GdAFGY2XAAAcf_h?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1965087484905415024",
+      "_uniqueId": "1965087484905415024",
+      "_collectedAt": "2025-09-15_07-13-26"
+    },
+    {
+      "author": "Florin Pop",
+      "content": "Tailwind is the best thing that happened to CSS",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "a tech opinion you can defend like this?",
+        "quoted_author": "void."
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0qb0svbcAAIJpV?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-14T08:55:08.000Z",
+      "id": "1967150108501524617",
+      "_uniqueId": "1967150108501524617",
+      "_collectedAt": "2025-09-15_07-13-26"
+    },
+    {
+      "author": "Zephyr",
+      "content": "> be Google in 2017\n> small team drops “Attention Is All You Need” on arXiv\n> execs nod politely, go back to selling ads for socks\n> let Transformer gather dust for 5 yrs like a vintage Beanie Baby\n> be Noam Shazeer, OG wizard\n> quits, builds AI-boyfriend app",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0wkWrJboAAjulL?format=png&name=small",
+          "alt": "A screenshot of a mobile app store showing the top charts for free apps. Google Gemini, ranked 1, displays a colorful diamond-shaped logo. ChatGPT, ranked 2, features a circular logo with interconnected lines. Threads, ranked 3, shows a circular logo with a black background and white text."
+        }
+      ],
+      "timestamp": "2025-09-13T23:55:00.000Z",
+      "id": "1967014180533276829",
+      "_uniqueId": "1967014180533276829",
+      "_collectedAt": "2025-09-15_07-13-26"
+    },
+    {
+      "author": "keshav",
+      "content": "who’s building vercel for mobile apps?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0wp0wCa4AAGCZ1?format=jpg&name=small",
+          "alt": "A man wearing goggles and a white shirt, positioned near a vintage film projector. His head is turned to the side, illuminated by bright light."
+        }
+      ],
+      "timestamp": "2025-09-13T22:31:22.000Z",
+      "id": "1966993132656226367",
+      "_uniqueId": "1966993132656226367",
+      "_collectedAt": "2025-09-15_07-13-33"
+    },
+    {
+      "author": "Aarzoo",
+      "content": "/334\nTypography and Layout Exploration",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G00gZZdbUAAScDu?format=jpg&name=small",
+          "alt": "Large black text reading \"A24\" at the top. Below, a grid of movie stills featuring various actors in different scenes, including a man with light streaks on his face. Additional text includes \"A PRODUCTION COMPANY MAKING IMPORTANT AND ARTISTIC FILMS\" and release dates like \"20 SEP / 17 SEP / 20 SEP.\" A separate section shows the number \"7\" and a photo of a person, with text describing \"The Heretic\" as a psychological horror film."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G00gaQ5b0AIIA8v?format=jpg&name=360x360",
+          "alt": "Large black text reading \"A24\" at the top. Below, a grid of movie stills featuring various actors in different scenes, including a man with light streaks on his face. Additional text includes \"A PRODUCTION COMPANY MAKING IMPORTANT AND ARTISTIC FILMS\" and release dates like \"20 SEP / 17 SEP / 20 SEP.\" A separate section shows the number \"7\" and a photo of a person, with text describing \"The Heretic\" as a psychological horror film."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G00gbRFasAAflxj?format=jpg&name=360x360",
+          "alt": "Large black text reading \"A24\" at the top. Below, a grid of movie stills featuring various actors in different scenes, including a man with light streaks on his face. Additional text includes \"A PRODUCTION COMPANY MAKING IMPORTANT AND ARTISTIC FILMS\" and release dates like \"20 SEP / 17 SEP / 20 SEP.\" A separate section shows the number \"7\" and a photo of a person, with text describing \"The Heretic\" as a psychological horror film."
+        }
+      ],
+      "timestamp": "2025-09-14T16:28:48.000Z",
+      "id": "1967264277389308001",
+      "_uniqueId": "1967264277389308001",
+      "_collectedAt": "2025-09-15_07-13-33"
+    },
+    {
+      "author": "Premium",
+      "content": "Why guess when you can know?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1952586153334579200/img/Rece31rA4SGgu1tQ.jpg"
+      ],
+      "timestamp": null,
+      "id": "1952590396670046264",
+      "_uniqueId": "1952590396670046264",
+      "_collectedAt": "2025-09-15_07-13-33"
+    },
+    {
+      "author": "mitsuri",
+      "content": "Steve Jobs: The reality of starting a company.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/1967081625197707264/pu/img/-EduxPqSrV4D8xnP.jpg"
+      ],
+      "timestamp": "2025-09-14T04:23:23.000Z",
+      "id": "1967081722220343543",
+      "_uniqueId": "1967081722220343543",
+      "_collectedAt": "2025-09-15_07-13-33"
+    },
+    {
+      "author": "Peer Richelsen — oss/acc",
+      "content": "a good PWA is possible but has never been tried",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "a tech opinion you can defend like this?",
+        "quoted_author": "void."
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0qb0svbcAAIJpV?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-14T14:09:50.000Z",
+      "id": "1967229306981257545",
+      "_uniqueId": "1967229306981257545",
+      "_collectedAt": "2025-09-15_07-13-33"
+    },
+    {
+      "author": "maja",
+      "content": "what actually is this job title? head of content marketing? content strategist? brand? storytelling?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "There is insane demand for people who can understand and explain technology in a compelling way.",
+        "quoted_author": "matt palmer"
+      },
+      "media": [],
+      "timestamp": "2025-09-14T01:25:52.000Z",
+      "id": "1967037045479796935",
+      "_uniqueId": "1967037045479796935",
+      "_collectedAt": "2025-09-15_07-13-33"
+    },
+    {
+      "author": "dinosaur",
+      "content": "never give up",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0vk4KNXAAAvz3-?format=jpg&name=small",
+          "alt": "A colorful illustration depicting a cross-section of earth with a dark crack running vertically. Blue diamond shapes are scattered across white and beige rock formations on either side of the crack."
+        }
+      ],
+      "timestamp": "2025-09-13T17:30:06.000Z",
+      "id": "1966917318442684704",
+      "_uniqueId": "1966917318442684704",
+      "_collectedAt": "2025-09-15_07-13-40"
+    },
+    {
+      "author": "Streamia.io",
+      "content": "Ready to turn your stream into real earnings with casino streaming?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GtTlrMgWwAAJkH4?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1933454552306758138",
+      "_uniqueId": "1933454552306758138",
+      "_collectedAt": "2025-09-15_07-13-40"
+    },
+    {
+      "author": "Ahmad",
+      "content": "> be you\n> want to actually learn how LLMs work\n> sick of “just start with linear algebra and come back in 5 years”\n> decide to build my own roadmap\n> no fluff. no detours. no 200-hour generic ML playlists\n> just the stuff that actually gets you from “what’s a token?” to “I",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T08:24:35.000Z",
+      "id": "1966780033206264100",
+      "_uniqueId": "1966780033206264100",
+      "_collectedAt": "2025-09-15_07-13-40"
+    },
+    {
+      "author": "Ian Nuttall",
+      "content": "somebody on reddit cloned claude code using claude code so they can spend $1k+ on api tokens vs using the $200 max plan…",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0zGnJzXQAAVAxX?format=jpg&name=small",
+          "alt": "A screenshot of a code editor displaying multiple lines of code in a dark-themed interface. The code includes text such as \"ClaudeCode\" and various programming commands. A Reddit post interface is visible at the top, showing a username \"u/FrEe-CoDe6303\" and a voting section with 5 upvotes."
+        }
+      ],
+      "timestamp": "2025-09-14T09:56:22.000Z",
+      "id": "1967165518202519562",
+      "_uniqueId": "1967165518202519562",
+      "_collectedAt": "2025-09-15_07-13-40"
+    },
+    {
+      "author": "shadcn",
+      "content": "If you haven’t heard from me, it’s because I’ve been stuck on this one component for 3 days.\n\nI have to decide between a massive Tailwind className or adding a wrapper component.\n\nAnd honestly…the className is scaring me a little.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T10:03:35.000Z",
+      "id": "1966804948902875548",
+      "_uniqueId": "1966804948902875548",
+      "_collectedAt": "2025-09-15_07-13-40"
+    },
+    {
+      "author": "Alexia Jolicoeur-Martineau",
+      "content": "I'm working on super tiny neural networks that perform better than the big ones, it's kinda insane.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T18:54:27.000Z",
+      "id": "1967300931973992698",
+      "_uniqueId": "1967300931973992698",
+      "_collectedAt": "2025-09-15_07-13-40"
+    },
+    {
+      "author": "meme.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G00dUvlbUAEBcIB?format=jpg&name=small",
+          "alt": "Two people sitting at a blue table with yellow and blue plastic chairs, holding large mugs of beer. A plate of fries and greens is on the table. Several other people are seated at nearby tables with similar blue chairs, surrounded by trees and motorcycles in an outdoor setting."
+        }
+      ],
+      "timestamp": "2025-09-14T16:15:12.000Z",
+      "id": "1967260857332908402",
+      "_uniqueId": "1967260857332908402",
+      "_collectedAt": "2025-09-15_07-13-40"
+    },
+    {
+      "author": "Rob Bensinger",
+      "content": "FOUR DAYS UNTIL THE BOOK CAME OUT TWO DAYS AGO",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "EVEN FEWER THAN FOUR  DAYS UNTIL THE BOOK COMES OUT x.com/robbensinger/s…",
+        "quoted_author": "Rob Bensinger"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G00evafbEAALpgI?format=jpg&name=small",
+          "alt": "A book cover titled \"If Anyone Builds It, Everyone Dies\" by Eliezer Yudkowsky and Nate Soares. The cover has text reading \"Why Superhuman AI Could Kill Us All.\" Additional text states \"THE MOST IMPORTANT BOOK OF THE DECADE\" attributed to Max Tegmark (MIT) and \"READ IT SEPTEMBER 16.\""
+        }
+      ],
+      "timestamp": "2025-09-14T16:21:33.000Z",
+      "id": "1967262455035580567",
+      "_uniqueId": "1967262455035580567",
+      "_collectedAt": "2025-09-15_07-13-47"
+    },
+    {
+      "author": "Michael",
+      "content": "I’m willing to pay $300 for software that goes through my twitter dms, deepresearches and identifies everyone, and places them into a CRM.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T17:54:28.000Z",
+      "id": "1967285835835027660",
+      "_uniqueId": "1967285835835027660",
+      "_collectedAt": "2025-09-15_07-13-47"
+    },
+    {
+      "author": "Paweł Sierant",
+      "content": "I made Poke email me its system prompt lol\n\nPls don't ban me @interaction",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0yEHo2bcAIttho?format=jpg&name=small",
+          "alt": "A screenshot of an email inbox with emails sent by Poke"
+        }
+      ],
+      "timestamp": "2025-09-14T05:05:51.000Z",
+      "id": "1967092406215733698",
+      "_uniqueId": "1967092406215733698",
+      "_collectedAt": "2025-09-15_07-13-47"
+    },
+    {
+      "author": "Asher",
+      "content": "What do you think about the new iPhone 17 Pro case from Apple with the white square on the back?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0yI4ajW4AAx0dG?format=jpg&name=360x360",
+          "alt": "A hand holding a clear iPhone case with a white square on the back, designed for the iPhone 17 Pro. The case is shown both in its packaging and outside it, revealing a transparent design with a circular magnet. Text on the packaging reads \"iPhone 17 Pro Clear Case\" and includes an Apple logo."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0yI4aoW4AA62-U?format=jpg&name=360x360",
+          "alt": "A hand holding a clear iPhone case with a white square on the back, designed for the iPhone 17 Pro. The case is shown both in its packaging and outside it, revealing a transparent design with a circular magnet. Text on the packaging reads \"iPhone 17 Pro Clear Case\" and includes an Apple logo."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0yI4alWYAAkO3N?format=jpg&name=360x360",
+          "alt": "A hand holding a clear iPhone case with a white square on the back, designed for the iPhone 17 Pro. The case is shown both in its packaging and outside it, revealing a transparent design with a circular magnet. Text on the packaging reads \"iPhone 17 Pro Clear Case\" and includes an Apple logo."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0yI4acXcAA6FbI?format=jpg&name=360x360",
+          "alt": "A hand holding a clear iPhone case with a white square on the back, designed for the iPhone 17 Pro. The case is shown both in its packaging and outside it, revealing a transparent design with a circular magnet. Text on the packaging reads \"iPhone 17 Pro Clear Case\" and includes an Apple logo."
+        }
+      ],
+      "timestamp": "2025-09-14T05:26:40.000Z",
+      "id": "1967097646805557638",
+      "_uniqueId": "1967097646805557638",
+      "_collectedAt": "2025-09-15_07-13-47"
+    },
+    {
+      "author": "Aaron",
+      "content": "Apple didn't have to go so hard with the AirPods Pro 3 setup animations",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-15T02:34:10.000Z",
+      "id": "1967416623477981647",
+      "_uniqueId": "1967416623477981647",
+      "_collectedAt": "2025-09-15_07-13-47"
+    },
+    {
+      "author": "DHH",
+      "content": "Omarchy 3.0 is shaping up to be spectacular! We'll have full support for almost all pre-M Macs, including T1 and T2. No manual intervention needed. Just boot and go! Here's @ryanrhughes' first successful end-to-end T2 install",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G005yhcW8AAGDju?format=jpg&name=small",
+          "alt": "A silver MacBook laptop on a desk. The screen displays a vibrant nature wallpaper with a deer, mountains, and a sunset. Text on the screen reads \"Omarchy 3.0\" and mentions T2 install details."
+        }
+      ],
+      "timestamp": "2025-09-14T18:19:45.000Z",
+      "id": "1967292198011187357",
+      "_uniqueId": "1967292198011187357",
+      "_collectedAt": "2025-09-15_07-13-47"
+    },
+    {
+      "author": "Victoria",
+      "content": "Hey, I’m working on some storytelling to present my approach to working with clients. \n\nWhat do you think?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1966992547932192768/img/lW0BTVvZktbSPRL7.jpg"
+      ],
+      "timestamp": "2025-09-13T22:31:06.000Z",
+      "id": "1966993066218451363",
+      "_uniqueId": "1966993066218451363",
+      "_collectedAt": "2025-09-15_07-13-47"
+    },
+    {
+      "author": "Genshin Impact",
+      "content": "Don't forget to play Genshin Impact \"Song of the Welkin Moon\" on September 10",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1965307281815601154/img/bvb-qgbeRreau2pz.jpg"
+      ],
+      "timestamp": null,
+      "id": "1965310959872082396",
+      "_uniqueId": "1965310959872082396",
+      "_collectedAt": "2025-09-15_07-13-47"
+    },
+    {
+      "author": "0x45",
+      "content": "breaking: -50% debuff if you like your own posts",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0yf6coXMAAhsdF?format=jpg&name=small",
+          "alt": "A screenshot of a social media post from X. The post includes text stating \"Algo reduces reputation score by 50% if you like your own posts.\" Visible elements include the username \"Nikita Bier\" with the handle \"@nikitabier,\" a profile picture of a person, and platform icons like a heart, comment, and retweet buttons. The post has 112K views, 740 likes, 206 retweets, 202 comments, and 108 bookmarks."
+        }
+      ],
+      "timestamp": "2025-09-14T07:07:18.000Z",
+      "id": "1967122972617109895",
+      "_uniqueId": "1967122972617109895",
+      "_collectedAt": "2025-09-15_07-13-47"
+    },
+    {
+      "author": "meme.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0znSiIaUAA_8lp?format=jpg&name=small",
+          "alt": "A crab on a sandy beach with two cigarette butts positioned near its claws."
+        }
+      ],
+      "timestamp": "2025-09-14T12:19:08.000Z",
+      "id": "1967201445243154656",
+      "_uniqueId": "1967201445243154656",
+      "_collectedAt": "2025-09-15_07-13-47"
+    },
+    {
+      "author": "Greensleeves",
+      "content": "romy live-tweeting birth updates is the reason im on this app",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T16:55:48.000Z",
+      "id": "1967271073617174791",
+      "_uniqueId": "1967271073617174791",
+      "_collectedAt": "2025-09-15_07-13-55"
+    },
+    {
+      "author": "Marcel Kargul",
+      "content": "everything is better animated",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T19:15:09.000Z",
+      "id": "1966943753207255505",
+      "_uniqueId": "1966943753207255505",
+      "_collectedAt": "2025-09-15_07-13-55"
+    },
+    {
+      "author": "Tran Mau Tri Tam ✪",
+      "content": "Left one is the winner!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Left or Right?",
+        "quoted_author": "Tran Mau Tri Tam ✪"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0vW0TXbwAAAPku?format=jpg&name=small",
+          "alt": "A digital interface displaying a chat window with a user query \"Would you like me to make this more formal (suitable for multiple companies at once), or more casual (like a quick inquiry to a single plumber)?\" Options include \"Quick response\" and \"Deep research\" buttons, with a search bar and icons like a plus sign and arrow."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0onAVca4AAy8tF?format=jpg&name=240x240",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-13T16:59:00.000Z",
+      "id": "1966909489845858325",
+      "_uniqueId": "1966909489845858325",
+      "_collectedAt": "2025-09-15_07-13-55"
+    },
+    {
+      "author": "Em",
+      "content": "Bros been casually tweeting from a different dimension for weeks now",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "going for a walk",
+        "quoted_author": "breezeh"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0wPAtoXEAAlJ2-?format=jpg&name=900x900",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-13T20:45:33.000Z",
+      "id": "1966966503636693327",
+      "_uniqueId": "1966966503636693327",
+      "_collectedAt": "2025-09-15_07-13-55"
+    },
+    {
+      "author": "joyce",
+      "content": "hey @nikitabier question - why even have the concept of followers if you’re not gonna show my posts to them? there is no social platform where the algo changes so drastically over a week\n\npls fix",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T16:41:12.000Z",
+      "id": "1967267397171343636",
+      "_uniqueId": "1967267397171343636",
+      "_collectedAt": "2025-09-15_07-13-55"
+    },
+    {
+      "author": "Holly - I like tech",
+      "content": "i keep checking every hour",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G00FjWPW8AAygwj?format=jpg&name=small",
+          "alt": "A stick figure with glasses and a cane, holding a white stick, standing next to an orange iPhone 17 Pro Max. The iPhone is shown from the front and back, displaying its design. Text on the image reads \"C\\'mon, do something...\" and \"iPhone 17 Pro Max Arrives 24 Sep - 29 Sep Order Placed Processing Preparing to Ship.\""
+        }
+      ],
+      "timestamp": "2025-09-14T14:31:22.000Z",
+      "id": "1967234723799089156",
+      "_uniqueId": "1967234723799089156",
+      "_collectedAt": "2025-09-15_07-13-55"
+    },
+    {
+      "author": "The Boring Company",
+      "content": "Prufrock-4 is our smartest, fastest and safest Tunnel Boring Machine.  And the next iterations (5, 6, and 7) are already being built at The Boring Factory in Texas.  Goal is Continuous Mining and Zero-People-in-Tunnel (ZPIT).\n\nWe are hiring exceptional ME, EE, and SWEs - join us!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967359154164748288/img/pm5sO9H1jehpqN6p.jpg"
+      ],
+      "timestamp": "2025-09-14T22:46:03.000Z",
+      "id": "1967359214944387546",
+      "_uniqueId": "1967359214944387546",
+      "_collectedAt": "2025-09-15_07-14-02"
+    },
+    {
+      "author": "Erin 𓅉",
+      "content": "For those of you interested in odd categories of rocks: sometimes a rock is just a pile of death.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "A rock entirely composed of compressed bat bones. Layers of uninterrupted bat death.",
+        "quoted_author": "Natalia Jagielska"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0zOn9-bUAAOYoq?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-14T16:00:00.000Z",
+      "id": "1967257028570865918",
+      "_uniqueId": "1967257028570865918",
+      "_collectedAt": "2025-09-15_07-14-02"
+    },
+    {
+      "author": "terminally onλine εngineer  ~ new era",
+      "content": "lock in doesn’t mean anything anymore lmao",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "One great way to lock in is to go for a run. It’s free and available to all",
+        "quoted_author": "Guillermo Rauch"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0vTixxa4AAEjAs?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-14T05:12:04.000Z",
+      "id": "1967093972318515708",
+      "_uniqueId": "1967093972318515708",
+      "_collectedAt": "2025-09-15_07-14-02"
+    },
+    {
+      "author": "mansin",
+      "content": "Robotics is everything you could wish for working in engineering. \nMechanical, electronics, machine learning, maths, physics, creativity, art, all coming together to form a system you can hold in your hands.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T09:18:30.000Z",
+      "id": "1967155987338727443",
+      "_uniqueId": "1967155987338727443",
+      "_collectedAt": "2025-09-15_07-14-02"
+    },
+    {
+      "author": "Chairman Birb Bernanke",
+      "content": "hey, do you remember like last week when Discord announced server capacity was getting raised to 25 million people, and everyone went “why would you need 25 million people in a discord server?” and then Nepalese Zoomers took over their government via Discord?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T04:17:16.000Z",
+      "id": "1967080181799284754",
+      "_uniqueId": "1967080181799284754",
+      "_collectedAt": "2025-09-15_07-14-02"
+    },
+    {
+      "author": "The Athletic",
+      "content": "Between the draft and free agency, which teams won the past six weeks? Our experts weigh in.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0bOi_zX0AA07LW?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1965485468075884877",
+      "_uniqueId": "1965485468075884877",
+      "_collectedAt": "2025-09-15_07-14-03"
+    },
+    {
+      "author": "XchylerDrenth",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0z0S0VXUAAzaIM?format=jpg&name=small",
+          "alt": "Two digital interface screens for XchylerDrenth. The left screen shows an account menu with options for \"Active,\" \"X vision Personal,\" and \"XchylerDrenth Company,\" plus an \"Add account\" button. The right screen displays a user profile for XchylerDrenth Personal, showing daily credits at 1,975 / 2,500, with buttons for \"Switch Account,\" \"Log Out,\" and menu options like \"Settings,\" \"Personalization,\" and \"Support.\""
+        }
+      ],
+      "timestamp": "2025-09-14T13:15:58.000Z",
+      "id": "1967215749912731702",
+      "_uniqueId": "1967215749912731702",
+      "_collectedAt": "2025-09-15_07-14-03"
+    }
+  ]
+}

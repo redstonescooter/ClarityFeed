@@ -1,0 +1,658 @@
+{
+  "collectionInfo": {
+    "totalTweets": 29,
+    "collectedAt": "2025-09-15_07-25-10",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "Aikido Security",
+      "content": "Found the injection. Sanitized the table. Parameterized the query. Security handled in one clean commit. That’s Aikido Autofix.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GroaRacXgAEdrtf?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1920838415844864146",
+      "_uniqueId": "1920838415844864146",
+      "_collectedAt": "2025-09-15_07-24-31"
+    },
+    {
+      "author": "React Summit",
+      "content": "Learn from @ken_wheeler: ReactJS Advocate, speaker, producer, synthwave artist, and Google Dev Expert.\n\nCurrently a staff engineer at REDACTED, Ken’s work inspires and empowers developers worldwide.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/Gm5R8GcXwAAx8cQ?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1905620896783495463",
+      "_uniqueId": "1905620896783495463",
+      "_collectedAt": "2025-09-15_07-24-38"
+    },
+    {
+      "author": "Dominik Koch",
+      "content": "there is a hand full of people who unknowingly shaped the future of my career\n\n- @joshtriedcoding \n- @nizzyabi \n- @james_r_perkins \n- @GabbyShires \n- @AndreLandgraf94 \n- @Hiccup_za \n- the one German employment agency employee who told me to not eve try applying to a co-op",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T20:04:17.000Z",
+      "id": "1966956120020578811",
+      "_uniqueId": "1966956120020578811",
+      "_collectedAt": "2025-09-15_07-24-38"
+    },
+    {
+      "author": "Josh tried coding",
+      "content": "you’re doing really, really well man. genuinely proud of you.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T00:15:15.000Z",
+      "id": "1967019275786613114",
+      "_uniqueId": "1967019275786613114",
+      "_collectedAt": "2025-09-15_07-24-38"
+    },
+    {
+      "author": "Memes Out Of Context",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0vqDP9W4AAiIk5?format=jpg&name=small",
+          "alt": "A person lying on grass, depicted in a painted style. Below the ground, a cross-section shows soil with a smartphone and a headphone jack plugged into it. Text overlay reads \"We still talk about you\"."
+        }
+      ],
+      "timestamp": "2025-09-13T17:52:44.000Z",
+      "id": "1966923010528735523",
+      "_uniqueId": "1966923010528735523",
+      "_collectedAt": "2025-09-15_07-24-38"
+    },
+    {
+      "author": "Starlink",
+      "content": "Starlink provides reliable, high-speed internet for streaming, video calls, online gaming and more.\n\nSpeeds up to 230+ Mbps\n\nEasy to order online in under 2 minutes",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0qYM7cbcAEQ0dU?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1966552482538287135",
+      "_uniqueId": "1966552482538287135",
+      "_collectedAt": "2025-09-15_07-24-38"
+    },
+    {
+      "author": "Joscha Bach",
+      "content": "Did you know that the US plumbing industry is 500Bn/yr, about as much as the software industry, but less prone to crisis and fluctuations? It's also very lucrative (our plumber owns three houses in Menlo Park).",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T22:24:49.000Z",
+      "id": "1966991482688278697",
+      "_uniqueId": "1966991482688278697",
+      "_collectedAt": "2025-09-15_07-24-38"
+    },
+    {
+      "author": "Robert Scoble",
+      "content": "18 years with an autistic kid.\n\nOur son, Milan, turns 18 today. \n\nWhen he was two a doctor told us we might never get to talk to him. Several he goes to school with aren't verbal.\n\nHe talks today, but is a man of few words. When he speaks, especially if I'm angry about something,",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T22:37:07.000Z",
+      "id": "1967356966826877393",
+      "_uniqueId": "1967356966826877393",
+      "_collectedAt": "2025-09-15_07-24-38"
+    },
+    {
+      "author": "the CEO of FAST",
+      "content": "Wait how is the charging case battery life worse",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "AirPods Pro 2 vs AirPods Pro 3",
+        "quoted_author": "Apple Hub"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0wb_fqWoAArUlA?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-14T00:17:02.000Z",
+      "id": "1967019723666960662",
+      "_uniqueId": "1967019723666960662",
+      "_collectedAt": "2025-09-15_07-24-45"
+    },
+    {
+      "author": "Farhan Rizvi",
+      "content": "Client: \"How much for a website?\"\n\nWrong answer: \"It depends\"\n\nBetter answer: \"My typical range is from $2,000-$8,000 depending on complexity. What's your budget range so I can recommend the best approach for your goals?\"\n\nLead the conversation. Don't follow it.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T08:57:35.000Z",
+      "id": "1967150726401900703",
+      "_uniqueId": "1967150726401900703",
+      "_collectedAt": "2025-09-15_07-24-45"
+    },
+    {
+      "author": "Benjamin Mayo",
+      "content": "Tim’s on the red carpet flogging iPhones like a guy selling knock-off pocket watches from under his jacket",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Apple's Tim Cook says \"I'm so excited\" about the iPhone 17.\n\n\"The 16 is pretty good but the 17 is a must.\" #Emmys",
+        "quoted_author": "Variety"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967352733268119552/img/8AmVbukF9POqhLDm.jpg"
+      ],
+      "timestamp": "2025-09-14T23:11:21.000Z",
+      "id": "1967365580836757686",
+      "_uniqueId": "1967365580836757686",
+      "_collectedAt": "2025-09-15_07-24-45"
+    },
+    {
+      "author": "𝙺𝚒𝚖𝚋𝚊𝚕 𝙼𝚞𝚜𝚔",
+      "content": "I am deeply honored to have been trusted with Vatican as the stage to bring Grace to the World with my dear friends Pharrell Williams, Andrea Bocelli, Jennifer Hudson. We made a miracle happen tonight. \n\nGrace for the World",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0w30f1XkAAShaM?format=jpg&name=small",
+          "alt": "St. Peter\\'s Basilica illuminated at night with large light projections of hands reaching toward each other above the building. A crowd gathers in front of the basilica, and the facade is brightly lit, showcasing its architectural details."
+        }
+      ],
+      "timestamp": "2025-09-13T23:32:30.000Z",
+      "id": "1967008519040692519",
+      "_uniqueId": "1967008519040692519",
+      "_collectedAt": "2025-09-15_07-24-45"
+    },
+    {
+      "author": "Bibawen",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0v4O5cWAAALV3G?format=jpg&name=small",
+          "alt": "A man with dark hair wearing a dark coat, leaning on a concrete ledge with his hand near his face, ring visible on his finger. The background shows a blurred horizon with a pinkish sky, suggesting autumn. Text overlay reads \"Sensitive young man autumn\"."
+        }
+      ],
+      "timestamp": "2025-09-13T18:54:48.000Z",
+      "id": "1966938633677443318",
+      "_uniqueId": "1966938633677443318",
+      "_collectedAt": "2025-09-15_07-24-45"
+    },
+    {
+      "author": "Kilo Code",
+      "content": "Kilo for Teams is the best way to scale your engineering team’s AI development while keeping cost under control.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0qE_78XoAAoxGC?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1966532261051859248",
+      "_uniqueId": "1966532261051859248",
+      "_collectedAt": "2025-09-15_07-24-45"
+    },
+    {
+      "author": "Chris Bakke",
+      "content": "Raise $10M seed.\n\nPut in a 4.5% yield checking account. \n\n3 days later tell investors “we’re at a $450K run rate.”\n\nThey give you another $50M.\n\n3 days later tell investors, “you’re not going to believe this but we’re at a $2.7M run rate”\n\nRepeat until you IPO.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T23:18:37.000Z",
+      "id": "1967005023134732620",
+      "_uniqueId": "1967005023134732620",
+      "_collectedAt": "2025-09-15_07-24-52"
+    },
+    {
+      "author": "Maaz Perwez",
+      "content": "The Samsung store representative's own samsung phone has green lines.. only Samsung can pull this off... !",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0zXB03a4AA_Ft4?format=jpg&name=small",
+          "alt": "A Samsung store with multiple laptops displayed on tables. A person wearing a purple Samsung-branded shirt stands, interacting with the laptops. Other people are visible in the background, browsing or walking. The laptops show screens with various interfaces, including one displaying the Windows logo."
+        }
+      ],
+      "timestamp": "2025-09-14T11:08:29.000Z",
+      "id": "1967183666976903191",
+      "_uniqueId": "1967183666976903191",
+      "_collectedAt": "2025-09-15_07-24-52"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G02qI7QbMAAWKCC?format=jpg&name=small",
+          "alt": "A crosswalk with white stripes painted on a gray road. A yellow Pac-Man character is painted within the crosswalk, partially covering the stripes. Colorful trash bins and a sidewalk with red and gray bricks are visible in the background."
+        }
+      ],
+      "timestamp": "2025-09-15T02:30:26.000Z",
+      "id": "1967415685916897667",
+      "_uniqueId": "1967415685916897667",
+      "_collectedAt": "2025-09-15_07-24-52"
+    },
+    {
+      "author": "Monkey Tilt",
+      "content": "Will Taylor Swift be shown during the Chiefs vs. Eagles broadcast? You tell us!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0061pvXkAAutL7?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1967295533745365353",
+      "_uniqueId": "1967295533745365353",
+      "_collectedAt": "2025-09-15_07-24-52"
+    },
+    {
+      "author": "Apple TV",
+      "content": "The most Emmy-winning series of the year.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G023zWgbsAAoa23.jpg",
+          "alt": ""
+        }
+      ],
+      "timestamp": "2025-09-15T03:30:20.000Z",
+      "id": "1967430758794199270",
+      "_uniqueId": "1967430758794199270",
+      "_collectedAt": "2025-09-15_07-25-00"
+    },
+    {
+      "author": "autist",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1966926448553287680/img/5qu7a4ar8rz5616L.jpg"
+      ],
+      "timestamp": "2025-09-13T18:06:40.000Z",
+      "id": "1966926518518771829",
+      "_uniqueId": "1966926518518771829",
+      "_collectedAt": "2025-09-15_07-25-00"
+    },
+    {
+      "author": "meme.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G00vLvMbgAAh9EJ?format=jpg&name=small",
+          "alt": "A dog lying in a large ceramic pot filled with water and green aquatic plants. The dog is resting its head on the edge of the pot, appearing relaxed and comfortable. The pot is placed on a paved surface outdoors."
+        }
+      ],
+      "timestamp": "2025-09-14T17:33:14.000Z",
+      "id": "1967280494334369807",
+      "_uniqueId": "1967280494334369807",
+      "_collectedAt": "2025-09-15_07-25-00"
+    },
+    {
+      "author": "Nassim Nicholas Taleb",
+      "content": "The World in Which We Live Now.\n7 Points. Lecture at the Ron Paul Institute Annual Meeting.\nThanks @DanielLMcAdams",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0wOYkGW8AAjYO9?format=jpg&name=360x360",
+          "alt": "A bar chart displaying global GDP growth percentages over time. A line graph showing economic trends from 1980 to 2020, labeled with regions like China and Europe. Text overlays include \"Fig. 1\" and \"Fig. 2\"."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0wOZUoXYAAopbX?format=jpg&name=360x360",
+          "alt": "A bar chart displaying global GDP growth percentages over time. A line graph showing economic trends from 1980 to 2020, labeled with regions like China and Europe. Text overlays include \"Fig. 1\" and \"Fig. 2\"."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0wOZ8iXAAEOZnE?format=jpg&name=360x360",
+          "alt": "A bar chart displaying global GDP growth percentages over time. A line graph showing economic trends from 1980 to 2020, labeled with regions like China and Europe. Text overlays include \"Fig. 1\" and \"Fig. 2\"."
+        }
+      ],
+      "timestamp": "2025-09-13T20:32:18.000Z",
+      "id": "1966963169940943176",
+      "_uniqueId": "1966963169940943176",
+      "_collectedAt": "2025-09-15_07-25-07"
+    },
+    {
+      "author": "Mark Gurman",
+      "content": "They tried smaller. They tried bigger. Now they’re trying to thinner. If the Air doesn’t work out, there’s only one option left",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "we don't need a thinner iphone\n\nwe need real innovation\n\nintroducing, the brick edition™",
+        "quoted_author": "Riley Hennigh"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1966632380178800640/img/jLMk0eeaAV-GlEy1.jpg"
+      ],
+      "timestamp": "2025-09-13T22:08:18.000Z",
+      "id": "1966987329920459140",
+      "_uniqueId": "1966987329920459140",
+      "_collectedAt": "2025-09-15_07-25-07"
+    },
+    {
+      "author": "Heshie Brody",
+      "content": "10/10 Sunday\n>morning workout with my trainer (first full one since my hernia surgery)\n>worked on B2B saas \n>spent the afternoon with the kids in the park \n>ate meat with my wife\n>now back to code",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G02UZ4_XEAAMXt0?format=jpg&name=360x360",
+          "alt": "Image"
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G02UZ5NX0AAuemJ?format=jpg&name=360x360",
+          "alt": "Image"
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G02UZ4_WMAAKZO6?format=jpg&name=360x360",
+          "alt": "Image"
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G02UZ4_XkAAsIBJ?format=jpg&name=360x360",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-15T00:55:30.000Z",
+      "id": "1967391793370251422",
+      "_uniqueId": "1967391793370251422",
+      "_collectedAt": "2025-09-15_07-25-07"
+    },
+    {
+      "author": "Jamie Turner",
+      "content": "Atlassian, fire away a cash offer anytime. DMs open.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0v0RuIagAA-eab?format=png&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-13T19:00:39.000Z",
+      "id": "1966940103575826903",
+      "_uniqueId": "1966940103575826903",
+      "_collectedAt": "2025-09-15_07-25-07"
+    },
+    {
+      "author": "Rob Hallam",
+      "content": "Hey @nikitabier I respect the hustle\n\nBut I think you might be cutting a few too many corners",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0z2M4MWoAA-t1g?format=png&name=small",
+          "alt": "A blue rectangular box with white text reading \"Your video file is too large. Videos should be less than 0 MB.\" The background is a dark gray area with a blurred image of greenery and trees below the text."
+        }
+      ],
+      "timestamp": "2025-09-14T13:24:55.000Z",
+      "id": "1967218000500859163",
+      "_uniqueId": "1967218000500859163",
+      "_collectedAt": "2025-09-15_07-25-07"
+    },
+    {
+      "author": "rico",
+      "content": "i love designing mobile",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0yMmrabsAAQHgR?format=jpg&name=small",
+          "alt": "Three smartphone screens displaying a mobile app interface. The left screen shows an app icon with purple and white colors and text reading \"Plan. Do. Done.\" with options to continue with Apple or Google. The middle screen displays a calendar view for August 2025 with tasks listed, including \"Urgent\" and checkboxes. The right screen shows a task list with entries like \"Edit Task\" and times, including \"9:30-10:15 PM.\""
+        }
+      ],
+      "timestamp": "2025-09-14T05:43:24.000Z",
+      "id": "1967101858927063303",
+      "_uniqueId": "1967101858927063303",
+      "_collectedAt": "2025-09-15_07-25-07"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0woeYkbcAA42bC?format=jpg&name=small",
+          "alt": "A person rock climbing down a steep cliff beside a tall waterfall. The individual is secured with a rope, descending vertically. Lush green mountains and a tropical forest are visible in the background, with a rainbow appearing in the mist at the base of the waterfall."
+        }
+      ],
+      "timestamp": "2025-09-13T22:25:27.000Z",
+      "id": "1966991641836986743",
+      "_uniqueId": "1966991641836986743",
+      "_collectedAt": "2025-09-15_07-25-07"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0veS51a8AAutSp?format=jpg&name=small",
+          "alt": "Several large metal sword sculptures stand upright on a grassy hill. The swords have unique, abstract designs with crossguards and handles. A winding road and misty landscape with hills and vegetation are visible in the background."
+        }
+      ],
+      "timestamp": "2025-09-13T17:01:21.000Z",
+      "id": "1966910081129443685",
+      "_uniqueId": "1966910081129443685",
+      "_collectedAt": "2025-09-15_07-25-08"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "collectionInfo": {
+    "totalTweets": 5,
+    "collectedAt": "2025-09-14T19:33:09.982Z",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "Holly - I like tech",
+      "content": "the naming scheme for the iphone air is going to be so confusing next year",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0zaaNcW4AEhuvx?format=jpg&name=small",
+          "alt": "Text reading \"iPhone Air\" at the top, followed by \"The thinnest iPhone ever. With the power of pro inside. Available from 19.09.\" Below, two blue buttons labeled \"Learn more\" and \"Pre-order.\" Three side profiles of a sleek, thin smartphone, one showing the front with a camera notch, flanked by two edge views."
+        }
+      ],
+      "timestamp": "2025-09-14T11:22:52.000Z",
+      "id": "1967187286514405544",
+      "_uniqueId": "1967187286514405544",
+      "_collectedAt": "2025-09-14T19:33:07.834Z"
+    },
+    {
+      "author": "Frontend Masters",
+      "content": "Save $100 off yearly Frontend Masters – unlock 250+ expert-led courses, personalized paths, and brand-new AI workshops.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0lyM7DXEAAtzkd?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1966229830049092017",
+      "_uniqueId": "1966229830049092017",
+      "_collectedAt": "2025-09-14T19:33:07.874Z"
+    },
+    {
+      "author": "hayden",
+      "content": "this is who you're arguing with online",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0yRztcXUAAen1f?format=png&name=small",
+          "alt": "A diagram of a neural network with multiple layers of interconnected nodes. Blue circles on the left represent input nodes, green circles on the right represent output nodes, and black circles in the middle represent hidden layers. Lines connect the nodes, forming a complex web of connections."
+        }
+      ],
+      "timestamp": "2025-09-14T06:05:39.000Z",
+      "id": "1967107456729051275",
+      "_uniqueId": "1967107456729051275",
+      "_collectedAt": "2025-09-14T19:33:07.903Z"
+    },
+    {
+      "author": "insane poses",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0v9ityWMAALHp-?format=jpg&name=small",
+          "alt": "A woman with dark hair in a ponytail applying lipstick, standing in front of police officers in riot gear holding transparent shields with \"POLICE\" visible. Several helmets and protective gear are seen in the background."
+        }
+      ],
+      "timestamp": "2025-09-13T19:17:53.000Z",
+      "id": "1966944439915446641",
+      "_uniqueId": "1966944439915446641",
+      "_collectedAt": "2025-09-14T19:33:07.934Z"
+    },
+    {
+      "author": "Fashion Twitter",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0rk4QFXkAAI7AT?format=jpg&name=small",
+          "alt": "A person wearing a beige shirt with a unique design, featuring a triangular cutout exposing a black and white striped sweater underneath. The shirt has long sleeves and a buttoned collar. The person is also wearing dark pants."
+        }
+      ],
+      "timestamp": "2025-09-12T22:51:39.000Z",
+      "id": "1966635848553599352",
+      "_uniqueId": "1966635848553599352",
+      "_collectedAt": "2025-09-14T19:33:07.964Z"
+    }
+  ]
+}

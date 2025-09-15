@@ -1,0 +1,780 @@
+{
+  "collectionInfo": {
+    "totalTweets": 36,
+    "collectedAt": "2025-09-15 05-53-02",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "Zephyr",
+      "content": "> be Adobe, 40-year-old PDF jockey\n> 2025, stock doing a perfect -33% swan dive\n> “We’ll pivot to AI” says exec on 7-figure retention bonus\n> can’t ship a model because legal says every pixel needs a 12-page EULA\n> Midjourney drops v7, makes our Firefly look like MS Paint with a",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G01LYtqawAAGaG2?format=jpg&name=small",
+          "alt": "A chart displaying Adobe Inc stock performance. The chart shows a price of 349.36 USD with a -17.2% decline over the past year. Key data points include a 52-week high of 521.10 USD, a 52-week low of 357.90 USD, and a market cap of 361.10 billion USD. Text overlays include financial metrics like P/E ratio, dividend yield, and quarterly dividend amount."
+        }
+      ],
+      "timestamp": "2025-09-14T21:35:00.000Z",
+      "id": "1967341335649644905",
+      "_uniqueId": "1967341335649644905",
+      "_collectedAt": "2025-09-15 05-52-30"
+    },
+    {
+      "author": "Business",
+      "content": "Let Grok do the work and match your products with the right customers; use single product ads for the best targeting.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": null,
+      "id": "1963258306417639612",
+      "_uniqueId": "1963258306417639612",
+      "_collectedAt": "2025-09-15 05-52-30"
+    },
+    {
+      "author": "Tobias Renström",
+      "content": "Need help! Am getting super close to a beta now, BUT still don't have a name for this visually-collect-your-thoughts-and-things-app. What would you name something like this? Would love to hear it. My shortlist has been Spatial, Scratch, Liminal, Texture and Untitled...",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T15:27:14.000Z",
+      "id": "1967248785102532946",
+      "_uniqueId": "1967248785102532946",
+      "_collectedAt": "2025-09-15 05-52-30"
+    },
+    {
+      "author": "dex",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G01EMBCWYAAvdpX?format=jpg&name=small",
+          "alt": "A plastic water bottle with a blue cap and label, filled with water, standing upright on a surface. Next to it is a decorative glass bowl with floral patterns. Text overlay reads \"imagine drinking this at 2am\"."
+        }
+      ],
+      "timestamp": "2025-09-14T19:05:04.000Z",
+      "id": "1967303601870741923",
+      "_uniqueId": "1967303601870741923",
+      "_collectedAt": "2025-09-15 05-52-38"
+    },
+    {
+      "author": "HPE",
+      "content": "Make great experiences happen anywhere. With access to a broad networking portfolio, get what you need and mix and match to suit different environments.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GxwAAhgW4AAQAOc?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1953436607819960333",
+      "_uniqueId": "1953436607819960333",
+      "_collectedAt": "2025-09-15 05-52-38"
+    },
+    {
+      "author": "Augustas",
+      "content": "Top or bottom table?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0zOHEGWkAANalQ?format=jpg&name=small",
+          "alt": "Two tables displaying submission data. Each table has columns for Date, Status, Name, and Email. Status indicators include green checkmarks for \"Completed,\" a yellow circle for \"Pending,\" and a red cross for \"Failed.\" Names like John Doe and email addresses like jhndoe@gmail.com are visible. The tables are clean and organized with headers like \"Submissions\" and filter options."
+        }
+      ],
+      "timestamp": "2025-09-14T10:29:09.000Z",
+      "id": "1967173766938603604",
+      "_uniqueId": "1967173766938603604",
+      "_collectedAt": "2025-09-15 05-52-38"
+    },
+    {
+      "author": "Nikita Bier",
+      "content": "Me when people ask to sync drafts and add scheduled posts on mobile",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967244572959911937/img/05t7XArMOawZWFuM.jpg"
+      ],
+      "timestamp": "2025-09-14T23:30:59.000Z",
+      "id": "1967370522049831167",
+      "_uniqueId": "1967370522049831167",
+      "_collectedAt": "2025-09-15 05-52-38"
+    },
+    {
+      "author": "Fabian Albert",
+      "content": "Tap to catch",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1966825909115064320/img/s2krhhpGucSojz3I.jpg"
+      ],
+      "timestamp": "2025-09-13T11:27:13.000Z",
+      "id": "1966825994385269129",
+      "_uniqueId": "1966825994385269129",
+      "_collectedAt": "2025-09-15 05-52-38"
+    },
+    {
+      "author": "Interactive Brokers",
+      "content": "Take a position on your predictions of economic and climate indicators with ForecastEx contracts at IBKR!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0Vq4UuWAAAkR66?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1965094511274549664",
+      "_uniqueId": "1965094511274549664",
+      "_collectedAt": "2025-09-15 05-52-38"
+    },
+    {
+      "author": "Theo - t3.gg",
+      "content": "This looks great! Any chance you’re down to sell me a course on how to build a successful bootstrapped SaaS with vibe code?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "just made my first SaaS!",
+        "quoted_author": "Zayan S"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967040464516997120/img/QIP8hxJnESTyfAaE.jpg"
+      ],
+      "timestamp": "2025-09-15T02:08:38.000Z",
+      "id": "1967410197728731314",
+      "_uniqueId": "1967410197728731314",
+      "_collectedAt": "2025-09-15 05-52-38"
+    },
+    {
+      "author": "Aman",
+      "content": "Student ID Benefits  \n\n> Google Gemini Pro \n> Student id flight booking\n> GitHub student pack \n> DigitalOcean \n> Spotify    \n> Grammarly EDU \n> Notion     \n> Spotify  \n> YouTube Premium  \n> Amazon Prime Student \n> Microsoft 365 Education   \n> Canva for Education  \n> Autodesk",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T11:17:15.000Z",
+      "id": "1966823484241453246",
+      "_uniqueId": "1966823484241453246",
+      "_collectedAt": "2025-09-15 05-52-45"
+    },
+    {
+      "author": "Shitpost 2077",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0iZt_tW4AE9CLn?format=png&name=small",
+          "alt": "A metallic cheese grater interior with numerous small, circular holes and raised edges, creating a textured, reflective surface. The perspective shows a tunnel-like view extending inward, with the grater\\'s shiny, perforated walls visible on all sides."
+        }
+      ],
+      "timestamp": "2025-09-14T17:30:00.000Z",
+      "id": "1967279679003660524",
+      "_uniqueId": "1967279679003660524",
+      "_collectedAt": "2025-09-15 05-52-45"
+    },
+    {
+      "author": "Lark Davis",
+      "content": "This guy bought 10,000 BTC at $0.78.\n\nHeld for 14 years.\n\nMoved $1.1B in one transaction.\n\nCatch whale movements & smart money trends early with Wealth Mastery.\n\nSubscribe for free.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GwIvC_WX0AM1-ol?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1946172347506970844",
+      "_uniqueId": "1946172347506970844",
+      "_collectedAt": "2025-09-15 05-52-45"
+    },
+    {
+      "author": "Ashir Ahmed",
+      "content": "Is it clean?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0u4EQKWYAA-oca?format=jpg&name=small",
+          "alt": "A digital interface with two cards. The left card shows text about \"Deployment (v2.8.5)\" with added uncached lookups causing latency spikes and broken frontend responses, marked as open source with a database icon. The right card displays text about \"Secure deployment\" with v2.8.5 security encrypted, a deployed status indicator, and a button labeled \"Restart investigation.\" Text includes \"Smarter systems spot problems — and Solve them\" at the top."
+        }
+      ],
+      "timestamp": "2025-09-13T14:14:20.000Z",
+      "id": "1966868048255873119",
+      "_uniqueId": "1966868048255873119",
+      "_collectedAt": "2025-09-15 05-52-45"
+    },
+    {
+      "author": "quinn",
+      "content": "don't sleep until you do what you told yourself what you were gonna do\n\nfilmed at 2:50am",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967166039705448448/img/ns8JoXRKixE_BixR.jpg"
+      ],
+      "timestamp": "2025-09-14T10:04:40.000Z",
+      "id": "1967167609302094316",
+      "_uniqueId": "1967167609302094316",
+      "_collectedAt": "2025-09-15 05-52-45"
+    },
+    {
+      "author": "Bogdan • QClay | Awsmd",
+      "content": "Most genAI apps look like dev tools\n\nThis one looks like an art gallery",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0zro_gX0AAy0vh?format=jpg&name=small",
+          "alt": "Two smartphone screens displaying a digital app interface. The left screen shows a profile for Michael Garcia with text about 55 free tokens, options like Generate, Image, Video, and Stickers, and a blurred background with abstract shapes. The right screen displays a close-up of a person in a white shirt with a blurred, artistic effect, alongside app navigation buttons like Back to Home. No watermarks are present."
+        }
+      ],
+      "timestamp": "2025-09-14T12:38:13.000Z",
+      "id": "1967206250124624152",
+      "_uniqueId": "1967206250124624152",
+      "_collectedAt": "2025-09-15 05-52-46"
+    },
+    {
+      "author": "RIO",
+      "content": "when you know the confederation of michaels wants you dead but you can't prove it yet",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0xvfu4WkAAhAjH?format=png&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-14T03:37:37.000Z",
+      "id": "1967070201217732812",
+      "_uniqueId": "1967070201217732812",
+      "_collectedAt": "2025-09-15 05-52-46"
+    },
+    {
+      "author": "Holly - I like tech",
+      "content": "so refreshing to see NOTHING about apple intelligence on apples main page",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0tthHVXUAAjQ1W?format=jpg&name=small",
+          "alt": "Four images of Apple products. The top left shows an orange iPhone 17 Pro with three camera lenses on the back. The top right displays a thin iPhone Air with a sleek design. The bottom left features multiple iPhone 17 models in different colors, stacked vertically. The bottom right shows an Apple Watch Series 11 with a circular interface displaying health metrics on a white band."
+        }
+      ],
+      "timestamp": "2025-09-13T08:48:39.000Z",
+      "id": "1966786087843480058",
+      "_uniqueId": "1966786087843480058",
+      "_collectedAt": "2025-09-15 05-52-52"
+    },
+    {
+      "author": "Naval",
+      "content": "Marxism is religion without God.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T15:45:38.000Z",
+      "id": "1966891026733494607",
+      "_uniqueId": "1966891026733494607",
+      "_collectedAt": "2025-09-15 05-52-53"
+    },
+    {
+      "author": "Hubert Thieblot",
+      "content": "Everyone loves the idea of being a founder until you’re 1 year in, no traction, broke, and your family is asking when you’ll get a “real” job.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T04:05:36.000Z",
+      "id": "1967077245367054555",
+      "_uniqueId": "1967077245367054555",
+      "_collectedAt": "2025-09-15 05-52-53"
+    },
+    {
+      "author": "Peer Richelsen — oss/acc",
+      "content": "this is stupid, just disable liking your own post",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "breaking: -50% debuff if you like your own posts",
+        "quoted_author": "0x45"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0yf6coXMAAhsdF?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-14T14:10:58.000Z",
+      "id": "1967229590075838809",
+      "_uniqueId": "1967229590075838809",
+      "_collectedAt": "2025-09-15 05-52-53"
+    },
+    {
+      "author": "Kumail Nanji",
+      "content": "my 2025 bingo card so far\n\n[x] built a design agency\n[x] moved out\n[x] worked at a company  \n[x] worked at a startup  \n[x] landed a few high-rate contracts  \n[x] shipped a couple of apps \n[  ] start a yc company → scale it into a billion-dollar business",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T15:21:12.000Z",
+      "id": "1967247267423015199",
+      "_uniqueId": "1967247267423015199",
+      "_collectedAt": "2025-09-15 05-52-53"
+    },
+    {
+      "author": "Yuta",
+      "content": "I’m actually quite glad he escaped being just the twilight vampire guy",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "This range will be studied one day…",
+        "quoted_author": "Rei"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0ud9C8aQAATcYM?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-13T13:30:39.000Z",
+      "id": "1966857057858187324",
+      "_uniqueId": "1966857057858187324",
+      "_collectedAt": "2025-09-15 05-52-53"
+    },
+    {
+      "author": "house’s bald spot",
+      "content": "this mom forgot her daughter's name and went to chatgpt for comfort and her response to someone pointing out how hilarious that is is to say sorry i didn't call dr. house",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0yJyhVaIAAER_I?format=jpg&name=small",
+          "alt": "A screenshot of a social media post on X with a dark background. Text reads \"I Forgot My Daughter\\'s\" at the top, followed by \"Comments\" and user replies. One reply from \"lovelymotherstories\" includes a profile picture of two people, and text mentioning Dr. House. Another reply from a user with a profile picture shows text about ChatGPT. A watermark from X is visible."
+        }
+      ],
+      "timestamp": "2025-09-14T05:30:37.000Z",
+      "id": "1967098639870029925",
+      "_uniqueId": "1967098639870029925",
+      "_collectedAt": "2025-09-15 05-52-53"
+    },
+    {
+      "author": "RIO",
+      "content": "trying to train my algo to only show me nice sandwiches now",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "my whole feed is just design posts and it kinda sucks",
+        "quoted_author": "RIO"
+      },
+      "media": [],
+      "timestamp": "2025-09-13T22:32:27.000Z",
+      "id": "1966993406242288076",
+      "_uniqueId": "1966993406242288076",
+      "_collectedAt": "2025-09-15 05-52-53"
+    },
+    {
+      "author": "Monkey Tilt",
+      "content": "Welcome to the Tilt Club",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/Gz8_dsibkAUWdl0?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1967009282236575977",
+      "_uniqueId": "1967009282236575977",
+      "_collectedAt": "2025-09-15 05-52-53"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G00WOYUbkAAKgM0?format=jpg&name=small",
+          "alt": "A green plastic bin with a woven brown basket partially integrated into its structure. The basket\\'s wicker strands extend over the bin\\'s perforated surface, creating a hybrid appearance."
+        }
+      ],
+      "timestamp": "2025-09-14T15:44:11.000Z",
+      "id": "1967253050852356515",
+      "_uniqueId": "1967253050852356515",
+      "_collectedAt": "2025-09-15 05-52-53"
+    },
+    {
+      "author": "𝕊𝕂𝕌𝕃𝕃 𝕄𝔸ℕ",
+      "content": "x.com/thealexrossart…",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "x.com/thealexrossart…",
+        "quoted_author": "aimée"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0wHd3gXYAAio1l?format=jpg&name=small",
+          "alt": "A cartoon of two children standing in front of a cinema marquee displaying \"AVENGERS\" in large letters. One child points at a poster of superheroes, saying, \"They killed my dad.\" Two police officers and an EMS worker stand nearby, with one officer saying, \"Actual superheroes.\" The Toronto skyline, including the CN Tower, is visible in the background."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0rPNL6XMAAUVEM?format=jpg&name=120x120",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-13T20:01:14.000Z",
+      "id": "1966955350638416322",
+      "_uniqueId": "1966955350638416322",
+      "_collectedAt": "2025-09-15 05-53-00"
+    },
+    {
+      "author": "Shitpost 2077",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0dJZFDXAAAfbxG?format=png&name=small",
+          "alt": "Two individuals dressed as the Joker in red suits and green hair stand on a street corner at night. A light brown dog stands beside them. A traffic light shows a red signal, and a yellow fire hydrant is visible nearby. Cars and a building are in the background."
+        }
+      ],
+      "timestamp": "2025-09-14T00:30:00.000Z",
+      "id": "1967022989666644321",
+      "_uniqueId": "1967022989666644321",
+      "_collectedAt": "2025-09-15 05-53-00"
+    },
+    {
+      "author": "UI/UX Designers",
+      "content": "Task Management app",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0uJG2eWEAAo-6K?format=jpg&name=small",
+          "alt": "Two smartphone screens displaying a task management app interface. The left screen shows a list of tasks under \"Today\\'s Tasks\" with titles like \"Website Design and Development\" and \"Clients Review & Feedback,\" along with profile icons and a date. The right screen displays a calendar view for September 2025 with a schedule of tasks, including \"Interview with users design\" and \"Weekly standup meeting,\" each with time slots and profile icons."
+        }
+      ],
+      "timestamp": "2025-09-13T10:49:11.000Z",
+      "id": "1966816423805587815",
+      "_uniqueId": "1966816423805587815",
+      "_collectedAt": "2025-09-15 05-53-00"
+    },
+    {
+      "author": "No Cats No Life",
+      "content": "No work, no school, just meow meow",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0uuhjrbEAAbIJy?format=jpg&name=small",
+          "alt": "A man in a green shirt sits at a desk with a computer displaying colorful graphics. A white cat sleeps on a bed covered with a blue blanket and plaid bedding. Dark curtains hang on the window, and a calendar is visible on the wall."
+        }
+      ],
+      "timestamp": "2025-09-13T13:32:39.000Z",
+      "id": "1966857559928959448",
+      "_uniqueId": "1966857559928959448",
+      "_collectedAt": "2025-09-15 05-53-00"
+    },
+    {
+      "author": "Nick",
+      "content": "I've been trying to figure out why my @v0 links on the AI Tools registry do not work. @shadcn are you aware of any problems with the named registry resolvers to work with v0 links?\n\nMaybe I configured something wrong on my side though.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T15:59:00.000Z",
+      "id": "1966894390263284146",
+      "_uniqueId": "1966894390263284146",
+      "_collectedAt": "2025-09-15 05-53-00"
+    },
+    {
+      "author": "shadcn",
+      "content": "I’ll take a look",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T16:17:06.000Z",
+      "id": "1966898944375771294",
+      "_uniqueId": "1966898944375771294",
+      "_collectedAt": "2025-09-15 05-53-00"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G027xRCbgAAIL5A?format=jpg&name=small",
+          "alt": "Retro video game consoles repurposed as plant pots, filled with soil and small succulents. A Nintendo Entertainment System and a Super Nintendo Entertainment System are visible, with plants growing from their open compartments. Other electronics, including a cassette player and an old television, also serve as planters with various green plants."
+        }
+      ],
+      "timestamp": "2025-09-15T03:47:28.000Z",
+      "id": "1967435070190596402",
+      "_uniqueId": "1967435070190596402",
+      "_collectedAt": "2025-09-15 05-53-00"
+    },
+    {
+      "author": "Amir",
+      "content": "The iPhone'a camera progression is quite beautiful. \n\nIs it worth upgrading from iPhone 14 Pro?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0vB0lhagAAi12-?format=jpg&name=small",
+          "alt": "Four images comparing iPhone camera systems. iPhone 14 Pro shows three lenses with text indicating 48MP main camera, 12MP ultra-wide, and 12MP telephoto. iPhone 15 Pro displays similar layout with updated 48MP lenses. iPhone 16 Pro features four lenses, including 48MP main, ultra-wide, telephoto, and a new periscope lens. iPhone 17 Pro shows a similar four-lens setup with updated specifications. Text overlays detail megapixels, focal lengths, and zoom capabilities."
+        }
+      ],
+      "timestamp": "2025-09-13T14:56:57.000Z",
+      "id": "1966878773821001807",
+      "_uniqueId": "1966878773821001807",
+      "_collectedAt": "2025-09-15 05-53-00"
+    },
+    {
+      "author": "Jack",
+      "content": "Taurine appreciation post. \n- It spares magnesium. \n- Improves glutamate/GABA balance, shifting neurochemistry towards inhibitory tone - unlocking a calm/zen state. \n- Huge benefits in mitochondrial function + redox. \n- Supports bile flow (fat-soluble vitamins, fatty acids,",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T23:02:22.000Z",
+      "id": "1967000933033996429",
+      "_uniqueId": "1967000933033996429",
+      "_collectedAt": "2025-09-15 05-53-00"
+    }
+  ]
+}

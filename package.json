@@ -1,0 +1,32 @@
+{
+  "name": "clarityfeed",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "tsc_watch": "tsc --watch",
+    "start": "node cli.js",
+    "dev": "node --inspect cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "js-beautify": "^1.15.4",
+    "path": "^0.12.7",
+    "playwright": "^1.51.1",
+    "node-fetch": "^2.6.7",
+    "form-data": "^4.0.0"
+  }
+}

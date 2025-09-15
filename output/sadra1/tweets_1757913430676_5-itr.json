@@ -1,0 +1,744 @@
+{
+  "collectionInfo": {
+    "totalTweets": 34,
+    "collectedAt": "2025-09-15T05:17:10.676Z",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "Gavin Nelson",
+      "content": "made a Minority Report style magnification loupe shader in Metal",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T22:43:35.000Z",
+      "id": "1967358593986163031",
+      "_uniqueId": "1967358593986163031",
+      "_collectedAt": "2025-09-15T05:16:37.847Z"
+    },
+    {
+      "author": "Developers",
+      "content": "Calling all developers! \n\nInnovate with our real-time and historical data on the X API.\n\nGet started with Pro",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GdAFibCWUAAiXhN?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1965087484410286413",
+      "_uniqueId": "1965087484410286413",
+      "_collectedAt": "2025-09-15T05:16:37.898Z"
+    },
+    {
+      "author": "Figs From Plums",
+      "content": "Antonin Waterkeyn",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T21:05:00.000Z",
+      "id": "1966971398087471128",
+      "_uniqueId": "1966971398087471128",
+      "_collectedAt": "2025-09-15T05:16:37.956Z"
+    },
+    {
+      "author": "Leon",
+      "content": "WebGPU is awesome.\n\nCode in comments (by matsuoka-601)",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T20:13:30.000Z",
+      "id": "1967320826551935372",
+      "_uniqueId": "1967320826551935372",
+      "_collectedAt": "2025-09-15T05:16:37.996Z"
+    },
+    {
+      "author": "Tim Ferriss",
+      "content": "NEW podcast episode is up! \n\n“Q&A with Tim — Supplements I’m Taking, Austin vs. SF, Training for Mental Performance, Current Go-To AI Tools, Recovering from Surgery, Intermittent Fasting, and More”\n\nListen to it on Apple Podcasts, Spotify, YouTube, or wherever you get your",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0lYGqvXMAE9VgX?format=jpg&name=small",
+          "alt": "A sketch-style drawing of Tim Ferriss, a bald man with a beard, smiling and wearing a light-colored V-neck shirt. The background is a solid teal color."
+        }
+      ],
+      "timestamp": "2025-09-11T17:58:31.000Z",
+      "id": "1966199691013406761",
+      "_uniqueId": "1966199691013406761",
+      "_collectedAt": "2025-09-15T05:16:38.031Z"
+    },
+    {
+      "author": "ₕₐₘₚₜₒₙ — e/acc",
+      "content": "Founder of Bloomberg explains the $30,000 Bloomberg Terminal:",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967337601918197761/img/O8zFHTeCZ9Oh9NGb.jpg"
+      ],
+      "timestamp": "2025-09-14T21:21:18.000Z",
+      "id": "1967337887709704601",
+      "_uniqueId": "1967337887709704601",
+      "_collectedAt": "2025-09-15T05:16:45.969Z"
+    },
+    {
+      "author": "HPE",
+      "content": "Cyberthreats are relentless. Strengthen protection with a network that has built-in support for SASE and zero trust with cloud-based NAC.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GxwALY4WgAAQ3F4?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1953436574215188945",
+      "_uniqueId": "1953436574215188945",
+      "_collectedAt": "2025-09-15T05:16:46.022Z"
+    },
+    {
+      "author": "herbst",
+      "content": "Apple's 3D viewer is based on @threejs, uses @glTF3D and gets more impressive every year!\n\nCAD meshes, environment blends, reflection probes, occlusion: let's take a look at what's special this time –\n\n(long thread ahead)",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0wQ1YwXQAAi6tX?format=jpg&name=small",
+          "alt": "A transparent iPhone 17 Pro in Cosmic Orange, showcasing its camera system with three lenses and internal components like an aluminum unibody and vapor chamber. Text overlays list features including Ceramic Shield, Immersive Pro display, Camera Control, and Action button."
+        }
+      ],
+      "timestamp": "2025-09-13T22:45:50.000Z",
+      "id": "1966996773672808578",
+      "_uniqueId": "1966996773672808578",
+      "_collectedAt": "2025-09-15T05:16:46.085Z"
+    },
+    {
+      "author": "dax",
+      "content": "i have a money printing machine\n\nand you're in luck - i'm going to let you use it for a small fee\n\nyou'd think maybe i should just use it myself but i'm kind and generous and want to see you win\n\nfor a small fee",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-13T23:49:04.000Z",
+      "id": "1967012685859746088",
+      "_uniqueId": "1967012685859746088",
+      "_collectedAt": "2025-09-15T05:16:46.138Z"
+    },
+    {
+      "author": "Nik Shevchenko",
+      "content": "at the @MIT hackathon I built an opensource cluely that:\n- connects to smartglasses\n- knows days of context of work from your computer\n\nCheck out omiglass:",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967269351301509120/img/3GeKVUIgj6vmV_33.jpg"
+      ],
+      "timestamp": "2025-09-14T16:50:47.000Z",
+      "id": "1967269811765002676",
+      "_uniqueId": "1967269811765002676",
+      "_collectedAt": "2025-09-15T05:16:46.185Z"
+    },
+    {
+      "author": "GRAFIX - Tell us your poster stories!",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0zENYBW0AAvD4r?format=jpg&name=small",
+          "alt": "A stylized illustration of a train with illuminated windows traveling on tracks above a congested highway filled with cars and trucks. The text \"take it easy... take the train\" is visible in white on a dark background."
+        }
+      ],
+      "timestamp": "2025-09-14T09:45:53.000Z",
+      "id": "1967162880018797027",
+      "_uniqueId": "1967162880018797027",
+      "_collectedAt": "2025-09-15T05:16:46.241Z"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G006K4ubkAATyZW?format=jpg&name=small",
+          "alt": "A pink, fuzzy sculpture of a humanoid figure with a large head, wide eyes, and a smiling mouth, sitting on a wooden floor. The figure has elongated limbs and a textured surface, positioned in a room with plants, shelves, and toys in the background."
+        }
+      ],
+      "timestamp": "2025-09-14T18:21:14.000Z",
+      "id": "1967292573523001820",
+      "_uniqueId": "1967292573523001820",
+      "_collectedAt": "2025-09-15T05:16:46.292Z"
+    },
+    {
+      "author": "Carlos Mendez",
+      "content": "New benchmark is out.\n\nIt focuses only on Data Science capabilities.\n\nIt also includes @grok, which is clearly making progress. Congrats to the team.\n\n@trydgi continues to lead!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GzDzN9IXkAAsJwQ?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1959334576951554271",
+      "_uniqueId": "1959334576951554271",
+      "_collectedAt": "2025-09-15T05:16:46.405Z"
+    },
+    {
+      "author": "RIO",
+      "content": "i think they're trying to send me a message",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0xs6txWoAAiLph?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-14T03:27:12.000Z",
+      "id": "1967067581111767115",
+      "_uniqueId": "1967067581111767115",
+      "_collectedAt": "2025-09-15T05:16:46.441Z"
+    },
+    {
+      "author": "vitalik.eth",
+      "content": "The pro blaming evil billionaires case is basically that web1 (esp internet forums) is widely considered to be a much more unbridled source of good, and it's specifically social media that's considered the dangerous thing. Both are \"internet\". The differences between the two are",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-14T23:05:49.000Z",
+      "id": "1967364191276409169",
+      "_uniqueId": "1967364191276409169",
+      "_collectedAt": "2025-09-15T05:16:53.074Z"
+    },
+    {
+      "author": "Attention Insight",
+      "content": "Level Up Your Figma Game!\nSee where users focus before you hit publish. Analyze, optimize, and create designs that work—effortlessly. \n Try Attention Insight for Figma now!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1861411769341603840/img/DvWhwrnlHgWYAOY7.jpg"
+      ],
+      "timestamp": null,
+      "id": "1861413097568702852",
+      "_uniqueId": "1861413097568702852",
+      "_collectedAt": "2025-09-15T05:16:53.105Z"
+    },
+    {
+      "author": "Shihab",
+      "content": "Taking last brand projects at $1560 \nPrice goes to $2000 next week",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0uYZcKaAAAKJMQ?format=jpg&name=small",
+          "alt": "A grid of images showcasing branding materials for Blink. Visible elements include the Blink logo with a circular design, typography samples with letters Aa Bb Cc Dd, a person wearing a green shirt with the Blink logo, packaging boxes with yellow and green colors, a tag with the Blink logo, and a billboard featuring the Blink logo and text. Additional images show color swatches in yellow and green, and a business card design."
+        }
+      ],
+      "timestamp": "2025-09-13T11:56:00.000Z",
+      "id": "1966833237709517244",
+      "_uniqueId": "1966833237709517244",
+      "_collectedAt": "2025-09-15T05:16:53.129Z"
+    },
+    {
+      "author": "Framer University",
+      "content": "7 animation techniques for @framer that will instantly level up your site.\n\nbookmark this for later ;)\n\ncheck it out:",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0vQUGQbMAAQr_m?format=jpg&name=small",
+          "alt": "Text reading \"7 Animations\" in white, stylized font against a dark background with blue glowing wave patterns."
+        }
+      ],
+      "timestamp": "2025-09-13T16:00:17.000Z",
+      "id": "1966894711710642435",
+      "_uniqueId": "1966894711710642435",
+      "_collectedAt": "2025-09-15T05:16:53.159Z"
+    },
+    {
+      "author": "jay ✰",
+      "content": "“okay now one where you have that shit on please”",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "1925 criminal's mugshot",
+        "quoted_author": "Reni♧"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0vCNA-WwAAJq7P?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-13T21:25:04.000Z",
+      "id": "1966976446863470999",
+      "_uniqueId": "1966976446863470999",
+      "_collectedAt": "2025-09-15T05:16:53.188Z"
+    },
+    {
+      "author": "Denshattack!",
+      "content": "progress! ╰(▔∀▔)╯",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/1967181722715373568/pu/img/qRbcHTFAY9reFV3a.jpg"
+      ],
+      "timestamp": "2025-09-14T11:00:50.000Z",
+      "id": "1967181743238111585",
+      "_uniqueId": "1967181743238111585",
+      "_collectedAt": "2025-09-15T05:16:53.218Z"
+    },
+    {
+      "author": "RIO",
+      "content": "did you go outside today?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G02GLeEWcAAT9hR?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-14T23:53:39.000Z",
+      "id": "1967376229092433968",
+      "_uniqueId": "1967376229092433968",
+      "_collectedAt": "2025-09-15T05:16:53.249Z"
+    },
+    {
+      "author": "DITOGAMES",
+      "content": "If you have a mouse, you have to play this game.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1776183309346787328/img/dw4VaTdx7_st02P7.jpg"
+      ],
+      "timestamp": null,
+      "id": "1809885065066733956",
+      "_uniqueId": "1809885065066733956",
+      "_collectedAt": "2025-09-15T05:16:53.275Z"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0ykqaxbcAAlvhf?format=jpg&name=small",
+          "alt": "Two transparent dice with black dots, placed on a red surface. The dice have embedded clear gem-like stones, reflecting light."
+        }
+      ],
+      "timestamp": "2025-09-14T07:28:02.000Z",
+      "id": "1967128188913643721",
+      "_uniqueId": "1967128188913643721",
+      "_collectedAt": "2025-09-15T05:16:53.304Z"
+    },
+    {
+      "author": "Slava",
+      "content": "Android Music",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1965966281544445955/img/VEo_JpzEmbB5zmdj.jpg"
+      ],
+      "timestamp": "2025-09-14T15:00:02.000Z",
+      "id": "1967241938475921653",
+      "_uniqueId": "1967241938475921653",
+      "_collectedAt": "2025-09-15T05:17:00.206Z"
+    },
+    {
+      "author": "Interactive Brokers",
+      "content": "What interest rate does your broker pay? Interactive Brokers’ clients earn up to 3.83% on uninvested USD cash balances.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GfRmwCRXIAcqJmg?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1915140253360259527",
+      "_uniqueId": "1915140253360259527",
+      "_collectedAt": "2025-09-15T05:17:00.236Z"
+    },
+    {
+      "author": "Tyler Stalman",
+      "content": "If you want to pixel peep the new the iPhone 17 selfie camera, here’s a side by side comparison",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0vV4nxboAAlnqh?format=jpg&name=360x360",
+          "alt": "Tyler Stalman wearing glasses and a beard, dressed in a denim shirt with a yellow lanyard, taking a selfie in a modern indoor space with wooden ceiling and plants. A close-up of his ear and glasses is shown beside the selfie. Text overlay reads \"iPhone 17 / SELFIE CAMERA / @stalman\"."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0vV5oubcAgOb82?format=jpg&name=360x360",
+          "alt": "Tyler Stalman wearing glasses and a beard, dressed in a denim shirt with a yellow lanyard, taking a selfie in a modern indoor space with wooden ceiling and plants. A close-up of his ear and glasses is shown beside the selfie. Text overlay reads \"iPhone 17 / SELFIE CAMERA / @stalman\"."
+        }
+      ],
+      "timestamp": "2025-09-13T16:25:34.000Z",
+      "id": "1966901074276880781",
+      "_uniqueId": "1966901074276880781",
+      "_collectedAt": "2025-09-15T05:17:00.262Z"
+    },
+    {
+      "author": "Arunabh Verma",
+      "content": "Fuse is the most beautiful app. And the best part is that it’s made using React Native.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Sick clean!  @fusewallet",
+        "quoted_author": "60fps"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1966545682883289088/img/sFr3Pol8YNfDG8Z4.jpg"
+      ],
+      "timestamp": "2025-09-14T07:36:57.000Z",
+      "id": "1967130433369632846",
+      "_uniqueId": "1967130433369632846",
+      "_collectedAt": "2025-09-15T05:17:00.294Z"
+    },
+    {
+      "author": "Bradley Osborn",
+      "content": "It’s crazy that this dude became a huge meme in two completely different Internet eras",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0u0vhQW0AA5eW2?format=jpg&name=small",
+          "alt": "Terry Crews wearing a black polo shirt, standing outdoors near shipping containers. Terry Crews with another person, both outdoors near greenery. Terry Crews sitting in a car, gripping the steering wheel, looking forward."
+        }
+      ],
+      "timestamp": "2025-09-13T13:59:48.000Z",
+      "id": "1966864394303799719",
+      "_uniqueId": "1966864394303799719",
+      "_collectedAt": "2025-09-15T05:17:00.322Z"
+    },
+    {
+      "author": "joowon",
+      "content": "i feel like this book could’ve just been this page",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0zv43aW0AAiveb?format=jpg&name=small",
+          "alt": "A page from a book titled \"Principles of Building AI Agents\" on a dark background. The page number 17 is visible at the top right. A code snippet is shown, including Python imports from \"n8n_sdk/openai\" and text about creating an AI agent named \"My Agent\" with instructions for a helpful assistant, using the \"gpt-4o-mini\" model."
+        }
+      ],
+      "timestamp": "2025-09-14T12:56:43.000Z",
+      "id": "1967210905369977215",
+      "_uniqueId": "1967210905369977215",
+      "_collectedAt": "2025-09-15T05:17:00.351Z"
+    },
+    {
+      "author": "NiCE",
+      "content": "Workforce AI isn’t just a tech investment, it’s a people strategy. New Forrester research, “Ground Your Workforce AI Strategy in Human Experience,” shows why the most successful AI initiatives start with your employees—from building skills to earning trust.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/Gwniu_MXoAI9NLy?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1948421920673894500",
+      "_uniqueId": "1948421920673894500",
+      "_collectedAt": "2025-09-15T05:17:00.377Z"
+    },
+    {
+      "author": "Jocko Willink",
+      "content": "Aftermath. Control what you can.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0vKVf3bcAgScUO?format=jpg&name=small",
+          "alt": "A close-up of a barbell with weight plates attached, positioned on a gym rack. The barbell has a metallic finish, and the weight plates are large and circular with visible scratches. The gym rack includes black metal components and adjustment pins."
+        }
+      ],
+      "timestamp": "2025-09-13T15:34:09.000Z",
+      "id": "1966888137902456879",
+      "_uniqueId": "1966888137902456879",
+      "_collectedAt": "2025-09-15T05:17:00.407Z"
+    },
+    {
+      "author": "Aella",
+      "content": "the zizians have hit hulu",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0260lLbcAAcZst?format=png&name=small",
+          "alt": "A promotional graphic for a TV series titled \"Ctrl-Alt-Kill.\" The text includes the series name in large white letters with a stylized design, and a subtitle reading \"A Twisted Tale of Silicon Valley Whiz Kids Gone Wrong.\" Additional text mentions \"The mystery surrounding a group of Silicon Valley dropouts in jail in 3 states. Are they part of a new cult? What authorities ... SEE MORE\" and labels it as \"Crime, News Magazine - TV Series - 2025 NEW.\" A play button icon and options for watching the latest episode are visible."
+        }
+      ],
+      "timestamp": "2025-09-15T03:43:25.000Z",
+      "id": "1967434049133432988",
+      "_uniqueId": "1967434049133432988",
+      "_collectedAt": "2025-09-15T05:17:08.551Z"
+    },
+    {
+      "author": "Aikido Security",
+      "content": "We just made our IDE plug-ins *free* for JavaScript, TypeScript, and Python in major IDEs. \nGet SAST, secret scanning, real-time findings & in-line fixes. Free for VSCode, Cursor, and Windsurf.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1939678727245332480/img/8T-IAFxJApfi1x1r.jpg"
+      ],
+      "timestamp": null,
+      "id": "1939683842836828328",
+      "_uniqueId": "1939683842836828328",
+      "_collectedAt": "2025-09-15T05:17:08.610Z"
+    },
+    {
+      "author": "SrDesignMan",
+      "content": "Client wants infinity symbol \n\n- Sarjoey",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967366918966272003/img/SM_F6wNPW60NJq-M.jpg"
+      ],
+      "timestamp": "2025-09-14T23:16:45.000Z",
+      "id": "1967366943209566283",
+      "_uniqueId": "1967366943209566283",
+      "_collectedAt": "2025-09-15T05:17:08.653Z"
+    }
+  ]
+}
