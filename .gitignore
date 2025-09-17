@@ -7,3 +7,5 @@ node_modules/
 .dump
 logs
 playwright_profiles
+visualizations
+analysis_results

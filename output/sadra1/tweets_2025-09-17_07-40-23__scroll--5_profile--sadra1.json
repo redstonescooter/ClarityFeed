@@ -1,0 +1,999 @@
+{
+  "collectionInfo": {
+    "totalTweets": 47,
+    "collectedAt": "2025-09-17_07-40-23",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "Steve Lauda",
+      "content": "Instrument Serif used to be beautiful, but not anymore.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-17T01:52:19.000Z",
+      "id": "1968130867009933554",
+      "_uniqueId": "1968130867009933554",
+      "_collectedAt": "2025-09-17_07-39-50"
+    },
+    {
+      "author": "RIO",
+      "content": "nah it was always ugly",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-17T03:34:06.000Z",
+      "id": "1968156482119352328",
+      "_uniqueId": "1968156482119352328",
+      "_collectedAt": "2025-09-17_07-39-50"
+    },
+    {
+      "author": "Cloudinary",
+      "content": "Your users care about speed. Your site should too.\n Optimize every image automatically with Cloudinary—format, size, and delivery.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GntCi_HXMAcU3cd?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1908192183225626641",
+      "_uniqueId": "1908192183225626641",
+      "_collectedAt": "2025-09-17_07-39-50"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0_apPQaAAAy7jW?format=jpg&name=small",
+          "alt": "Sonic the Hedgehog and Amy Rose in costume sit on a public square pavement. Sonic is crouched with hands on face, holding a sign with text. Amy sits beside him, legs apart. People walk and sit on benches in the background, with street lamps and a building labeled \"Via Pink\" visible."
+        }
+      ],
+      "timestamp": "2025-09-16T19:19:20.000Z",
+      "id": "1968031968064618573",
+      "_uniqueId": "1968031968064618573",
+      "_collectedAt": "2025-09-17_07-39-50"
+    },
+    {
+      "author": "Aella",
+      "content": "We won! Ty to substack and @default_friend for hosting and my wonderful debate partner @paulbloomatyale",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1BlJ6JWEAAudt6?format=jpg&name=small",
+          "alt": "Aella and Paul Bloom smiling, holding large stuffed monkey toys, seated in a warmly lit venue with red and gold decor. A second image shows a circular, ornate theater with red curtains, chandeliers, and tables filled with people dining."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G1BlJ6CWAAAor84?format=jpg&name=small",
+          "alt": "Aella and Paul Bloom smiling, holding large stuffed monkey toys, seated in a warmly lit venue with red and gold decor. A second image shows a circular, ornate theater with red curtains, chandeliers, and tables filled with people dining."
+        }
+      ],
+      "timestamp": "2025-09-17T05:24:30.000Z",
+      "id": "1968184265327468928",
+      "_uniqueId": "1968184265327468928",
+      "_collectedAt": "2025-09-17_07-39-51"
+    },
+    {
+      "author": "@levelsio",
+      "content": "I love tennis\n\nGreat sport that requires skill, effort and strength\n\nThat's why Padel is so useless, it requires none of those and then serves you beer after\n\nIt \"feels\" like you did a workout but it's not and that's why most Padel players you see have skinny arms and a belly",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "What's your opinion on tennis?",
+        "quoted_author": "Nicolas"
+      },
+      "media": [],
+      "timestamp": "2025-09-16T09:36:03.000Z",
+      "id": "1967885183329452482",
+      "_uniqueId": "1967885183329452482",
+      "_collectedAt": "2025-09-17_07-39-51"
+    },
+    {
+      "author": "Nick",
+      "content": "I did something\n\nspring 2026 baby!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "My wife, out of the blue suggested that I should buy a sports car. What just happened?",
+        "quoted_author": "Nick"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G08jWreaEAMXvIZ?format=jpg&name=small",
+          "alt": "An email screenshot with text reading \"RE: Porsche 911 Turbo S\" and a message from a Portfolio Manager and Porsche Brand Ambassador. Below, a Porsche 911 Turbo S car in silver with a sleek design, featuring a front view with headlights, grille, and a visible interior. The text \"Your dream becomes reality\" and \"911\" are overlaid on the image."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G08jXGvaEAQMHZh?format=jpg&name=small",
+          "alt": "An email screenshot with text reading \"RE: Porsche 911 Turbo S\" and a message from a Portfolio Manager and Porsche Brand Ambassador. Below, a Porsche 911 Turbo S car in silver with a sleek design, featuring a front view with headlights, grille, and a visible interior. The text \"Your dream becomes reality\" and \"911\" are overlaid on the image."
+        }
+      ],
+      "timestamp": "2025-09-16T05:59:39.000Z",
+      "id": "1967830723404108129",
+      "_uniqueId": "1967830723404108129",
+      "_collectedAt": "2025-09-17_07-39-51"
+    },
+    {
+      "author": "FoundMyFitness Clips",
+      "content": "Endocrine disruptors likely have some negative hormonal effects, but they're usually not the main cause of low testosterone\n\nOf course, do the basics:\n\n• Use an indoor air filter\n• Don’t microwave plastics\n• Avoid plastic food containers\n• Limit consumption of water from",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967980645000290304/img/WuPAvllucFkJvHX4.jpg"
+      ],
+      "timestamp": "2025-09-16T15:55:32.000Z",
+      "id": "1967980683252416798",
+      "_uniqueId": "1967980683252416798",
+      "_collectedAt": "2025-09-17_07-39-58"
+    },
+    {
+      "author": "rwlk",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-yBaUWQAEh8pV?format=jpg&name=small",
+          "alt": "A screenshot of a messaging app interface displaying a conversation with \"Dad\" and a document titled \"Chapter 18: How to Win in Prediction Markets.\" The document includes text about signal processing, Bayesian updating, and mathematical formulas related to prediction strategies."
+        }
+      ],
+      "timestamp": "2025-09-16T16:31:50.000Z",
+      "id": "1967989817394024764",
+      "_uniqueId": "1967989817394024764",
+      "_collectedAt": "2025-09-17_07-39-58"
+    },
+    {
+      "author": "vx-underground",
+      "content": "Big drama today in the Tor community.\n\nConrad Rockenhaus, a Tor operator based out of Michigan, United States, was arrested in 2020 after refusing to cooperate with the United States Federal Bureau of Investigation\n\nRockenhaus, a disabled United States military veteran, ran the",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T16:08:27.000Z",
+      "id": "1967983933951295923",
+      "_uniqueId": "1967983933951295923",
+      "_collectedAt": "2025-09-17_07-39-58"
+    },
+    {
+      "author": "Krish",
+      "content": "won twice at @HackTheNorth and got a @ycombinator interview.\n\nIntroducing Tunnel. AI agents for simulated market research.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967695980494495744/img/riT1ZpLb42UgFJfn.jpg"
+      ],
+      "timestamp": "2025-09-15T22:14:00.000Z",
+      "id": "1967713537821675541",
+      "_uniqueId": "1967713537821675541",
+      "_collectedAt": "2025-09-17_07-39-58"
+    },
+    {
+      "author": "hayden",
+      "content": "gpt-5 codex cooked this up in 10 minutes. pretty good.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1968004789398020096/img/C4N9SQtCJbXGuAFb.jpg"
+      ],
+      "timestamp": "2025-09-16T17:32:40.000Z",
+      "id": "1968005127643795783",
+      "_uniqueId": "1968005127643795783",
+      "_collectedAt": "2025-09-17_07-39-58"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G04Cp2CbMAAlnqX?format=jpg&name=small",
+          "alt": "A close-up of a human fingertip with visible fingerprint ridges. A white, reflective, oval-shaped object is superimposed on the fingerprint, appearing translucent against the skin."
+        }
+      ],
+      "timestamp": "2025-09-15T08:57:10.000Z",
+      "id": "1967513008223195179",
+      "_uniqueId": "1967513008223195179",
+      "_collectedAt": "2025-09-17_07-39-58"
+    },
+    {
+      "author": "KontextWork",
+      "content": "Alternative gesucht? Jetzt Migrieren und sofort mit Ihren Daten weitermachen. Lokal, Vollautomatisch und super einfach.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1738197094295306240/img/58TmBE9DoGSiKfqU.jpg"
+      ],
+      "timestamp": null,
+      "id": "1947287160861684065",
+      "_uniqueId": "1947287160861684065",
+      "_collectedAt": "2025-09-17_07-39-58"
+    },
+    {
+      "author": "Bryan King",
+      "content": "I can't be the only one who thought Framer already had this feature...wtf were people doing before this?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Turning Framer from a web builder into a true design tool with Design Pages. Explore freely without contraints. When you’re ready, publish to the web in a single click. Unlimited projects, unlimited pages. Completely free.",
+        "quoted_author": "Framer"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1968000683078221824/img/Imoh8X0JaqZA18g0.jpg"
+      ],
+      "timestamp": "2025-09-16T18:53:06.000Z",
+      "id": "1968025366142025877",
+      "_uniqueId": "1968025366142025877",
+      "_collectedAt": "2025-09-17_07-39-58"
+    },
+    {
+      "author": "RIO",
+      "content": "you could kinda do it before, but each frame would have to be a different breakpoint or a stack without the ability to preview it\n\nnew update just cleaned up the workflow a bit",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T18:59:40.000Z",
+      "id": "1968027020501328033",
+      "_uniqueId": "1968027020501328033",
+      "_collectedAt": "2025-09-17_07-39-58"
+    },
+    {
+      "author": "@levelsio",
+      "content": "I still think the biggest existence risk for X is AI reply bots\n\nThey're rampant and my understanding of AI is you can only detect an AI reply with a model that's bigger/smarter than the model it's written with\n\nThat means you're in an endless cat and mouse game for the infinite",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G05owaOXQAE6e-e?format=jpg&name=900x900",
+          "alt": "A series of Twitter replies under a post by levelsio. Each reply shows a profile picture, username, and text stating \"Blocked for AI reply.\" The usernames include levelsio, replying to various users. The text is displayed in a dark-themed interface typical of Twitter, with timestamps and interaction icons visible."
+        }
+      ],
+      "timestamp": "2025-09-15T17:07:36.000Z",
+      "id": "1967636430362120372",
+      "_uniqueId": "1967636430362120372",
+      "_collectedAt": "2025-09-17_07-39-58"
+    },
+    {
+      "author": "Sam Altman",
+      "content": "Some of our principles are in conflict, so here is what we are going to do:",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T14:16:25.000Z",
+      "id": "1967955739911364693",
+      "_uniqueId": "1967955739911364693",
+      "_collectedAt": "2025-09-17_07-40-05"
+    },
+    {
+      "author": "Austin Bauwens",
+      "content": "NEW REEL! 5 years in, and stronger than ever.\n\nWe’ve honed our craft, processes, and team to make the best design and animation to ever come out of our studio across product launches, brand identities, learning and development, and large-screen content. \n\nNew Biz: work@ravie.co",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1966514637282623488/img/zHTrIZX3PzSG2CQ_.jpg"
+      ],
+      "timestamp": "2025-09-15T12:00:01.000Z",
+      "id": "1967559025706586431",
+      "_uniqueId": "1967559025706586431",
+      "_collectedAt": "2025-09-17_07-40-05"
+    },
+    {
+      "author": "mymind",
+      "content": "˗ˏˋ Offline is the new luxury ˎˊ˗\n\nWe've been working hard the past months to ship Offline Sync (Beta) on iOS.\n\nIf you open the settings panel on iOS, you'll find a new toggle called \"OfflineSync\".\n\nOnce enabled, mymind will automatically sync to your device in the background.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G05gPlbXYAAZVpO?format=jpg&name=small",
+          "alt": "A stylized logo with a brain-like design in white, centered on a gradient background transitioning from dark purple at the top to blue, red, and orange at the bottom. The text \"Offline Sync\" in white is positioned at the bottom of the image."
+        }
+      ],
+      "timestamp": "2025-09-15T15:51:13.000Z",
+      "id": "1967617209162739956",
+      "_uniqueId": "1967617209162739956",
+      "_collectedAt": "2025-09-17_07-40-05"
+    },
+    {
+      "author": "𝗼𝗫𝗼𝗻",
+      "content": "type of photo that wins you a National Geographic Picture Of The Year award",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Chicken boy",
+        "quoted_author": "𝙆𝙖𝙣𝙞𝙞"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G05e4dvXsAARnaJ?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-15T15:43:47.000Z",
+      "id": "1967615335210811608",
+      "_uniqueId": "1967615335210811608",
+      "_collectedAt": "2025-09-17_07-40-05"
+    },
+    {
+      "author": "insane poses",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G07tAAzaEAMHNjy?format=jpg&name=small",
+          "alt": "A person in a red shirt with a bottle of Operador Double Light liquor and an orange drink. In the top image, the person covers their face with a hand while sitting beside the liquor bottle. In the bottom image, the person drinks from the orange drink while holding the liquor bottle nearby. A watch is visible on the person\\'s wrist."
+        }
+      ],
+      "timestamp": "2025-09-16T02:01:03.000Z",
+      "id": "1967770677618135339",
+      "_uniqueId": "1967770677618135339",
+      "_collectedAt": "2025-09-17_07-40-05"
+    },
+    {
+      "author": "Reve",
+      "content": "Reimagine reality. http://reve.com",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967640293689397252/img/yOBn7ZVw5-aec8ya.jpg"
+      ],
+      "timestamp": "2025-09-15T17:25:12.000Z",
+      "id": "1967640858372751540",
+      "_uniqueId": "1967640858372751540",
+      "_collectedAt": "2025-09-17_07-40-06"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1BN0UKbMAAihGu?format=jpg&name=small",
+          "alt": "A transparent iPod with visible internal circuitry. A coiled white headphone cable is attached to the device. The screen displays a music track list, including \"Whiplash Luther Blissett\" and track details like \"Track 01\" and \"0:33\"."
+        }
+      ],
+      "timestamp": "2025-09-17T03:42:31.000Z",
+      "id": "1968158600788054486",
+      "_uniqueId": "1968158600788054486",
+      "_collectedAt": "2025-09-17_07-40-06"
+    },
+    {
+      "author": "Bryan King",
+      "content": "Maybe if we all boycott the iOS 26 and macOS Tahoe updates, Apple will come to their senses and abandon liquid UI",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T12:09:56.000Z",
+      "id": "1967923907849339122",
+      "_uniqueId": "1967923907849339122",
+      "_collectedAt": "2025-09-17_07-40-06"
+    },
+    {
+      "author": "RIO",
+      "content": "this might be the only cause i'd show up to a protest for",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T16:34:47.000Z",
+      "id": "1967990561161482311",
+      "_uniqueId": "1967990561161482311",
+      "_collectedAt": "2025-09-17_07-40-06"
+    },
+    {
+      "author": "@levelsio reposted",
+      "content": "I am libertarian myself.\n\nHowever, there's a blind spot in our ideology.\n\nThe left wants to be in the power, to do things. To do them to people, even against their will.\n\nConservatives want to be in the power, and they don't want to do certain things. But they are happy to force",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T09:58:26.000Z",
+      "id": "1967890813901312468",
+      "_uniqueId": "1967890813901312468",
+      "_collectedAt": "2025-09-17_07-40-06"
+    },
+    {
+      "author": "Rahul Singh Bhadoriya",
+      "content": "Design your own Clothes Meta",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G05AMzKbkAAK8Ss?format=jpg&name=small",
+          "alt": "A white T-shirt with a crew neck and short sleeves. Red text on the front reads \"DACOIT.DESIGN\" in uppercase. The neckline has a black tag with text including \"UNA ORIGINAL.\""
+        }
+      ],
+      "timestamp": "2025-09-15T13:26:04.000Z",
+      "id": "1967580680050839862",
+      "_uniqueId": "1967580680050839862",
+      "_collectedAt": "2025-09-17_07-40-06"
+    },
+    {
+      "author": "Hendony",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G07wF-bXgAA1Nrg?format=jpg&name=small",
+          "alt": "Patrick Star from SpongeBob SquarePants, depicted twice in a simple black-and-white line drawing. On the left, Patrick has a smiling expression with text above reading \"Hi PATRICK.\" On the right, Patrick has a similar smiling expression with text above reading \"oh, it\\'s one of these episodes.\""
+        }
+      ],
+      "timestamp": "2025-09-16T02:14:34.000Z",
+      "id": "1967774079529914737",
+      "_uniqueId": "1967774079529914737",
+      "_collectedAt": "2025-09-17_07-40-13"
+    },
+    {
+      "author": "Oscar Dumlao",
+      "content": "a few other states for @reve",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "beautiful work, this.  x.com/reve/status/19…",
+        "quoted_author": "Cole"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967788129252937729/img/P7BR3J5aOaLco6PA.jpg",
+        "https://pbs.twimg.com/tweet_video_thumb/G06DhkyaEAAv4WS?format=jpg&name=240x240"
+      ],
+      "timestamp": "2025-09-16T03:16:38.000Z",
+      "id": "1967789700019802566",
+      "_uniqueId": "1967789700019802566",
+      "_collectedAt": "2025-09-17_07-40-13"
+    },
+    {
+      "author": "Crémieux",
+      "content": "They finally did it.\n\nEli Lilly has made a once-daily weight loss pill.\n\nDespite the convenience of being a pill you don't have to inject, it works 80-90% as well as injected Ozempic for helping patients lose weight.\n\nAnd compared to Ozempic, there are fewer side effects!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1AU_-DXYAA1coc?format=jpg&name=small",
+          "alt": "A line graph showing percent change in body weight over 72 weeks. Four lines represent different groups: Placebo with a slight decline to -4.9%, and Orforglipron at 6 mg, 12 mg, and 36 mg doses, showing greater declines to -7.3%, -13.4%, and -12.4% respectively. The overall mean baseline weight is labeled as 103.2 kg."
+        }
+      ],
+      "timestamp": "2025-09-16T23:37:08.000Z",
+      "id": "1968096846548812105",
+      "_uniqueId": "1968096846548812105",
+      "_collectedAt": "2025-09-17_07-40-13"
+    },
+    {
+      "author": "Andrew D. Huberman, Ph.D. reposted",
+      "content": "Great little nugget that came from my 6-part series with @hubermanlab . \n\nI still use these basically daily, especially when traveling and all that.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Dr. Andrew Huberman (@hubermanlab) discusses the concept of \"exercise snacks,\" a fitness strategy recommended by @DrAndyGalpin to enhance or maintain fitness:\n\n\"The first category are exercise snacks that are going to improve or maintain your cardiovascular fitness.\"\n\n\"The second",
+        "quoted_author": "Huberman Lab Clips"
+      },
+      "media": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/1968039778068074496/pu/img/orl3xgU0u289WFI9.jpg"
+      ],
+      "timestamp": "2025-09-17T00:30:27.000Z",
+      "id": "1968110263758106715",
+      "_uniqueId": "1968110263758106715",
+      "_collectedAt": "2025-09-17_07-40-13"
+    },
+    {
+      "author": "rotten",
+      "content": "Ok",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Stop fitting things into your banner please",
+        "quoted_author": "hydra"
+      },
+      "media": [],
+      "timestamp": "2025-09-16T02:32:04.000Z",
+      "id": "1967778483347849459",
+      "_uniqueId": "1967778483347849459",
+      "_collectedAt": "2025-09-17_07-40-13"
+    },
+    {
+      "author": "Florian",
+      "content": "Love these kinds of animations, here's another one made with Rive",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Webflow + Rive + Taste = one of the best landing pages I've seen",
+        "quoted_author": "dudu"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967654024338952192/img/_uGQLaWjDMnbJIkb.jpg",
+        "https://pbs.twimg.com/amplify_video_thumb/1967266520087621632/img/jufcqiVtcX16fXlQ?format=jpg&name=240x240"
+      ],
+      "timestamp": "2025-09-15T18:20:12.000Z",
+      "id": "1967654699752099915",
+      "_uniqueId": "1967654699752099915",
+      "_collectedAt": "2025-09-17_07-40-13"
+    },
+    {
+      "author": "insane poses",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G05hdsZbcAE_R66?format=jpg&name=small",
+          "alt": "A person wearing a beige knit hat and black jacket holds an AK-47 while standing on a bus. The individual is looking at a smartphone with blue nail polish visible. Other passengers, including one in a brown hat, are in the background near yellow handrails."
+        }
+      ],
+      "timestamp": "2025-09-15T15:51:24.000Z",
+      "id": "1967617254939574551",
+      "_uniqueId": "1967617254939574551",
+      "_collectedAt": "2025-09-17_07-40-13"
+    },
+    {
+      "author": "Apple",
+      "content": "I’m loving iOS 26.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G075BVxW4AEFiNM?format=jpg&name=small",
+          "alt": "A smartphone home screen displaying app icons including App Store, Mail, Notes, Photos, Passwords, X, BHIM, YouTube, Phone, Messages, Safari, and Music. Red notification badges show 1 on Photos and Phone, and 4 on Messages. A search bar is visible at the bottom."
+        }
+      ],
+      "timestamp": "2025-09-16T02:53:35.000Z",
+      "id": "1967783895757451672",
+      "_uniqueId": "1967783895757451672",
+      "_collectedAt": "2025-09-17_07-40-13"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G07kqQHaEAIUvC1?format=jpg&name=small",
+          "alt": "A window showing a view of trees and a blue sky outside, framed by a white window frame. On the window, a digital overlay mimics a computer interface with a title bar labeled \"Outside World - Real Life 2.0\" and buttons including a red close button (X). A magnified inset highlights the title bar and buttons, emphasizing the digital interface design."
+        }
+      ],
+      "timestamp": "2025-09-16T01:24:36.000Z",
+      "id": "1967761504419377496",
+      "_uniqueId": "1967761504419377496",
+      "_collectedAt": "2025-09-17_07-40-13"
+    },
+    {
+      "author": "JP",
+      "content": "Updates on the #FramerChallenge - dropping this spinner infinite carousel as a component this week.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967661982951067648/img/8OGUbR_VD_CuiJ0U.jpg"
+      ],
+      "timestamp": "2025-09-15T18:49:48.000Z",
+      "id": "1967662148156580115",
+      "_uniqueId": "1967662148156580115",
+      "_collectedAt": "2025-09-17_07-40-21"
+    },
+    {
+      "author": "Peter Attia",
+      "content": "How to measure progress on any diet | Peter Attia, M.D.\n\nThis trailer is from “Ask Me Anything” episode # 75 (Ep. # 364) of The Drive which was released on 9/15/25.\n\nIn the full episode, I cover:\n\n-Why diet debates are so polarizing and confusing—and a clear framework to cut",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-RwI0XoAAaE-5.jpg",
+          "alt": ""
+        }
+      ],
+      "timestamp": "2025-09-16T14:00:56.000Z",
+      "id": "1967951841154457964",
+      "_uniqueId": "1967951841154457964",
+      "_collectedAt": "2025-09-17_07-40-21"
+    },
+    {
+      "author": "David Sinclair",
+      "content": "Want to live longer? Eat until you’re 80% full.\n\nThe Japanese say “Hara hachibunme”  \n\nWise words to remember daily",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T14:31:42.000Z",
+      "id": "1967959583776813281",
+      "_uniqueId": "1967959583776813281",
+      "_collectedAt": "2025-09-17_07-40-21"
+    },
+    {
+      "author": "Carl Pei",
+      "content": "Today, @nothing raised $200M Series C at a $1.3B valuation.\n\nThis marks the start of our next chapter: From building the only new smartphone company of the last decade, to creating an AI-native platform where hardware & software converge.\n\nGrateful to our community who’ve been",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967804934851792896/img/TKdbSlrG4U9ZWdPE.jpg"
+      ],
+      "timestamp": "2025-09-16T04:30:54.000Z",
+      "id": "1967808388974391591",
+      "_uniqueId": "1967808388974391591",
+      "_collectedAt": "2025-09-17_07-40-21"
+    },
+    {
+      "author": "Brook Slagle",
+      "content": "Just updated my phone to iOS 26.\n\nThis is certified liquid ass.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G07O1hybIAAD4bZ?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-15T23:49:15.000Z",
+      "id": "1967737509984821502",
+      "_uniqueId": "1967737509984821502",
+      "_collectedAt": "2025-09-17_07-40-21"
+    },
+    {
+      "author": "RIO",
+      "content": "sorry for your loss",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T01:13:59.000Z",
+      "id": "1967758834329588174",
+      "_uniqueId": "1967758834329588174",
+      "_collectedAt": "2025-09-17_07-40-21"
+    },
+    {
+      "author": "Heshie Brody",
+      "content": "Ugh Apple, I can’t read anything now…",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "I have a meeting in 13 minutes, should I go for it?",
+        "quoted_author": "Heshie Brody"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G06kZqaWgAA0YxF?format=jpg&name=small",
+          "alt": "Image"
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G06bSdGWsAA1c2T?format=jpg&name=240x240",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-15T20:43:51.000Z",
+      "id": "1967690852773531796",
+      "_uniqueId": "1967690852773531796",
+      "_collectedAt": "2025-09-17_07-40-21"
+    },
+    {
+      "author": "RIO",
+      "content": "i will never upgrade to this",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-15T22:20:20.000Z",
+      "id": "1967715132072661279",
+      "_uniqueId": "1967715132072661279",
+      "_collectedAt": "2025-09-17_07-40-21"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G072v0CaMAAJQxn?format=jpg&name=small",
+          "alt": "A raven wearing a silver chain with a cross pendant stands on a perch. An owl with red eyes and a grayish-brown body perches nearby. A full moon illuminates the dark background, with a faint light from a structure visible in the distance."
+        }
+      ],
+      "timestamp": "2025-09-16T02:43:38.000Z",
+      "id": "1967781391799931142",
+      "_uniqueId": "1967781391799931142",
+      "_collectedAt": "2025-09-17_07-40-21"
+    },
+    {
+      "author": "@levelsio",
+      "content": "Maybe this is how people will finally leave social media etc.\n\nLots of articles about how it's bad for you the last few weeks\n\nBut it's hard to leave\n\nIf it gets swarmed by AI bots, people will stop enjoying it (probably? or opposite, enjoy it more?) and leave?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "The only way to combat AI bots is to get familiar with their language patterns. Using AI to detect AI doesn't work because larger models can only reliably flag vanilla outputs.\n\nUnfortunately, most of the Internet is going to be taken over by bots and the only way we'll know",
+        "quoted_author": "Davis | Research and Alignment"
+      },
+      "media": [],
+      "timestamp": "2025-09-15T17:22:41.000Z",
+      "id": "1967640226987385032",
+      "_uniqueId": "1967640226987385032",
+      "_collectedAt": "2025-09-17_07-40-21"
+    }
+  ]
+}

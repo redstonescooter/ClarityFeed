@@ -1,0 +1,849 @@
+{
+  "collectionInfo": {
+    "totalTweets": 38,
+    "collectedAt": "2025-09-17_07-45-55",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "wayden",
+      "content": "People keep asking me how to use Midjourney for UX design\n\nThat’s why I’m giving away 120+ Midjourney prompts\n\n• Each paired with a tested example\n• Sorted into 6 practical categories\n\nHere’s how you can grab:\n1. Follow @heywayden\n2. Like & Reply \"MJ\"\n\nI'll DM you all",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T13:32:03.000Z",
+      "id": "1967944573851930841",
+      "_uniqueId": "1967944573851930841",
+      "_collectedAt": "2025-09-17_07-45-23"
+    },
+    {
+      "author": "HPE",
+      "content": "Konnektivitätsanforderungen durch KI und IoT mit einem intelligenten, sicheren Netzwerk, das die Lücke von Daten vom Edge bis zur Cloud schließt.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": null,
+      "id": "1952813708197151111",
+      "_uniqueId": "1952813708197151111",
+      "_collectedAt": "2025-09-17_07-45-23"
+    },
+    {
+      "author": "RIO",
+      "content": "oh you're a designer?\n\nname every boolean operation",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-zwT3WMAEa6zj?format=png&name=360x360",
+          "alt": "A dark background panel displaying icons and text. Under \"Shape Modes:\" are five square and rectangular icons showing different boolean operation combinations. Under \"Pathfinders:\" are six square and rectangular icons showing additional boolean operation combinations. An \"Expand\" button is visible on the right. Text labels read \"Shape Modes:\" and \"Pathfinders:\" in light gray."
+        }
+      ],
+      "timestamp": "2025-09-16T16:29:25.000Z",
+      "id": "1967989208305504728",
+      "_uniqueId": "1967989208305504728",
+      "_collectedAt": "2025-09-17_07-45-23"
+    },
+    {
+      "author": "Next.js",
+      "content": "Next.js Conf returns Oct 22\nLive in SF. Streaming worldwide.\n\nNext.js 16. Workshops. Community.\n\nLock in → https://nextjs.org/conf",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-15T15:44:00.000Z",
+      "id": "1967615391217361008",
+      "_uniqueId": "1967615391217361008",
+      "_collectedAt": "2025-09-17_07-45-23"
+    },
+    {
+      "author": "Josh tried coding",
+      "content": "love the conf but $800 per ticket is crazy",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T11:44:54.000Z",
+      "id": "1967917607090262130",
+      "_uniqueId": "1967917607090262130",
+      "_collectedAt": "2025-09-17_07-45-23"
+    },
+    {
+      "author": "Emmanuel Crouvisier",
+      "content": "I know I’ve been working too hard when my girlfriend has to add this to the calendar.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G08igcNaEAIlw8E?format=jpg&name=small",
+          "alt": "A smartphone screen displaying a clock showing 22:50 on Monday, September 15. Below the clock, text reads \"No Alarm.\" A notification banner at the bottom shows \"Notification Center\" with multiple notifications labeled \"SEX\" at 15:19."
+        }
+      ],
+      "timestamp": "2025-09-16T05:54:49.000Z",
+      "id": "1967829505843802617",
+      "_uniqueId": "1967829505843802617",
+      "_collectedAt": "2025-09-17_07-45-30"
+    },
+    {
+      "author": "breezeh",
+      "content": "going to climb to the top",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "going for a walk",
+        "quoted_author": "breezeh"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G06wfR4WoAANh5N?format=jpg&name=small",
+          "alt": "A large, rusted excavator with a massive rotating wheel and steel framework, illuminated at night. Grass and vegetation are visible in the foreground, with a dark sky in the background."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G06O4uWXIAAkWn_?format=jpg&name=240x240",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-15T21:36:40.000Z",
+      "id": "1967704143650553888",
+      "_uniqueId": "1967704143650553888",
+      "_collectedAt": "2025-09-17_07-45-30"
+    },
+    {
+      "author": "Premium",
+      "content": "Enjoy the best experience on X.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1952585339027214336/img/KydBwcRAYDky8clX.jpg"
+      ],
+      "timestamp": null,
+      "id": "1952590396653207656",
+      "_uniqueId": "1952590396653207656",
+      "_collectedAt": "2025-09-17_07-45-30"
+    },
+    {
+      "author": "Siddharth Vij | UI/UX Design",
+      "content": "Client: I need the coolest looking Login Screen. Us: Say no more.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G09XQ9nXoAA-GSy?format=jpg&name=small",
+          "alt": "A login screen with a dark background and a red gradient sky. A stylized retro television displaying \"BTR.\" is visible on a grassy hill. The screen includes fields for email and password, a \"Create Account\" button, and social media icons for Google, Apple, and Twitter."
+        }
+      ],
+      "timestamp": "2025-09-16T09:45:23.000Z",
+      "id": "1967887529329430772",
+      "_uniqueId": "1967887529329430772",
+      "_collectedAt": "2025-09-17_07-45-31"
+    },
+    {
+      "author": "Jocko Willink",
+      "content": "What kind of day are you going to have?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G04nWI_aAAEVPhY?format=jpg&name=small",
+          "alt": "A black Timex Ironman Triathlon digital watch on a wrist. The watch displays a timer reading 4:32.50, the day \"MON,\" and additional data including 25, 9:15, and T=1. Text on the watch includes \"100 LAP MEMORY,\" \"WATER RESIST 100 METERS,\" \"INDIGLO,\" and button labels like \"MODE,\" \"LAP,\" \"RECALL,\" \"STOP/RESET,\" \"START/SPLIT,\" and \"SET.\""
+        }
+      ],
+      "timestamp": "2025-09-15T11:37:29.000Z",
+      "id": "1967553353053036921",
+      "_uniqueId": "1967553353053036921",
+      "_collectedAt": "2025-09-17_07-45-31"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-QdC3b0AEqNA4?format=jpg&name=small",
+          "alt": "A clear, textured glass panel with a grid of small square prisms, reflecting and refracting light to create a mosaic-like pattern of green foliage and pink flowers. A hand wearing a white glove holds the panel, revealing a garden background with plants and blossoms visible through the distorted, pixelated effect."
+        }
+      ],
+      "timestamp": "2025-09-16T13:55:11.000Z",
+      "id": "1967950393402663081",
+      "_uniqueId": "1967950393402663081",
+      "_collectedAt": "2025-09-17_07-45-31"
+    },
+    {
+      "author": "Appwrite",
+      "content": "Meet Appwrite — the open source, all-in-one cloud to develop, deploy, and scale your web projects. \n\nGet started with $300 cloud credits.\n\nNo black box, no surprises.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G05hO-eWcAE7Xus?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1967851697931501985",
+      "_uniqueId": "1967851697931501985",
+      "_collectedAt": "2025-09-17_07-45-31"
+    },
+    {
+      "author": "Aikido Security",
+      "content": "If it’s worth building, it’s worth securing.\nVibe coding is changing how we ship software. But what about security?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/Gwm5wEmXIAA6dtq?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1948294330508079574",
+      "_uniqueId": "1948294330508079574",
+      "_collectedAt": "2025-09-17_07-45-38"
+    },
+    {
+      "author": "Greg Kamradt",
+      "content": "If you're looking for a startup idea, here you go...",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "OpenAI literally just leaked what people use ChatGPT for",
+        "quoted_author": "Yu Lin"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G05uZgzaEAMzwTS?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-15T21:17:09.000Z",
+      "id": "1967699230476341487",
+      "_uniqueId": "1967699230476341487",
+      "_collectedAt": "2025-09-17_07-45-38"
+    },
+    {
+      "author": "Ninio",
+      "content": "workspace switcher in progress",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-Yc14bQAAgbKt?format=jpg&name=360x360",
+          "alt": "A screenshot of a software interface showing a workspace switcher menu. The menu lists Obvy Inc., Base Industries Inc., and Higao Inc. with Obvy Inc. marked as ACTIVE. A dropdown arrow is visible next to Higao Inc. An option to \"Create workspace...\" is present. Below the menu, text reads \"Replace occurrences and\" with a code snippet showing \"replace-occurrences +192 -31 in\" and a message about replacing \"Acme\" occurrences in a file named \"tooling/generate-scripts.tsx\"."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0-YdOIaIAAV2G3?format=jpg&name=360x360",
+          "alt": "A screenshot of a software interface showing a workspace switcher menu. The menu lists Obvy Inc., Base Industries Inc., and Higao Inc. with Obvy Inc. marked as ACTIVE. A dropdown arrow is visible next to Higao Inc. An option to \"Create workspace...\" is present. Below the menu, text reads \"Replace occurrences and\" with a code snippet showing \"replace-occurrences +192 -31 in\" and a message about replacing \"Acme\" occurrences in a file named \"tooling/generate-scripts.tsx\"."
+        }
+      ],
+      "timestamp": "2025-09-16T14:30:10.000Z",
+      "id": "1967959196600766877",
+      "_uniqueId": "1967959196600766877",
+      "_collectedAt": "2025-09-17_07-45-38"
+    },
+    {
+      "author": "Aina",
+      "content": "I'm open for design projects! \n\nWhat I offer:\n- UX expertise + research and user test\n- Building design systems from scratch or updating and upgrading the existing one\n- Product design support for development team\n- Web design or no-code build on Webflow\n- Design partnership",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967838454848307200/img/A12CR7k62EhEts8Y.jpg"
+      ],
+      "timestamp": "2025-09-16T06:33:10.000Z",
+      "id": "1967839157675577763",
+      "_uniqueId": "1967839157675577763",
+      "_collectedAt": "2025-09-17_07-45-38"
+    },
+    {
+      "author": "Marques Brownlee",
+      "content": "NEW VIDEO - AirPods Pro 3 Review: https://youtu.be/GB0b6KFZVq0",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G04s1FsXQAAgY1s?format=jpg&name=small",
+          "alt": "A white AirPods Pro case open with earbuds inside and outside on a blue notebook. A large white number 3 is overlaid on the image."
+        }
+      ],
+      "timestamp": "2025-09-15T12:01:46.000Z",
+      "id": "1967559465055781159",
+      "_uniqueId": "1967559465055781159",
+      "_collectedAt": "2025-09-17_07-45-38"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G05NTS-aAAE3u7N?format=jpg&name=small",
+          "alt": "A tall, leafless tree stands in the middle of a lake, its exposed roots forming a tangled base above the water. The sky is clear and blue, and a forested shoreline is visible in the background."
+        }
+      ],
+      "timestamp": "2025-09-15T14:23:19.000Z",
+      "id": "1967595086704980426",
+      "_uniqueId": "1967595086704980426",
+      "_collectedAt": "2025-09-17_07-45-38"
+    },
+    {
+      "author": "Ali Ansari",
+      "content": "Hire Zara, the AI recruiter to cut your time-to-hire by 50%",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GuzY618W4AAnTrb?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1947385842965876896",
+      "_uniqueId": "1947385842965876896",
+      "_collectedAt": "2025-09-17_07-45-38"
+    },
+    {
+      "author": "Méschac Irung",
+      "content": "had a lot of fun building this, mostly with <div />",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G088TTxXIAEpEBU?format=jpg&name=small",
+          "alt": "A digital interface design featuring a Visa credit card with the number 4539 1480 0324 0256 and expiration 12/25. Surrounding the card are abstract grid layouts and code snippets in a light-colored background. The code includes HTML div elements in various colors."
+        }
+      ],
+      "timestamp": "2025-09-16T07:48:46.000Z",
+      "id": "1967858182224744880",
+      "_uniqueId": "1967858182224744880",
+      "_collectedAt": "2025-09-17_07-45-38"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1A5q2saEAEQf4O?format=jpg&name=small",
+          "alt": "A chair resembling a cactus, with a textured surface covered in small protrusions resembling spines. The chair has a high backrest, armrests, and four legs, all mimicking the segmented, spiky appearance of a cactus. The material appears to be sculpted, with a light green or grayish color."
+        }
+      ],
+      "timestamp": "2025-09-17T02:14:30.000Z",
+      "id": "1968136448051495302",
+      "_uniqueId": "1968136448051495302",
+      "_collectedAt": "2025-09-17_07-45-45"
+    },
+    {
+      "author": "Sophie Fuji",
+      "content": "A Chinese researcher explaining the difference between Harvard and Stanford:",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-36KBaEAEFTOc?format=jpg&name=small",
+          "alt": "Text on a white background reading, \"At Harvard, it was all about understanding. Their logo was three books,\" he told me. But Stanford\\'s logo - an \"S\" behind a tree - looked \"like a dollar sign\"."
+        }
+      ],
+      "timestamp": "2025-09-16T16:47:34.000Z",
+      "id": "1967993776842084756",
+      "_uniqueId": "1967993776842084756",
+      "_collectedAt": "2025-09-17_07-45-45"
+    },
+    {
+      "author": "beetle moses",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-oJDtXwAAAPgK?format=jpg&name=small",
+          "alt": "Two panels of a cartoon in a jungle setting. In the first panel, a man with a headband extends his hand toward orangutans. In the second panel, an orangutan watches LeBron James basketball highlights on a smartphone held by the man, while another orangutan looks on. Text overlays read \"WEEK 4: I AM ACCEPTED INTO THE TRIBE\" and \"WEEK 5: I INTRODUCE TO TRIBE 2012-13 LEBRON HIGHLIGHTS.\" A watermark \"@BEETLEMOSES\" is present."
+        }
+      ],
+      "timestamp": "2025-09-16T15:38:41.000Z",
+      "id": "1967976439703392292",
+      "_uniqueId": "1967976439703392292",
+      "_collectedAt": "2025-09-17_07-45-45"
+    },
+    {
+      "author": "Rithvik K",
+      "content": "Turned 21 today!\nSome ppl who inspired me a lot to grow\n@striver_79 -hustle has no limits,earlier I used to feel but your content helped me build confidence\n@kirat_tw and @mannupaaji -simplified my way of learning things \n@AravSrinivas -win at all instants no matter the obstacles",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0_WrtOXUAEmJ42?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-16T19:02:03.000Z",
+      "id": "1968027619292823709",
+      "_uniqueId": "1968027619292823709",
+      "_collectedAt": "2025-09-17_07-45-45"
+    },
+    {
+      "author": "ashley ray",
+      "content": "“i was nothing three years ago” baby you were 12",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Owen Cooper is a first-time #EMMY winning actor at the age of 15.",
+        "quoted_author": "Film Updates"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967400722225643520/img/HIGSPw_It36kiDAS.jpg"
+      ],
+      "timestamp": "2025-09-15T15:27:03.000Z",
+      "id": "1967611125849264311",
+      "_uniqueId": "1967611125849264311",
+      "_collectedAt": "2025-09-17_07-45-45"
+    },
+    {
+      "author": "molly 𖥧𓋼☕︎ ༄",
+      "content": "the concept of donations to a children’s charity decreasing for every second that people stay over their allocated time… in a building full of unbelievably rich people…",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "“Go Birds, F*** ICE and Free Palestine”\n\n- Hannah Einbinder during her #EMMYs speech",
+        "quoted_author": "Film Updates"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967389395306131456/img/ehEdjWl4uVvfv9wM.jpg"
+      ],
+      "timestamp": "2025-09-16T12:19:01.000Z",
+      "id": "1967926195099668767",
+      "_uniqueId": "1967926195099668767",
+      "_collectedAt": "2025-09-17_07-45-45"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-1xivbwAAoAXR?format=jpg&name=small",
+          "alt": "A man in a blue shirt crouches beside a bicycle adorned with a large, colorful floral arrangement featuring red, pink, yellow, and white flowers. Another smaller floral arrangement is visible on another bicycle nearby. The scene is set on a sidewalk in front of a green metal fence and white building with posters."
+        }
+      ],
+      "timestamp": "2025-09-16T16:38:14.000Z",
+      "id": "1967991427444642205",
+      "_uniqueId": "1967991427444642205",
+      "_collectedAt": "2025-09-17_07-45-45"
+    },
+    {
+      "author": "IMMOWERT",
+      "content": "In Top-Lagen von München, Erlangen und Nürnberg verwandeln wir Bestandsbauten in neuwertig sanierte Co-Living-Wohnungen.\n\nInvestieren Sie jetzt in nachhaltigen Wohnraum mit attraktiver Rendite!\n\nKlicken Sie unten, um mehr zu erfahren!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1955179138903343104/img/awbdvy4gkK8wJtWu.jpg"
+      ],
+      "timestamp": null,
+      "id": "1955180454153425323",
+      "_uniqueId": "1955180454153425323",
+      "_collectedAt": "2025-09-17_07-45-46"
+    },
+    {
+      "author": "reed",
+      "content": "it's happening. @waymo at @flysfo",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-uxUQbwAEnbWf?format=jpg&name=small",
+          "alt": "A self-driving Waymo car with an aircraft flying above it. The aircraft is positioned directly over the car, visible from behind with wings spread. The sky shows a sunset with orange and blue hues. Text overlay reads \"Now testing\" and \"SFO\" in large white letters, with \"WAYMO\" in the bottom right corner."
+        }
+      ],
+      "timestamp": "2025-09-16T16:08:33.000Z",
+      "id": "1967983957716373663",
+      "_uniqueId": "1967983957716373663",
+      "_collectedAt": "2025-09-17_07-45-53"
+    },
+    {
+      "author": "Reinier",
+      "content": "i think this is about the 'woke right'. i first heard this term from @KonstantinKisin\n\npeople on both sides of the aisle can step into this pitfall.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "It's kinda sad (but expected) when the right is in power (culturally and politically) now they just do same stuff as the left did 10 years ago with cancelling and limiting free speech\n\nI was hoping they'd be smarter than that and defended everyone's right to speech even if they",
+        "quoted_author": "·"
+      },
+      "media": [],
+      "timestamp": "2025-09-16T10:20:51.000Z",
+      "id": "1967896453873098999",
+      "_uniqueId": "1967896453873098999",
+      "_collectedAt": "2025-09-17_07-45-53"
+    },
+    {
+      "author": "Images That Make You Feel Pain",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G064R05XwAA-h5O?format=jpg&name=small",
+          "alt": "A soldier in military gear, wearing a tan uniform and helmet, holding a rifle, reaching down with a gloved hand. A red circle with an arrow points to a kiwi bird illustration next to the soldier, and a small dark object appears near the soldier\\'s hand."
+        }
+      ],
+      "timestamp": "2025-09-16T08:30:00.000Z",
+      "id": "1967868560153145824",
+      "_uniqueId": "1967868560153145824",
+      "_collectedAt": "2025-09-17_07-45-53"
+    },
+    {
+      "author": "bab",
+      "content": "There’s no scenario where you need to eat off a pad. You are a sick individual.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "don't talk to me about struggle if you never ate off a pad",
+        "quoted_author": "."
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-kHUrWEAAVRpK?format=jpg&name=360x360",
+          "alt": "Image"
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0-kHRKWsAATk0K?format=jpg&name=360x360",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-16T20:30:35.000Z",
+      "id": "1968049899972464997",
+      "_uniqueId": "1968049899972464997",
+      "_collectedAt": "2025-09-17_07-45-53"
+    },
+    {
+      "author": "Enderman",
+      "content": "I lost my Dog",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G069j7yXQAAF4NM?format=jpg&name=small",
+          "alt": "A white duck standing on straw-covered ground. The text \"LOST DOG\" is visible above the duck, with additional text below listing traits: \"Doesn\\'t Bark Much\", \"Well Behaved\", \"Likes Metallica\"."
+        }
+      ],
+      "timestamp": "2025-09-15T22:33:56.000Z",
+      "id": "1967718554868089125",
+      "_uniqueId": "1967718554868089125",
+      "_collectedAt": "2025-09-17_07-45-53"
+    },
+    {
+      "author": "Greg Joswiak",
+      "content": "With Apple Sports, you can now see real-time updates for your favorite teams right on your Home Screen on your iPhone, iPad, & Mac with Widgets!\n\nPlus, Apple Sports is now live in Austria, France, Germany, Iceland, Ireland, Italy, Portugal, & Spain!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-05mGaEAEaNf4?format=jpg&name=small",
+          "alt": "Mac, iPad, and iPhone show Apple Sports in Widgets. "
+        }
+      ],
+      "timestamp": "2025-09-16T16:47:36.000Z",
+      "id": "1967993784693916006",
+      "_uniqueId": "1967993784693916006",
+      "_collectedAt": "2025-09-17_07-45-53"
+    },
+    {
+      "author": "Manu Arora reposted",
+      "content": "What’s been remarkable about building Editrix is that it feels like having the perfect book editing partner.\n\nNo human catches everything, and no AI does either, but together, well that’s a different story ...",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T07:30:05.000Z",
+      "id": "1967853481504505947",
+      "_uniqueId": "1967853481504505947",
+      "_collectedAt": "2025-09-17_07-45-53"
+    },
+    {
+      "author": "GenBio AI",
+      "content": "1/   Introducing AIDO.StructureDiffusion:\nA generative model for structural protein design—enabling high-quality, controllable generation of monomers, complexes, and antibodies.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1946355152950087683/img/vaDH7K7C4m4WrPTe.jpg"
+      ],
+      "timestamp": null,
+      "id": "1946360094150521162",
+      "_uniqueId": "1946360094150521162",
+      "_collectedAt": "2025-09-17_07-45-53"
+    },
+    {
+      "author": "Nic Cruz Patane",
+      "content": "Elon Musk has purchased over 2.56M shares of $TSLA worth $1 Billion!\n\nThe purchase happened on September 12th with an average price of $389.22. \n\nThis is Elon’s first open market stock purchase since February 2020, and the largest insider acquisition EVER by value. \n\nBULLISH.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G04gkC6W8AAudra?format=jpg&name=small",
+          "alt": "Elon Musk wearing a black blazer over a black shirt with a Tesla logo. A document from the United States Securities and Exchange Commission, Form 4, detailing ownership changes, including Tesla shares."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G04gkC6XkAAZ6es?format=jpg&name=small",
+          "alt": "Elon Musk wearing a black blazer over a black shirt with a Tesla logo. A document from the United States Securities and Exchange Commission, Form 4, detailing ownership changes, including Tesla shares."
+        }
+      ],
+      "timestamp": "2025-09-15T11:07:52.000Z",
+      "id": "1967545899720319147",
+      "_uniqueId": "1967545899720319147",
+      "_collectedAt": "2025-09-17_07-45-53"
+    },
+    {
+      "author": "loground Dankest Memes",
+      "content": "And, I'm done for now:\n- added all new collection from @vibedotmarket \n- made a switcher between that triggers animation to change the book\n- fixed the positions a bit\n- simplified lights \n\nlink below, credits to @wawasensei as always ^^",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967815950012649477/img/VP1JR1fyxb9FwE4w.jpg"
+      ],
+      "timestamp": "2025-09-16T05:02:52.000Z",
+      "id": "1967816434840678566",
+      "_uniqueId": "1967816434840678566",
+      "_collectedAt": "2025-09-17_07-45-53"
+    }
+  ]
+}

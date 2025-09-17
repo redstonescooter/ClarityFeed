@@ -1,0 +1,907 @@
+{
+  "collectionInfo": {
+    "totalTweets": 42,
+    "collectedAt": "2025-09-17_07-37-51",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "orchids",
+      "content": "Introducing Orchids v2 - the worlds first AI Full Stack Engineer\n\nComment below for unlimited credits",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Today we're excited to introduce Orchids, the worlds first AI Full Stack Engineer .\n\nOrchids sets state-of-the-art on UI and fullstack capability, ranking #1 on UI Bench and Design Arena - beating Devin, Lovable, Cursor, Bolt, Replit, and v0.\n\nOrchids is capable of implementing",
+        "quoted_author": "Kevin Lu"
+      },
+      "media": [],
+      "timestamp": "2025-09-16T16:25:19.000Z",
+      "id": "1967988175147851808",
+      "_uniqueId": "1967988175147851808",
+      "_collectedAt": "2025-09-17_07-37-18"
+    },
+    {
+      "author": "Apple",
+      "content": "Entdecke das neue iPhone Air und iPhone 17 Pro. Das iPhone Air ist unfassbar stark und das dünnste iPhone aller Zeiten. Das iPhone 17 Pro ist das leistungsstärkste iPhone mit beeindruckender Batterielaufzeit. Das ist Win-Win, egal welches du nimmst.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1965483060129923072/img/Zb3IVvAzasPMYz5t.jpg"
+      ],
+      "timestamp": null,
+      "id": "1967619912584827186",
+      "_uniqueId": "1967619912584827186",
+      "_collectedAt": "2025-09-17_07-37-18"
+    },
+    {
+      "author": "Gal Shir",
+      "content": "Logo design for Swan",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967959234387099648/img/5Ys2PcbhIMlhPpqG.jpg"
+      ],
+      "timestamp": "2025-09-16T14:31:02.000Z",
+      "id": "1967959418001297462",
+      "_uniqueId": "1967959418001297462",
+      "_collectedAt": "2025-09-17_07-37-19"
+    },
+    {
+      "author": "sinéad (unfunny version)",
+      "content": "me explaining the NATO phonetic alphabet",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G06BClcWcAA4YC5?format=jpg&name=small",
+          "alt": "A Twitter profile image of Andrew Tate, showing a muscular man posing. The post text includes Andrew Tate\\'s Twitter handle @Cobratate, a verified blue checkmark, and a chess piece emoji next to his name. The text \"Its not only Charlie. Theres a list.\" is visible below the profile information."
+        }
+      ],
+      "timestamp": "2025-09-15T18:09:40.000Z",
+      "id": "1967652050663338066",
+      "_uniqueId": "1967652050663338066",
+      "_collectedAt": "2025-09-17_07-37-19"
+    },
+    {
+      "author": "Alfi | Design for Startups",
+      "content": "Designing a high-converting landing pages is not easy...\n\nSo, I created a landing page playbook for start-up founders to level up your marketing game.\n\nThis playbook contains:\n• 10+ premium templates\n• 10+ Case Study Analysis\n• In-depth design study on what works and what",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G043DXmagAAQrO2?format=jpg&name=small",
+          "alt": "Multiple digital design layouts for landing pages, including 10+ premium templates and 10+ case study analyses. Each layout features dark-themed interfaces with purple and white color schemes, text overlays, and structured sections. A circular portrait of Alfi, a person with short dark hair, is visible in the lower right corner."
+        }
+      ],
+      "timestamp": "2025-09-15T12:46:06.000Z",
+      "id": "1967570622537777345",
+      "_uniqueId": "1967570622537777345",
+      "_collectedAt": "2025-09-17_07-37-25"
+    },
+    {
+      "author": "Obsidian",
+      "content": "Bounty increased to $5,000",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "A new bounty is open for Importer:\n$2,000 to convert Notion Databases to Obsidian Bases and plain text files",
+        "quoted_author": "Obsidian"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1968001738046373888/img/OTX9Kl_lo6zS53fu.jpg"
+      ],
+      "timestamp": "2025-09-16T23:34:41.000Z",
+      "id": "1968096229365321855",
+      "_uniqueId": "1968096229365321855",
+      "_collectedAt": "2025-09-17_07-37-26"
+    },
+    {
+      "author": "no context memes",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G08dEBAWoAATQW1?format=jpg&name=small",
+          "alt": "A stack of vinyl records, including a Pink Floyd album with a prism and rainbow design. A record player with a clear plastic cover and a vinyl disc on top. Text messages on a phone screen discussing a record player and humorously mistaking Pink Floyd for Imagine Dragons."
+        }
+      ],
+      "timestamp": "2025-09-16T05:31:02.000Z",
+      "id": "1967823519674228948",
+      "_uniqueId": "1967823519674228948",
+      "_collectedAt": "2025-09-17_07-37-26"
+    },
+    {
+      "author": "eToro DE",
+      "content": "Dein Plan. Deine Regeln. Ganz einfach per App.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GzXGwKnXEAAxHxc?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1960692780201648349",
+      "_uniqueId": "1960692780201648349",
+      "_collectedAt": "2025-09-17_07-37-26"
+    },
+    {
+      "author": "Basic Apple Guy",
+      "content": "I really miss Launchpad for macOS...",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-WOnWasAAH145?format=jpg&name=small",
+          "alt": "Two screenshots of a macOS desktop interface. The first shows a grid of app icons including Notes, Twitter, Calm, and others on a colorful background. The second displays a Launchpad view with app icons like App Store, Calendar, Camera, and others on a nature background with rocks and water. Text overlays include \"Applications\" and \"Activity 16\"."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0-WPEPaEAUveDh?format=jpg&name=small",
+          "alt": "Two screenshots of a macOS desktop interface. The first shows a grid of app icons including Notes, Twitter, Calm, and others on a colorful background. The second displays a Launchpad view with app icons like App Store, Calendar, Camera, and others on a nature background with rocks and water. Text overlays include \"Applications\" and \"Activity 16\"."
+        }
+      ],
+      "timestamp": "2025-09-16T14:22:48.000Z",
+      "id": "1967957346191282345",
+      "_uniqueId": "1967957346191282345",
+      "_collectedAt": "2025-09-17_07-37-26"
+    },
+    {
+      "author": "GitHub Projects Community",
+      "content": "Do developers really need a MacBook?\n\nyes          yes          yes yes\nyesyes    yes      yes         yes\nyes  yes  yes     yes           yes\nyes    yesyes     yes           yes\nyes       yesye      yes        yes\nyes          yes           yes yes",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-15T08:34:50.000Z",
+      "id": "1967507386274599165",
+      "_uniqueId": "1967507386274599165",
+      "_collectedAt": "2025-09-17_07-37-26"
+    },
+    {
+      "author": "Kevin Lu",
+      "content": "Today we're excited to introduce Orchids, the worlds first AI Full Stack Engineer .\n\nOrchids sets state-of-the-art on UI and fullstack capability, ranking #1 on UI Bench and Design Arena - beating Devin, Lovable, Cursor, Bolt, Replit, and v0.\n\nOrchids is capable of implementing",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T16:05:17.000Z",
+      "id": "1967983134311600440",
+      "_uniqueId": "1967983134311600440",
+      "_collectedAt": "2025-09-17_07-37-26"
+    },
+    {
+      "author": "Developers",
+      "content": "Calling all developers! \n\nInnovate with our real-time and historical data on the X API.\n\nGet started with Pro",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GdAF3TNWoAAkZAp?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1965087232848703742",
+      "_uniqueId": "1965087232848703742",
+      "_collectedAt": "2025-09-17_07-37-26"
+    },
+    {
+      "author": "Hayes",
+      "content": "This guy literally dropped a 5-hour masterclass on how the internet actually works",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G04rmPVaIAA8yTP?format=jpg&name=small",
+          "alt": "A screenshot of code on a screen with text overlays. The code includes programming syntax with error messages like \"ERR_UNSUPPORTED_HTTP_VERSION\" and function definitions. A person wearing headphones is visible in the background, identified as ThePrimeagen. Text overlays include \"First Try: 9\" and \"From TCP to HTTP | Full Course by ThePrimeagen\" with view counts and subscriber information."
+        }
+      ],
+      "timestamp": "2025-09-15T11:56:03.000Z",
+      "id": "1967558026283680220",
+      "_uniqueId": "1967558026283680220",
+      "_collectedAt": "2025-09-17_07-37-26"
+    },
+    {
+      "author": "FoundMyFitness Clips",
+      "content": "The top signs of low testosterone in men:\n\n• Reduced libido\n• Loss of strength \n• Poor erection quality\n• Decreased exercise recovery\n• Irritability and mood changes\n• Difficulty gaining muscle mass\n• Unexplained increase in body fat\n• Lower overall vigor and motivation",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967619024428167168/img/gqAOvJyDaEixgjP8.jpg"
+      ],
+      "timestamp": "2025-09-15T15:58:35.000Z",
+      "id": "1967619060352364957",
+      "_uniqueId": "1967619060352364957",
+      "_collectedAt": "2025-09-17_07-37-33"
+    },
+    {
+      "author": "Retro Tech Dreams",
+      "content": "Fallout 2 (1998). This game's map was massive at about 126,000 square miles. That's twice the size of the state of New York and larger than England, Wales and Scotland together.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G06zFsFWEAAbVox?format=jpg&name=small",
+          "alt": "An isometric view of a post-apocalyptic town in Fallout 2, featuring a rusted car, two characters near a building with a \"Poseidon Oil\" sign, and barrels labeled \"Reactor 5K.\" The interface shows stats like AP 3, HP 030, and a map icon."
+        }
+      ],
+      "timestamp": "2025-09-15T21:48:01.000Z",
+      "id": "1967706999749054711",
+      "_uniqueId": "1967706999749054711",
+      "_collectedAt": "2025-09-17_07-37-33"
+    },
+    {
+      "author": "Neue Zürcher Zeitung Deutschland",
+      "content": "2026 wird zum Schicksalsjahr der deutschen Autokonzerne. Dann müssen ihre Elektromodelle, gezeigt an der IAA, den Test bei den Kunden bestehen. Hier lesen Sie den ganzen Kommentar aus der Reihe «Der andere Blick» anlässlich der Automesse vorherige Woche:",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G05EZORXQAAz-dc?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1967585406490468696",
+      "_uniqueId": "1967585406490468696",
+      "_collectedAt": "2025-09-17_07-37-33"
+    },
+    {
+      "author": "Cryron Lue",
+      "content": "No lie, in 09’ this would’ve been one of the toughest fits imaginable",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G024MR0XUAASKHH?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-16T01:14:07.000Z",
+      "id": "1967758866910994619",
+      "_uniqueId": "1967758866910994619",
+      "_collectedAt": "2025-09-17_07-37-33"
+    },
+    {
+      "author": "RIO",
+      "content": "a dating app that only works in airports",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-sguTWMAE_DUd?format=png&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-16T15:57:54.000Z",
+      "id": "1967981275756769517",
+      "_uniqueId": "1967981275756769517",
+      "_collectedAt": "2025-09-17_07-37-33"
+    },
+    {
+      "author": "Jocko Willink",
+      "content": "Aftermath. Stay Strong.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-LW26aEAAGpAr?format=jpg&name=small",
+          "alt": "Three kettlebells of varying sizes on a concrete floor. The kettlebells have worn, textured surfaces and handles, with visible scuff marks and dirt. Scattered chalk or powder and dark stains are on the floor around the kettlebells."
+        }
+      ],
+      "timestamp": "2025-09-16T13:32:55.000Z",
+      "id": "1967944792664576423",
+      "_uniqueId": "1967944792664576423",
+      "_collectedAt": "2025-09-17_07-37-33"
+    },
+    {
+      "author": "Aella",
+      "content": "Why is everyone so mean to everyone else??? Why are we all a bunch of cruel monkeys trying to tear down everything that anyone else likes just to feel marginally superior?? It's all over my timeline I am so sad",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Every person I've ever met who dresses like this is insufferable and also has the grip strength of a quadriplegic x.com/sporadicalia/s…",
+        "quoted_author": "normie macdonald"
+      },
+      "media": [],
+      "timestamp": "2025-09-15T17:53:06.000Z",
+      "id": "1967647882397569283",
+      "_uniqueId": "1967647882397569283",
+      "_collectedAt": "2025-09-17_07-37-33"
+    },
+    {
+      "author": "taoki",
+      "content": "women will never understand how much we love these photos",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "This photo my boyfriend took of me. So obviously taken by a boyfriend. Every girlfriend I know has a photo of herself like this",
+        "quoted_author": "mad"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G08P7irWYAAubBV?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-16T19:45:27.000Z",
+      "id": "1968038541595906512",
+      "_uniqueId": "1968038541595906512",
+      "_collectedAt": "2025-09-17_07-37-33"
+    },
+    {
+      "author": "@XBusinessEurope",
+      "content": "Willst du Millionen erreichen, Conversions steigern und in deiner Nische ganz vorne mitmischen?   Entdecke, wie’s geht bei unserem Webinar.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1947940439098626048/img/tTX1Zq_HdbD64KLA.jpg"
+      ],
+      "timestamp": null,
+      "id": "1947945726593671538",
+      "_uniqueId": "1947945726593671538",
+      "_collectedAt": "2025-09-17_07-37-33"
+    },
+    {
+      "author": "RevenueCat",
+      "content": "Just imagine us giving you a little high five every time your phone vibrates.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1915016897877123072/img/mZmkXErlKxUdz-4E.jpg"
+      ],
+      "timestamp": null,
+      "id": "1950536739790946420",
+      "_uniqueId": "1950536739790946420",
+      "_collectedAt": "2025-09-17_07-37-41"
+    },
+    {
+      "author": "ThePrimeagen",
+      "content": "the only git commands a sr engineer needs\n\ngit add . \ngit commit -m 'wip' \ngit push --force \n\nstaff level tip\nalias all-done=\"git add . && git commit -m 'wip' && git push --force\"",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-15T20:51:30.000Z",
+      "id": "1967692777820655810",
+      "_uniqueId": "1967692777820655810",
+      "_collectedAt": "2025-09-17_07-37-41"
+    },
+    {
+      "author": "Bibawen",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967583401927393280/img/i4SfpMh7defTHNoU.jpg"
+      ],
+      "timestamp": "2025-09-15T13:37:43.000Z",
+      "id": "1967583612087447705",
+      "_uniqueId": "1967583612087447705",
+      "_collectedAt": "2025-09-17_07-37-41"
+    },
+    {
+      "author": "vas",
+      "content": "I’ve seen 1000 posts like this and never met a single person actually using this",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "you can use claude code to build you a marketing team",
+        "quoted_author": "GREG ISENBERG"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G06E7Y8XAAAMrX2?format=png&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-15T18:47:04.000Z",
+      "id": "1967661459569349099",
+      "_uniqueId": "1967661459569349099",
+      "_collectedAt": "2025-09-17_07-37-41"
+    },
+    {
+      "author": "Beta Profiles",
+      "content": "iOS 18 vs iOS 26: App Opening/Closing Animation.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967970722430746624/img/Y_UuqKeTSImONpDt.jpg"
+      ],
+      "timestamp": "2025-09-16T15:20:31.000Z",
+      "id": "1967971871384801299",
+      "_uniqueId": "1967971871384801299",
+      "_collectedAt": "2025-09-17_07-37-41"
+    },
+    {
+      "author": "Kadena",
+      "content": "Chainweb EVM brings the best of POW and POS together on Kadena, the only truly scalable, secure and decentralized L1",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/Gr-6WOFXwAAP_tQ?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1945177332806799864",
+      "_uniqueId": "1945177332806799864",
+      "_collectedAt": "2025-09-17_07-37-41"
+    },
+    {
+      "author": "Taylor Otwell",
+      "content": "me stressing about how we are going to build the best backend infrastructure for the future of agentic workflows and quantum mcp \n\nhacker news:",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G06SGB9XAAAduUt?format=jpg&name=small",
+          "alt": "A screenshot of a Hacker News post. The post title reads \"Hosting a website on a disposable vape\" by BogdanTheGeek, with 131 points and 274 comments. The text includes a link to bogdanthegeek.github.io. An orange navigation bar displays menu options like \"new | past | comments | ask | show | jobs | submit | login\"."
+        }
+      ],
+      "timestamp": "2025-09-15T19:23:52.000Z",
+      "id": "1967670723566301578",
+      "_uniqueId": "1967670723566301578",
+      "_collectedAt": "2025-09-17_07-37-41"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0_-0zeakAAHwtq?format=jpg&name=small",
+          "alt": "A black Lamborghini motorcycle with angular, futuristic design. It features a sleek body, large tires, and a prominent front fairing with the Lamborghini logo. The motorcycle is parked on a cobblestone street in front of ornate European-style buildings."
+        }
+      ],
+      "timestamp": "2025-09-16T21:57:24.000Z",
+      "id": "1968071748290801715",
+      "_uniqueId": "1968071748290801715",
+      "_collectedAt": "2025-09-17_07-37-41"
+    },
+    {
+      "author": "Joe Bell",
+      "content": "RIP to all my fellow web devs waking up this morning to learn that they now need to account for a third iOS Safari layout when stretching content to viewport height",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G08mS3cWIAAwjOz?format=jpg&name=small",
+          "alt": "Safari layout options in iOS 26"
+        }
+      ],
+      "timestamp": "2025-09-16T06:11:23.000Z",
+      "id": "1967833673769816501",
+      "_uniqueId": "1967833673769816501",
+      "_collectedAt": "2025-09-17_07-37-41"
+    },
+    {
+      "author": "Aella",
+      "content": "Reading history makes me view the dynamic between the poor masses and rich elite as like that between a headbanging autist and his caregiver. The autist is an annoying liability but also the caregiver keeps using this as an excuse to lock the autist in a closet and beat him??",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-15T18:08:14.000Z",
+      "id": "1967651689525285154",
+      "_uniqueId": "1967651689525285154",
+      "_collectedAt": "2025-09-17_07-37-41"
+    },
+    {
+      "author": "luis.",
+      "content": "This color wheel website generator is nuts\n\nhttps://meodai.github.io/poline/",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967642673751138304/img/PkkVKtRbZBqQyZZC.jpg"
+      ],
+      "timestamp": "2025-09-15T17:33:26.000Z",
+      "id": "1967642931407491471",
+      "_uniqueId": "1967642931407491471",
+      "_collectedAt": "2025-09-17_07-37-48"
+    },
+    {
+      "author": "cinesthetic.",
+      "content": "Knowing this wasn’t scripted makes it even funnier.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1681859580387639298/img/LD0wBDYCq3k23yaa.jpg"
+      ],
+      "timestamp": "2025-09-15T22:55:00.000Z",
+      "id": "1967723855490998427",
+      "_uniqueId": "1967723855490998427",
+      "_collectedAt": "2025-09-17_07-37-48"
+    },
+    {
+      "author": "GenBio AI",
+      "content": "We’re hiring across research, engineering, and operations in Palo Alto, Paris, and Abu Dhabi.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GpD-KqtW8AE-N3e?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1914311306338877775",
+      "_uniqueId": "1914311306338877775",
+      "_collectedAt": "2025-09-17_07-37-48"
+    },
+    {
+      "author": "Mitchell Hashimoto",
+      "content": "Ghostty 1.2 is coming out later today. If long, detailed release notes are your jam, grab a coffee and get ready to cozy up. Releasing in an hour or two.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-15T15:12:32.000Z",
+      "id": "1967607474321780879",
+      "_uniqueId": "1967607474321780879",
+      "_collectedAt": "2025-09-17_07-37-48"
+    },
+    {
+      "author": "Apple Hub",
+      "content": "Apple released the iPhone 7 and iPhone 7 Plus nine years ago today \n\nDid you own one?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0_PPVSWQAAiwpM?format=jpg&name=small",
+          "alt": "Five iPhone 7 smartphones in different colors, displayed vertically. Colors include rose gold, gold, silver, black, and jet black. Each phone shows the Apple logo and \"iPhone\" text on the back."
+        }
+      ],
+      "timestamp": "2025-09-16T18:29:31.000Z",
+      "id": "1968019433013776892",
+      "_uniqueId": "1968019433013776892",
+      "_collectedAt": "2025-09-17_07-37-48"
+    },
+    {
+      "author": "prosku.a",
+      "content": "portfolio made in Framer by Asia Gawron",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967621322164293632/img/nYHaXPcCVXOAjG1c.jpg"
+      ],
+      "timestamp": "2025-09-15T16:09:03.000Z",
+      "id": "1967621695180820918",
+      "_uniqueId": "1967621695180820918",
+      "_collectedAt": "2025-09-17_07-37-48"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G04WHYBbYAAFSIO?format=jpg&name=small",
+          "alt": "A metallic object shaped like the Microsoft Paint interface, held in a hand. The object displays a blank canvas, toolbar icons including pencil, brush, and text tools, and a color palette with various colors. Text on the object reads \"untitled - Paint\" and \"For Help, click Help Topics on the Help Menu.\""
+        }
+      ],
+      "timestamp": "2025-09-15T10:22:11.000Z",
+      "id": "1967534405448261968",
+      "_uniqueId": "1967534405448261968",
+      "_collectedAt": "2025-09-17_07-37-49"
+    },
+    {
+      "author": "salehdigital",
+      "content": "new whip update",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G06e803WIAEFsiD?format=jpg&name=small",
+          "alt": "A red Honda CBR500R motorcycle parked on a paved sidewalk. The bike has a sleek design with black accents, a visible engine, and a black seat. A brick building with a large window and chandelier reflection is in the background."
+        }
+      ],
+      "timestamp": "2025-09-15T20:20:18.000Z",
+      "id": "1967684923629916226",
+      "_uniqueId": "1967684923629916226",
+      "_collectedAt": "2025-09-17_07-37-49"
+    },
+    {
+      "author": "RIO",
+      "content": "get it wrapped with falcon branding",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T16:36:27.000Z",
+      "id": "1967990980076007506",
+      "_uniqueId": "1967990980076007506",
+      "_collectedAt": "2025-09-17_07-37-49"
+    },
+    {
+      "author": "Aella",
+      "content": "The right is going in the same direction. Any political stance can be weaponized by its cruelest members, you are not made holy simply by fighting under the better banner",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "I actively cataloged some of the worst behavior during 2020's cultural revolution.  \n\nHere's a round-up of 25 egregious firings, investigations, and excesses from 2020, so you can remember just how bad things got.",
+        "quoted_author": "Jeremy Kauffman"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G04rEb0W4AAm5ip?format=png&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-16T02:30:59.000Z",
+      "id": "1967778212127334776",
+      "_uniqueId": "1967778212127334776",
+      "_collectedAt": "2025-09-17_07-37-49"
+    }
+  ]
+}
