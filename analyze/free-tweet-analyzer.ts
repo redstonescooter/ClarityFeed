@@ -106,7 +106,7 @@ export class FreeAnalyzer {
                     "max_completion_tokens": 8192,
                     "top_p": 1,
                     "stream": true,
-                    "reasoning_effort": "low",
+                    "reasoning_effort": "medium",
                     "stop": null,
                     "response_format": {
                         "type": "json_object"
@@ -271,18 +271,32 @@ export class FreeAnalyzer {
         }
     }
     async preProcess(fileContent:string) {
+        const include_media_descriptions = true; // Set to true to include media alt texts
+        const tweet_per_file:number|null = null;
         type fileContent = {
             tweets: Array<{
-                content: string
+                content: string,
+                media:Array<{src:string,alt:string}|null>
             }>
         }
         try {
             const data: fileContent = JSON.parse(fileContent);
             const texts = data.tweets.map((tweet,index )=> {
-                if(index > 5){
+                if(tweet_per_file != null && index >= tweet_per_file){
                     return;
                 }
-                return {index:index,content:tweet.content}
+                if(include_media_descriptions && tweet.media && tweet.media.length > 0){
+                    let additionalText = '';
+                    additionalText += "\n meta data: attached media descriptions of the tweet :";
+                    for(const media of tweet.media){
+                        if(media && media.alt){
+                            const media_index = tweet.media.indexOf(media);
+                            additionalText += `\n ${media_index + 1}th media description: ` + media.alt;
+                        }
+                    }
+                    tweet.content += additionalText;
+                }
+                return tweet.content
             });
             return JSON.stringify(texts);
         } catch (error) {
@@ -325,7 +339,7 @@ export class FreeAnalyzer {
                                     .replace(/:/g, '-');
                 
                 const fileName = path.basename(inputFile, path.extname(inputFile));
-                const outputFile = path.join(outputDir, `analysedAt_${sqlDateTime}_${fileName}.txt`);
+                const outputFile = path.join(outputDir, `analysedAt_${sqlDateTime}_${fileName}.json`);
                 
                 const result = await this.processFile(inputFile, outputFile);
                 results.push({
@@ -365,12 +379,16 @@ export async function main() {
     // 'basic' - completely free, rule-based
     
     const analyzer = new FreeAnalyzer('groq'); // Start with basic
+    // get args from cli or hard coded ones
+    const cliInputFiles = process.argv.slice(2).filter(arg => arg.endsWith('.json'));
     
-    const inputFiles = [
-        'output/sadra1/tweets_2025-09-15_06-30-58__scroll--6_profile--sadra1.json',
-        'output/sadra1/tweets_2025-09-15_07-25-10__scroll--6_profile--sadra1.json',
-        // 'output/sadra1/tweets_2025-09-15_07-14-05__scroll--6_profile--sadra1.json'
-    ];
+    const inputFiles = cliInputFiles.length > 0
+        ? cliInputFiles
+        : [
+            'output/sadra1/tweets_2025-09-15_06-30-58__scroll--6_profile--sadra1.json',
+            'output/sadra1/tweets_2025-09-15_07-25-10__scroll--6_profile--sadra1.json',
+            'output/sadra1/tweets_2025-09-15_07-14-05__scroll--6_profile--sadra1.json'
+        ];
     
     try {
         // await analyzer.testGroqConnection();
