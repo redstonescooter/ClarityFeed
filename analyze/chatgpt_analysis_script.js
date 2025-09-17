@@ -1,7 +1,8 @@
-const fs = require('fs');
-const path = require('path');
-const FormData = require('form-data');
-const fetch = require('node-fetch');
+import fs from "fs";
+import path from "path";
+import fetch from "node-fetch";
+import { config as dotenvConfig } from 'dotenv';
+dotenvConfig({ path: path.resolve('/root/programming/clarityFeed/.env') });
 
 export class ChatGPTAnalyzer {
     constructor(apiKey) {
@@ -28,161 +29,8 @@ Rules:
 - Do not ask me clarifying questions; always produce your best analysis.`;
     }
 
-    async createThread() {
+    async analyzeContent(content) {
         try {
-            const response = await fetch(`${this.baseUrl}/threads`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${this.apiKey}`,
-                    'Content-Type': 'application/json',
-                    'OpenAI-Beta': 'assistants=v2'
-                }
-            });
-
-            if (!response.ok) {
-                throw new Error(`Failed to create thread: ${response.status} ${response.statusText}`);
-            }
-
-            const thread = await response.json();
-            return thread.id;
-        } catch (error) {
-            console.error('Error creating thread:', error.message);
-            throw error;
-        }
-    }
-
-    async uploadFile(filePath) {
-        try {
-            const formData = new FormData();
-            formData.append('file', fs.createReadStream(filePath));
-            formData.append('purpose', 'assistants');
-
-            const response = await fetch(`${this.baseUrl}/files`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${this.apiKey}`
-                },
-                body: formData
-            });
-
-            if (!response.ok) {
-                throw new Error(`Failed to upload file: ${response.status} ${response.statusText}`);
-            }
-
-            const file = await response.json();
-            return file.id;
-        } catch (error) {
-            console.error('Error uploading file:', error.message);
-            throw error;
-        }
-    }
-
-    async sendMessage(threadId, fileId) {
-        try {
-            const response = await fetch(`${this.baseUrl}/threads/${threadId}/messages`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${this.apiKey}`,
-                    'Content-Type': 'application/json',
-                    'OpenAI-Beta': 'assistants=v2'
-                },
-                body: JSON.stringify({
-                    role: 'user',
-                    content: this.systemPrompt,
-                    attachments: [{
-                        file_id: fileId,
-                        tools: [{ type: 'code_interpreter' }]
-                    }]
-                })
-            });
-
-            if (!response.ok) {
-                throw new Error(`Failed to send message: ${response.status} ${response.statusText}`);
-            }
-
-            return await response.json();
-        } catch (error) {
-            console.error('Error sending message:', error.message);
-            throw error;
-        }
-    }
-
-    async createRun(threadId) {
-        try {
-            const response = await fetch(`${this.baseUrl}/threads/${threadId}/runs`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${this.apiKey}`,
-                    'Content-Type': 'application/json',
-                    'OpenAI-Beta': 'assistants=v2'
-                },
-                body: JSON.stringify({
-                    assistant_id: 'asst_abc123', // You'll need to create an assistant first
-                    instructions: 'Analyze the provided social media data according to the specified format.'
-                })
-            });
-
-            if (!response.ok) {
-                throw new Error(`Failed to create run: ${response.status} ${response.statusText}`);
-            }
-
-            return await response.json();
-        } catch (error) {
-            console.error('Error creating run:', error.message);
-            throw error;
-        }
-    }
-
-    async waitForRunCompletion(threadId, runId) {
-        let run;
-        do {
-            await new Promise(resolve => setTimeout(resolve, 1000)); // Wait 1 second
-            
-            const response = await fetch(`${this.baseUrl}/threads/${threadId}/runs/${runId}`, {
-                headers: {
-                    'Authorization': `Bearer ${this.apiKey}`,
-                    'OpenAI-Beta': 'assistants=v2'
-                }
-            });
-
-            if (!response.ok) {
-                throw new Error(`Failed to get run status: ${response.status} ${response.statusText}`);
-            }
-
-            run = await response.json();
-            console.log(`Run status: ${run.status}`);
-        } while (run.status === 'queued' || run.status === 'in_progress');
-
-        return run;
-    }
-
-    async getMessages(threadId) {
-        try {
-            const response = await fetch(`${this.baseUrl}/threads/${threadId}/messages`, {
-                headers: {
-                    'Authorization': `Bearer ${this.apiKey}`,
-                    'OpenAI-Beta': 'assistants=v2'
-                }
-            });
-
-            if (!response.ok) {
-                throw new Error(`Failed to get messages: ${response.status} ${response.statusText}`);
-            }
-
-            const messages = await response.json();
-            return messages.data;
-        } catch (error) {
-            console.error('Error getting messages:', error.message);
-            throw error;
-        }
-    }
-
-    // Alternative: Direct Chat Completions API (simpler approach)
-    async analyzeWithChatCompletion(filePath) {
-        try {
-            // Read the file content
-            const fileContent = fs.readFileSync(filePath, 'utf8');
-            
             const response = await fetch(`${this.baseUrl}/chat/completions`, {
                 method: 'POST',
                 headers: {
@@ -194,7 +42,7 @@ Rules:
                     messages: [
                         {
                             role: 'user',
-                            content: `${this.systemPrompt}\n\nHere is the tweet data:\n\n${fileContent}`
+                            content: `${this.systemPrompt}\n\nHere is the tweet data:\n\n${content}`
                         }
                     ],
                     max_tokens: 4000,
@@ -215,12 +63,22 @@ Rules:
         }
     }
 
+    async analyzeFile(filePath) {
+        try {
+            // Read the file content
+            const fileContent = fs.readFileSync(filePath, 'utf8');
+            return await this.analyzeContent(fileContent);
+        } catch (error) {
+            console.error('Error reading file:', error.message);
+            throw error;
+        }
+    }
+
     async processFile(inputFilePath, outputFilePath) {
         try {
             console.log(`Processing file: ${inputFilePath}`);
             
-            // Use the simpler Chat Completions API
-            const analysis = await this.analyzeWithChatCompletion(inputFilePath);
+            const analysis = await this.analyzeFile(inputFilePath);
             
             // Save the result
             fs.writeFileSync(outputFilePath, analysis, 'utf8');
@@ -269,6 +127,66 @@ Rules:
         
         return results;
     }
+
+    // Process multiple files with chunking support for large files
+    async processLargeFile(filePath, outputDir = './output', chunkSize = 50) {
+        try {
+            const fileContent = fs.readFileSync(filePath, 'utf8');
+            const tweets = JSON.parse(fileContent);
+            
+            if (!Array.isArray(tweets)) {
+                throw new Error('File content is not a JSON array of tweets');
+            }
+
+            const fileName = path.basename(filePath, path.extname(filePath));
+            const chunks = [];
+            
+            // Split tweets into chunks
+            for (let i = 0; i < tweets.length; i += chunkSize) {
+                chunks.push(tweets.slice(i, i + chunkSize));
+            }
+
+            console.log(`Processing ${tweets.length} tweets in ${chunks.length} chunks`);
+
+            const results = [];
+            for (let i = 0; i < chunks.length; i++) {
+                try {
+                    console.log(`Processing chunk ${i + 1}/${chunks.length}`);
+                    
+                    const chunkContent = JSON.stringify(chunks[i], null, 2);
+                    const analysis = await this.analyzeContent(chunkContent);
+                    
+                    const outputFile = path.join(outputDir, `${fileName}_chunk_${i + 1}_analysis.txt`);
+                    fs.writeFileSync(outputFile, analysis, 'utf8');
+                    
+                    results.push({
+                        chunk: i + 1,
+                        outputFile,
+                        success: true,
+                        tweetsInChunk: chunks[i].length
+                    });
+
+                    // Delay between chunks to avoid rate limiting
+                    if (i < chunks.length - 1) {
+                        await new Promise(resolve => setTimeout(resolve, 2000));
+                    }
+                    
+                } catch (error) {
+                    console.error(`Failed to process chunk ${i + 1}:`, error.message);
+                    results.push({
+                        chunk: i + 1,
+                        success: false,
+                        error: error.message
+                    });
+                }
+            }
+
+            return results;
+        } catch (error) {
+            console.error(`Error processing large file ${filePath}:`, error.message);
+            throw error;
+        }
+    }
 }
 
 // Usage example
@@ -283,14 +201,15 @@ export async function main() {
     
     const analyzer = new ChatGPTAnalyzer(apiKey);
     
-    // Example: Process multiple files
+    // Example 1: Process multiple files
     const inputFiles = [
-        '../output/sadra1/tweets_2025-09-15_06-30-58__scroll--6_profile--sadra1.json',
-        '../output/sadra1/tweets_2025-09-15_07-25-10__scroll--6_profile--sadra1.json',
-        '../output/sadra1/tweets_2025-09-15_07-14-05__scroll--6_profile--sadra1.json'
+        'output/sadra1/tweets_2025-09-15_06-30-58__scroll--6_profile--sadra1.json',
+        'output/sadra1/tweets_2025-09-15_07-25-10__scroll--6_profile--sadra1.json',
+        'output/sadra1/tweets_2025-09-15_07-14-05__scroll--6_profile--sadra1.json'
     ];
     
     try {
+        console.log('Starting batch processing...');
         const results = await analyzer.batchProcess(inputFiles, './analysis_results');
         
         console.log('\nBatch processing completed!');
@@ -305,5 +224,31 @@ export async function main() {
     } catch (error) {
         console.error('Batch processing failed:', error.message);
     }
-}
 
+    // Example 2: Process a large file with chunking
+    /*
+    try {
+        console.log('\nProcessing large file with chunking...');
+        const chunkResults = await analyzer.processLargeFile(
+            '../output/sadra1/large_tweets_file.json',
+            './analysis_results',
+            30 // tweets per chunk
+        );
+        
+        console.log('\nChunk processing completed!');
+        console.log('Chunk results:');
+        chunkResults.forEach(result => {
+            console.log(`Chunk ${result.chunk}: ${result.success ? '✓ Success' : '✗ Failed'}`);
+            if (result.success) {
+                console.log(`  Processed ${result.tweetsInChunk} tweets`);
+            } else {
+                console.log(`  Error: ${result.error}`);
+            }
+        });
+        
+    } catch (error) {
+        console.error('Chunk processing failed:', error.message);
+    }
+    */
+}
+main();

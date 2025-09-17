@@ -1,0 +1,56 @@
+[
+{
+  "index": 0,
+  "skip": false,
+  "political_alignment": ["none"],
+  "topic": "software security",
+  "emotion": "neutral",
+  "humor": false,
+  "brief_note": "Tech brag about clean commit"
+},
+{
+  "index": 1,
+  "skip": false,
+  "political_alignment": ["none"],
+  "topic": "developer advocacy",
+  "emotion": "neutral",
+  "humor": false,
+  "brief_note": "Promotional bio of a tech influencer"
+},
+{
+  "index": 2,
+  "skip": false,
+  "political_alignment": ["none"],
+  "topic": "career mentorship",
+  "emotion": "joy",
+  "humor": false,
+  "brief_note": "Gratitude list with personal shout‑outs"
+},
+{
+  "index": 3,
+  "skip": false,
+  "political_alignment": ["none"],
+  "topic": "personal encouragement",
+  "emotion": "joy",
+  "humor": false,
+  "brief_note": "Supportive, informal praise"
+},
+{
+  "index": 4,
+  "skip": true,
+  "political_alignment": ["none"],
+  "topic": "empty",
+  "emotion": "neutral",
+  "humor": false,
+  "brief_note": "No content"
+},
+{
+  "index": 5,
+  "skip": true,
+  "political_alignment": ["none"],
+  "topic": "Starlink service promotion",
+  "emotion": "neutral",
+  "humor": false,
+  "brief_note": "Direct product marketing"
+}
+]

@@ -1,0 +1,56 @@
+[
+{
+    "index": 0,
+    "skip": false,
+    "political_alignment": ["none"],
+    "topic": "Ashwagandha health benefits",
+    "emotion": "neutral",
+    "humor": false,
+    "brief_note": "Focuses on stress reduction and hormone balance."
+  },
+  {
+    "index": 1,
+    "skip": false,
+    "political_alignment": ["none"],
+    "topic": "Nighttime observation",
+    "emotion": "joy",
+    "humor": false,
+    "brief_note": "Simple wonder at visual clarity after dark."
+  },
+  {
+    "index": 2,
+    "skip": false,
+    "political_alignment": ["none"],
+    "topic": "Sankey diagram comment",
+    "emotion": "neutral",
+    "humor": false,
+    "brief_note": "Brief statement about data‑visualization tool."
+  },
+  {
+    "index": 3,
+    "skip": false,
+    "political_alignment": ["none"],
+    "topic": "Fog over San Francisco video",
+    "emotion": "surprise",
+    "humor": false,
+    "brief_note": "Expresses fascination with atmospheric footage."
+  },
+  {
+    "index": 4,
+    "skip": false,
+    "political_alignment": ["none"],
+    "topic": "Anticipated showdown event",
+    "emotion": "excitement",
+    "humor": false,
+    "brief_note": "Builds hype for a major upcoming competition."
+  },
+  {
+    "index": 5,
+    "skip": false,
+    "political_alignment": ["none"],
+    "topic": "Meta setup request",
+    "emotion": "hopeful",
+    "humor": false,
+    "brief_note": "Seeks good luck for configuring Meta platforms."
+  }
+]
