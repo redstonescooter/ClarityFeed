@@ -10,10 +10,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from typing import Dict, List, Any, Tuple
 import numpy as np
-from dotenv import load_dotenv
-
-env_path = Path(__file__).resolve().parent.parent / ".env"
-load_dotenv(dotenv_path=env_path)
 
 class TweetAnalyzer:
     def __init__(self, data_directory: str, groq_api_key: str = None):
@@ -221,14 +217,26 @@ class TweetAnalyzer:
         category_counts = self.df['topic_category'].value_counts()
         
         # Emotional patterns by topic category
-        emotion_by_category = self.df.groupby('topic_category')['emotion'].apply(
-            lambda x: x.value_counts().to_dict()
-        ).to_dict()
+        emotion_by_category = {}
+        try:
+            for category in self.df['topic_category'].unique():
+                if pd.notna(category):  # Skip NaN values
+                    category_emotions = self.df[self.df['topic_category'] == category]['emotion'].value_counts()
+                    emotion_by_category[str(category)] = category_emotions.to_dict()
+        except Exception as e:
+            print(f"Warning: Error processing emotion_by_category: {e}")
+            emotion_by_category = {}
         
         # Emotional patterns by original topic
-        emotion_by_topic = self.df.groupby('topic')['emotion'].apply(
-            lambda x: x.value_counts().to_dict()
-        ).to_dict()
+        emotion_by_topic = {}
+        try:
+            for topic in self.df['topic'].unique():
+                if pd.notna(topic):  # Skip NaN values
+                    topic_emotions = self.df[self.df['topic'] == topic]['emotion'].value_counts()
+                    emotion_by_topic[str(topic)] = topic_emotions.to_dict()
+        except Exception as e:
+            print(f"Warning: Error processing emotion_by_topic: {e}")
+            emotion_by_topic = {}
         
         return {
             'topic_distribution': topic_counts.to_dict(),
@@ -291,9 +299,16 @@ class TweetAnalyzer:
         
         # Weekly patterns (if enough data)
         if len(daily_counts) >= 7:
-            weekly_pattern = self.df.groupby(self.df['date'].dt.dayofweek)['emotion'].apply(
-                lambda x: x.value_counts(normalize=True).to_dict()
-            ).to_dict()
+            try:
+                weekly_pattern = {}
+                for day_of_week in range(7):  # 0=Monday, 6=Sunday
+                    day_data = self.df[self.df['date'].dt.dayofweek == day_of_week]
+                    if not day_data.empty:
+                        day_emotions = day_data['emotion'].value_counts(normalize=True)
+                        weekly_pattern[str(day_of_week)] = day_emotions.to_dict()
+            except Exception as e:
+                print(f"Warning: Error processing weekly patterns: {e}")
+                weekly_pattern = {}
         else:
             weekly_pattern = {}
             
@@ -525,15 +540,59 @@ class TweetAnalyzer:
         
         return self.insights
         
+    def safe_json_serialize(self, obj):
+        """Safely serialize objects to JSON-compatible format"""
+        if isinstance(obj, dict):
+            return {str(k): self.safe_json_serialize(v) for k, v in obj.items()}
+        elif isinstance(obj, (list, tuple)):
+            return [self.safe_json_serialize(item) for item in obj]
+        elif isinstance(obj, (np.integer, np.floating)):
+            return obj.item()
+        elif isinstance(obj, np.ndarray):
+            return obj.tolist()
+        elif pd.isna(obj):
+            return None
+        elif hasattr(obj, 'isoformat'):  # datetime objects
+            return obj.isoformat()
+        else:
+            return obj
+        
     def save_report(self, filename: str = 'tweet_analysis_report.json'):
         """Save the comprehensive report to a JSON file in the timestamped directory"""
         if not self.insights:
             self.generate_comprehensive_report()
         
         report_path = self.output_dir / filename
-        with open(report_path, 'w', encoding='utf-8') as f:
-            json.dump(self.insights, f, indent=2, ensure_ascii=False, default=str)
-        print(f"Report saved to {report_path}")
+        
+        try:
+            # Clean the insights data for JSON serialization
+            clean_insights = self.safe_json_serialize(self.insights)
+            
+            with open(report_path, 'w', encoding='utf-8') as f:
+                json.dump(clean_insights, f, indent=2, ensure_ascii=False, default=str)
+            print(f"Report saved to {report_path}")
+            
+        except Exception as e:
+            print(f"Error saving report: {e}")
+            # Try saving with a simpler structure
+            try:
+                simplified_report = {
+                    'metadata': self.insights.get('metadata', {}),
+                    'summary': self.insights.get('summary', {}),
+                    'key_metrics': {
+                        'emotion_distribution': self.insights.get('key_metrics', {}).get('emotion_distribution', {}),
+                        'category_frequency': self.insights.get('key_metrics', {}).get('category_frequency', {}),
+                        'humor_rate': self.insights.get('key_metrics', {}).get('humor_rate', 0)
+                    },
+                    'error': f"Full report failed to serialize: {str(e)}"
+                }
+                
+                with open(report_path, 'w', encoding='utf-8') as f:
+                    json.dump(simplified_report, f, indent=2, ensure_ascii=False)
+                print(f"Simplified report saved to {report_path}")
+                
+            except Exception as e2:
+                print(f"Failed to save even simplified report: {e2}")
         
     def print_summary(self):
         """Print a summary of key insights"""

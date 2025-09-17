@@ -1,0 +1,575 @@
+{
+  "collectionInfo": {
+    "totalTweets": 27,
+    "collectedAt": "2025-09-17_09-09-47",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "Mark Gurman",
+      "content": "Let’s see your best iOS 26 Home and Lock screens!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-17T04:41:23.000Z",
+      "id": "1968173412989419894",
+      "_uniqueId": "1968173412989419894",
+      "_collectedAt": "2025-09-17_09-08-28"
+    },
+    {
+      "author": "XTB Deutschland",
+      "content": "Bei XTB arbeitet Ihr Geld für Sie",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1844751826446417940/img/IJhNmj88BTnxJ6_t.jpg"
+      ],
+      "timestamp": null,
+      "id": "1953863764497117427",
+      "_uniqueId": "1953863764497117427",
+      "_collectedAt": "2025-09-17_09-08-35"
+    },
+    {
+      "author": "pseudo wook",
+      "content": "is 27 a good age to leave everything you know and love and start over",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T00:11:13.000Z",
+      "id": "1967743036882137287",
+      "_uniqueId": "1967743036882137287",
+      "_collectedAt": "2025-09-17_09-08-36"
+    },
+    {
+      "author": "Sumukh Rao",
+      "content": "Who puts their brand name on a screen protector omg",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-WaXaXMAATW1x?format=jpg&name=small",
+          "alt": "A close-up view of a black smartphone screen protector with the brand name \"Casetify\" etched near the top edge. The protector covers the phone\\'s display, showing a dark reflective surface and a small circular camera lens. The phone is angled slightly, revealing part of its black frame."
+        }
+      ],
+      "timestamp": "2025-09-16T14:21:13.000Z",
+      "id": "1967956945245200735",
+      "_uniqueId": "1967956945245200735",
+      "_collectedAt": "2025-09-17_09-08-37"
+    },
+    {
+      "author": "Jamayal",
+      "content": "design tip: an average logo with a great case video. That’s what your clients are really looking for",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-17T01:04:28.000Z",
+      "id": "1968118823468535961",
+      "_uniqueId": "1968118823468535961",
+      "_collectedAt": "2025-09-17_09-08-37"
+    },
+    {
+      "author": "RIO",
+      "content": "unironically tho",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-17T03:32:54.000Z",
+      "id": "1968156177805853178",
+      "_uniqueId": "1968156177805853178",
+      "_collectedAt": "2025-09-17_09-08-37"
+    },
+    {
+      "author": "eToro DE",
+      "content": "Dein Plan. Deine Regeln. Ganz einfach per App.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GzXcvFdXsAAye4g?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1960716039848604148",
+      "_uniqueId": "1960716039848604148",
+      "_collectedAt": "2025-09-17_09-08-37"
+    },
+    {
+      "author": "Satya",
+      "content": "Babe wake up: Figma launched vibe designing",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967940472321527808/img/7bdtA8D-nCE1xXJ2.jpg"
+      ],
+      "timestamp": "2025-09-16T17:10:47.000Z",
+      "id": "1967999618278723858",
+      "_uniqueId": "1967999618278723858",
+      "_collectedAt": "2025-09-17_09-08-38"
+    },
+    {
+      "author": "PC Philanthropy",
+      "content": "In the early 2000s this was a serious flex…",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G06KJHsWQAEQZRq?format=jpg&name=small",
+          "alt": "A desktop computer tower with its side panel removed, revealing internal components. Visible are a green motherboard, multiple RAM sticks with red heat spreaders, a CPU cooler with copper pipes, and two graphics cards stacked vertically. Black and green cables, a power supply, and a blue expansion slot cover are also present."
+        }
+      ],
+      "timestamp": "2025-09-15T18:49:08.000Z",
+      "id": "1967661981340705262",
+      "_uniqueId": "1967661981340705262",
+      "_collectedAt": "2025-09-17_09-08-38"
+    },
+    {
+      "author": "Framer University",
+      "content": "introducing: click effects component for @framer\n\nadd from 6 unique click interactions like rings, burst, particles, and more.\n\ncomment \"CLICK\" and i’ll send you the component :)",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T13:59:28.000Z",
+      "id": "1967951471284195711",
+      "_uniqueId": "1967951471284195711",
+      "_collectedAt": "2025-09-17_09-09-03"
+    },
+    {
+      "author": "Starlink",
+      "content": "Zuverlässiges Highspeed-Internet\n\nEinfach online bestellbar",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GoIR6efXAAAzdOF?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1910133930822348907",
+      "_uniqueId": "1910133930822348907",
+      "_collectedAt": "2025-09-17_09-09-03"
+    },
+    {
+      "author": "prerat",
+      "content": "ok so all of the wikipedia text is ~25 GB (compressed)\n\ncan a 25B parameter model reliably remember pretty much ~all the facts in wiki? if not, how many params does it take? 2x? 10x? is it possible it's less than 1x?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T16:45:22.000Z",
+      "id": "1967993221147136074",
+      "_uniqueId": "1967993221147136074",
+      "_collectedAt": "2025-09-17_09-09-04"
+    },
+    {
+      "author": "kache",
+      "content": "youtube shorts is demonic\nso many kids are seriously fucked up",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-17T01:04:19.000Z",
+      "id": "1968118785610781050",
+      "_uniqueId": "1968118785610781050",
+      "_collectedAt": "2025-09-17_09-09-04"
+    },
+    {
+      "author": "@levelsio",
+      "content": "This guy turned his vape into a web server\nhttps://bogdanthegeek.github.io/blog/projects/vapeserver/…",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G051oTdW4AAhDYA?format=jpg&name=small",
+          "alt": "A circuit board with electronic components, including a USB-C port, a battery labeled \"+ 122034 3.7V - 10005/04/25/03:06\", and various chips and connectors. The board has green and black sections with visible solder points and a white LED."
+        }
+      ],
+      "timestamp": "2025-09-15T17:19:35.000Z",
+      "id": "1967639446372876720",
+      "_uniqueId": "1967639446372876720",
+      "_collectedAt": "2025-09-17_09-09-04"
+    },
+    {
+      "author": "Satya",
+      "content": "Figma trying to replace Framer\nFramer trying to replace Figma",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T18:39:06.000Z",
+      "id": "1968021844025545077",
+      "_uniqueId": "1968021844025545077",
+      "_collectedAt": "2025-09-17_09-09-05"
+    },
+    {
+      "author": "Jay",
+      "content": "“gen z would never understand” we literally grew up with this shit",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "GEN Z would never understand.",
+        "quoted_author": "⚇"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G03z297WsAA2USA?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-16T18:06:11.000Z",
+      "id": "1968013561424384409",
+      "_uniqueId": "1968013561424384409",
+      "_collectedAt": "2025-09-17_09-09-05"
+    },
+    {
+      "author": "Ask Perplexity",
+      "content": "BREAKING: TikTok US Deal Finalized\n\nOracle, Silver Lake and Andreessen Horowitz will control TikTok’s US operations under a new 80/20 framework with ByteDance.\n\nThe impossible just happened: \n\n• 80% US-owned (Oracle + Silver Lake + A16z + legacy investors)\n• 20%",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0_xpQrWEAAwHzk?format=jpg&name=360x360",
+          "alt": "A man wearing a gold crown with red, blue, and clear jewels, and a purple velvet interior, over gray hair. He is dressed in a light blue shirt. The TikTok logo, featuring a stylized white \"d\" with blue and red outlines, is below the man, with the word \"TikTok\" in white text beneath the logo on a black background."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0_xpQkW4AABwMg?format=jpg&name=360x360",
+          "alt": "A man wearing a gold crown with red, blue, and clear jewels, and a purple velvet interior, over gray hair. He is dressed in a light blue shirt. The TikTok logo, featuring a stylized white \"d\" with blue and red outlines, is below the man, with the word \"TikTok\" in white text beneath the logo on a black background."
+        }
+      ],
+      "timestamp": "2025-09-16T20:59:49.000Z",
+      "id": "1968057256894996507",
+      "_uniqueId": "1968057256894996507",
+      "_collectedAt": "2025-09-17_09-09-12"
+    },
+    {
+      "author": "UPCOMERS",
+      "content": "75 % Rabatt + 1 gratis | Nur für kurze Zeit",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G09zs6OXoAExJ6Z?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1967919393389908113",
+      "_uniqueId": "1967919393389908113",
+      "_collectedAt": "2025-09-17_09-09-13"
+    },
+    {
+      "author": "alli",
+      "content": "“my co-founder” omg just say best friend",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-15T18:57:02.000Z",
+      "id": "1967663968526512639",
+      "_uniqueId": "1967663968526512639",
+      "_collectedAt": "2025-09-17_09-09-13"
+    },
+    {
+      "author": "FrogmanDev",
+      "content": "Main Menu WIP \n\nNo sfx/music isn't synced yet",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1967623410504400897/img/Hz_7o1YKM2HTcT1d.jpg"
+      ],
+      "timestamp": "2025-09-15T16:27:09.000Z",
+      "id": "1967626248798294187",
+      "_uniqueId": "1967626248798294187",
+      "_collectedAt": "2025-09-17_09-09-13"
+    },
+    {
+      "author": "Brokk, Inc.",
+      "content": "Current benchmarks don’t tell the whole story. The Brokk Power Ranking reveals how AI models perform on real-world tasks and helps you choose the right one.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/Gy5CoIVXEAA31CH?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1961101288571330901",
+      "_uniqueId": "1961101288571330901",
+      "_collectedAt": "2025-09-17_09-09-13"
+    },
+    {
+      "author": "Satya",
+      "content": "This is why “Hierarchy” is important",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G089p_ZWMAAskLE?format=jpg&name=small",
+          "alt": "Two smartphone screens side by side, labeled \"Before\" and \"After.\" Each screen displays an app interface titled \"The Most Important Screen Of the Game.\" The \"Before\" screen shows a cluttered layout with text, icons, and a time stamp (10:05 AM, July 14, 2023). The \"After\" screen shows a cleaner, organized layout with the same title, text, icons, and time stamp (9:41 PM, July 14, 2023)."
+        }
+      ],
+      "timestamp": "2025-09-16T07:53:28.000Z",
+      "id": "1967859365119135984",
+      "_uniqueId": "1967859365119135984",
+      "_collectedAt": "2025-09-17_09-09-13"
+    },
+    {
+      "author": "adi",
+      "content": "this is who you're arguing with online",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "this is who you're arguing with online",
+        "quoted_author": "hayden"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G05ZWiSXEAAK1AM?format=png&name=small",
+          "alt": "A close-up view of rippled sand with smooth, undulating patterns and shadows, creating a textured surface."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G0yRztcXUAAen1f?format=png&name=240x240",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-15T15:15:59.000Z",
+      "id": "1967608338776248493",
+      "_uniqueId": "1967608338776248493",
+      "_collectedAt": "2025-09-17_09-09-36"
+    },
+    {
+      "author": "insane poses",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G08A7bVaEAQ1Nqo?format=jpg&name=small",
+          "alt": "Rei Ayanami with long purple hair and red outfit reaching forward, behind a bald man with glasses and mustache holding Yebisu beer cans. A yellow sign reads \"YEBISU BEER 50% OFF\"."
+        }
+      ],
+      "timestamp": "2025-09-16T03:28:07.000Z",
+      "id": "1967792588058231254",
+      "_uniqueId": "1967792588058231254",
+      "_collectedAt": "2025-09-17_09-09-36"
+    },
+    {
+      "author": "Plasticity",
+      "content": "Creating complex surfaces doesn't need to be hard. \n\nTry Plasticity for free at http://Plasticity.xyz\n\n#plasticity #plasticity3d",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-17T00:28:02.000Z",
+      "id": "1968109654757740710",
+      "_uniqueId": "1968109654757740710",
+      "_collectedAt": "2025-09-17_09-09-36"
+    },
+    {
+      "author": "@levelsio",
+      "content": "Funny everyone hates Adobe so much\n\nWe all cheering on and want it to go to $0\n\nTalk about burning down one of the most respected brands in computing in just 10 years for short term profits",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "> be Adobe, 40-year-old PDF jockey\n> 2025, stock doing a perfect -33% swan dive\n> “We’ll pivot to AI” says exec on 7-figure retention bonus\n> can’t ship a model because legal says every pixel needs a 12-page EULA\n> Midjourney drops v7, makes our Firefly look like MS Paint with a",
+        "quoted_author": "Zephyr"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G01LYtqawAAGaG2?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-15T20:12:42.000Z",
+      "id": "1967683012373721593",
+      "_uniqueId": "1967683012373721593",
+      "_collectedAt": "2025-09-17_09-09-38"
+    },
+    {
+      "author": "Manu Arora",
+      "content": "so happy for you!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-16T06:04:33.000Z",
+      "id": "1967831954306515329",
+      "_uniqueId": "1967831954306515329",
+      "_collectedAt": "2025-09-17_09-09-44"
+    }
+  ]
+}

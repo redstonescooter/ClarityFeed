@@ -1,10 +1,10 @@
 // scrape.js
 import { config as dotenvConfig } from 'dotenv';
-import { chromium } from 'playwright'; // Import Chromium browser
+import { chromium } from 'playwright';
 import path from 'path';
 import { security_question_sentiment } from './utils/button_sentiment.js';
 import { Logger } from './utils/log.js';
-import { extractTweetInfo } from './tweets';
+import fs from 'fs/promises';
 dotenvConfig({ path: path.resolve('/root/programming/clarityFeed/.env') });
 // Get proxy settings from environment variables
 const httpProxy = process.env.WSL_PROXY_HTTP;
@@ -15,59 +15,590 @@ if (!httpProxy || !httpsProxy || !socksProxy) {
     console.error('Proxy settings not found. Please run setup_proxy_wsl.sh first.');
     process.exit(1);
 }
+// Parse command line arguments for profile support
+let profileName = process.env.PROFILE || null;
+// if(!profileName){
+//   console.error('WARMING:profile should be provided in args.'); // provide profile in args or this will cause an error in everywhere something is saved to file including saving tweets , seen ids , screenshot
+// }
 main();
+function handleArgs() {
+    const args = process.argv.slice(2);
+    let returnObj = {
+        scrollsCount: 5,
+        nameFromArgs: "",
+        profile: profileName,
+    };
+    //profile from args
+    let profile = null;
+    for (let i = 0; i < args.length; i++) {
+        if ((args[i] === '--profile' || args[i] === '-p') && args[i + 1]) {
+            profile = args[i + 1];
+            break;
+        }
+    }
+    if (profile != null) {
+        returnObj.profile = profile;
+    }
+    if (returnObj.profile == null) {
+        throw new Error("need to provide profile");
+    }
+    //scroll count
+    let scrollsCount = "5"; // default
+    let scrollsArgExist = false;
+    for (let i = 0; i < args.length; i++) {
+        if ((args[i] === '--scroll' || args[i] === '-s') && args[i + 1]) {
+            scrollsCount = args[i + 1];
+            scrollsArgExist = true;
+            break;
+        }
+    }
+    returnObj.scrollsCount = parseInt(scrollsCount) || 5;
+    //manual extra name extension
+    let nameFromArgs = "";
+    for (let i = 0; i < args.length; i++) {
+        if ((args[i] === '--name' || args[i] === '-n') && args[i + 1]) {
+            nameFromArgs = args[i + 1];
+            break;
+        }
+    }
+    returnObj.nameFromArgs = nameFromArgs || process.env.NAME_EXTENSION || "";
+    // auto addition to namestring from different args
+    if ((typeof nameFromArgs == "string") && (!nameFromArgs.includes("_scroll--") && scrollsArgExist)) {
+        returnObj.nameFromArgs += `_scroll--${returnObj.scrollsCount}`;
+    }
+    if ((typeof nameFromArgs == "string") && (!nameFromArgs.includes("_profile--") && scrollsArgExist)) {
+        returnObj.nameFromArgs += `_profile--${returnObj.profile}`;
+    }
+    return returnObj;
+}
 async function main() {
     const logger = new Logger();
     let browser = null;
     let context = null;
     let page = null;
+    let allTweets = [];
     try {
-        browser = await chromium.launch({
-            headless: false,
-            proxy: {
-                server: httpProxy,
-                username: '', // Add if your proxy requires authentication
-                password: '' // Add if your proxy requires authentication
-            }
-        }); // Launch browser (headless: false means visible)
-        // Create context properly
-        context = await browser.newContext();
-        // Now you can clear cookies
-        await context.clearCookies();
-        page = await context.newPage(); // Use context.newPage(), not browser.newPage()
-        await init(page, logger);
-        await get_tweets(page);
+        const browserConfig = await getBrowserConfig(profileName);
+        if (browserConfig.userDataDir) {
+            // Already a BrowserContext
+            context = await chromium.launchPersistentContext(browserConfig.userDataDir, browserConfig.baseConfig);
+            browser = context.browser(); // optional, if you need a Browser reference
+        }
+        else {
+            browser = await chromium.launch(browserConfig.baseConfig);
+            context = await browser.newContext();
+            await context.clearCookies();
+        }
+        page = await context.newPage();
+        await init(page, logger, profileName);
+        // handle scrollscount from arguments
+        const args = handleArgs();
+        // Start collecting tweets with scroll functionality
+        const { allTweets, newIDs } = await collectTweetsWithScroll(page, logger, args.scrollsCount);
+        console.log("Total unique tweets collected:", allTweets.length);
+        console.log("Total unique IDs collected:", newIDs.size);
+        // gather name extension from args or env
+        // const args = process.argv.slice(2);
+        //call output
+        await outputResults(allTweets, newIDs, logger, args.nameFromArgs);
     }
     catch (error) {
         console.error('Error in main function:', error);
     }
-    // finally {
-    //   // Clean up resources
-    //   try {
-    //     if (page) await page.close();
-    //     if (context) await context.close();
-    //     if (browser) await browser.close();
-    //   } catch (cleanupError) {
-    //     console.error('Error during cleanup:', cleanupError);
-    //   }
-    // }
-}
-const init = async (page, logger) => {
-    try {
-        console.time('x.com load');
-        await page.goto('https://x.com', { waitUntil: "networkidle" }); //
-        console.timeEnd('x.com load');
-        // Example: Capture a screenshot (just to see it works)
-        await page.screenshot({ path: logger.root_folder + "/initial_screenshot.jpg" });
-        // Example: Get page title
-        const title = await page.title();
-        console.log('Page Title:', title);
-        await login(page);
+    finally {
+        // Clean up resources
         try {
-            await page.waitForLoadState('networkidle', { timeout: 10000 });
+            if (page)
+                await page.close();
+            if (context)
+                await context.close(); // for both persistent & normal
+            if (browser && !browser.isConnected?.())
+                await browser.close();
+        }
+        catch (cleanupError) {
+            console.error('Error during cleanup:', cleanupError);
+        }
+    }
+}
+async function getBrowserConfig(profileName) {
+    const baseConfig = {
+        headless: false,
+        proxy: {
+            server: httpProxy,
+            username: '',
+            password: ''
+        },
+    };
+    let return_type = {
+        baseConfig: baseConfig,
+        userDataDir: undefined
+    };
+    if (profileName) {
+        // Profile-based configuration
+        const profilesDir = path.resolve(process.env.ROOT_FS_ABS + '/playwright_profiles');
+        const profilePath = path.join(profilesDir, profileName);
+        try {
+            // Ensure profiles directory exists
+            await fs.mkdir(profilesDir, { recursive: true });
+            console.log(`Using browser profile: ${profilePath}`);
+            return_type.userDataDir = profilePath;
         }
         catch (error) {
-            console.log('Warning: Page did not reach networkidle state after login:', error.message);
+            console.error('Error setting up profile directory:', error);
+            throw error;
+        }
+    }
+    return return_type;
+}
+async function getSeenIDs(profileName) {
+    const outputDir = path.join(process.env.ROOT_FS_ABS, 'output', profileName);
+    await fs.mkdir(outputDir, { recursive: true }); // Ensure directory exists
+    const filePath = path.resolve(outputDir + '/ids.json');
+    try {
+        // Try reading the file
+        const data = await fs.readFile(filePath, 'utf8');
+        const arr = JSON.parse(data);
+        // Ensure it's an array and return as a Set
+        if (Array.isArray(arr)) {
+            return new Set(arr);
+        }
+        else {
+            // If not an array, re-initialize
+            await fs.writeFile(filePath, JSON.stringify([]), 'utf8');
+            return new Set();
+        }
+    }
+    catch (error) {
+        // If file doesn't exist, initialize with empty array
+        if (error.code === 'ENOENT') {
+            console.log(`Seen IDs file not found for profile "${profileName}", initializing new file.`);
+            await fs.mkdir(path.dirname(filePath), { recursive: true });
+            await fs.writeFile(filePath, JSON.stringify([]), 'utf8');
+            return new Set();
+        }
+        else {
+            throw error;
+        }
+    }
+}
+async function collectTweetsWithScroll(page, logger, maxScrolls = 5) {
+    const seenTweetIds = await getSeenIDs(profileName);
+    console.log(`Loaded ${seenTweetIds.size} previously seen tweet IDs`);
+    const allTweets = [];
+    let scrollCount = 0;
+    let noNewTweetsCount = 0;
+    const maxNoNewTweets = 3; // Stop if no new tweets found after 3 scrolls
+    console.log("Starting tweet collection with scroll...");
+    while (scrollCount < maxScrolls && noNewTweetsCount < maxNoNewTweets) {
+        console.log(`\n--- Scroll iteration ${scrollCount + 1} ---`);
+        // Wait for tweets to load
+        try {
+            await page.waitForLoadState('networkidle', { timeout: 5000 });
+        }
+        catch (error) {
+            console.log('Warning: Page did not reach networkidle state:', error.message);
+        }
+        // Get currently visible tweets
+        const newTweets = await getVisibleNewTweets(page, seenTweetIds, logger);
+        if (newTweets.length === 0) {
+            noNewTweetsCount++;
+            console.log(`No new tweets found. Count: ${noNewTweetsCount}/${maxNoNewTweets}`);
+        }
+        else {
+            noNewTweetsCount = 0; // Reset counter when new tweets are found
+            allTweets.push(...newTweets);
+            console.log(`Found ${newTweets.length} new tweets. Total: ${allTweets.length}`);
+        }
+        // Scroll down to load more tweets
+        await scrollToLoadMore(page);
+        scrollCount++;
+        // Wait a bit for new content to load
+        await new Promise(resolve => setTimeout(resolve, 2000));
+    }
+    console.log(`\nFinished collecting tweets. Total scrolls: ${scrollCount}`);
+    return { allTweets: allTweets, newIDs: seenTweetIds };
+}
+async function getVisibleNewTweets(page, seenTweetIds, logger) {
+    const newTweets = [];
+    try {
+        // Get all tweet elements currently in the DOM
+        const tweets_full = page.locator('[role="article"][tabindex="0"][data-testid="tweet"]');
+        const count = await tweets_full.count();
+        console.log(`Found ${count} tweet elements in DOM`);
+        for (let i = 0; i < count; i++) {
+            try {
+                const tweet = tweets_full.nth(i);
+                // Check if tweet is visible in viewport
+                const isVisible = await tweet.isVisible();
+                if (!isVisible)
+                    continue;
+                // Get a unique identifier for this tweet (you might need to adjust this based on your extractTweetInfo function)
+                const tweetHandle = await tweet.elementHandle();
+                const documentHandle = await page.evaluateHandle(() => document);
+                // Extract tweet info
+                // const tweetParsed = await extractTweetInfo(tweetHandle, documentHandle);
+                const tweetParsedObj = await extractTweetInfoPlaywright(tweetHandle);
+                const tweetParsed = tweetParsedObj.tweetData;
+                const tweetLogs = tweetParsedObj.logs;
+                tweetLogs.forEach(log => logger.log(log));
+                // Create a unique ID for the tweet (adjust based on your tweet structure)
+                const tweetId = generateTweetId(tweetParsed);
+                // Skip if we've already seen this tweet
+                if (seenTweetIds.has(tweetId)) {
+                    continue;
+                }
+                const sqlDateTime = new Date().toISOString()
+                    .slice(0, 19)
+                    .replace('T', '_')
+                    .replace(/:/g, '-');
+                // Add to seen tweets and new tweets array
+                seenTweetIds.add(tweetId);
+                newTweets.push({
+                    ...tweetParsed,
+                    _uniqueId: tweetId,
+                    _collectedAt: sqlDateTime,
+                });
+                console.log(`New tweet collected: ${tweetId}`);
+            }
+            catch (error) {
+                console.error(`Error processing tweet ${i + 1}:`, error.message);
+            }
+        }
+    }
+    catch (error) {
+        console.error("Error getting visible tweets:", error);
+    }
+    return newTweets;
+}
+function generateTweetId(tweetData) {
+    // Generate a unique ID based on tweet content
+    // Adjust this based on your tweet data structure
+    if (tweetData.id) {
+        return tweetData.id;
+    }
+    // Fallback: create ID from content hash or combination of fields
+    const contentString = JSON.stringify({
+        text: tweetData.text || tweetData.content,
+        author: tweetData.author || tweetData.username,
+        timestamp: tweetData.timestamp || tweetData.time
+    });
+    // Simple hash function (you might want to use a proper hash library)
+    let hash = 0;
+    for (let i = 0; i < contentString.length; i++) {
+        const char = contentString.charCodeAt(i);
+        hash = ((hash << 5) - hash) + char;
+        hash = hash & hash; // Convert to 32-bit integer
+    }
+    return `tweet_${Math.abs(hash)}`;
+}
+async function scrollToLoadMore(page) {
+    try {
+        // Scroll to bottom of page to trigger loading more tweets
+        await page.evaluate(() => {
+            window.scrollTo(0, document.body.scrollHeight);
+        });
+        // Alternative: Scroll by viewport height
+        // await page.evaluate(() => {
+        //     window.scrollBy(0, window.innerHeight);
+        // });
+        console.log("Scrolled to load more content");
+    }
+    catch (error) {
+        console.error("Error scrolling:", error);
+    }
+}
+async function outputResults(tweets, IDs, logger, nameFragments) {
+    try {
+        const sqlDateTime = new Date().toISOString()
+            .slice(0, 19)
+            .replace('T', '_')
+            .replace(/:/g, '-');
+        const outputData = {
+            collectionInfo: {
+                totalTweets: tweets.length,
+                collectedAt: sqlDateTime,
+                source: 'twitter_scraper',
+                profile: profileName || 'credential_login'
+            },
+            tweets: tweets
+        };
+        // Output to JSON file
+        const outputDir = path.join(process.env.ROOT_FS_ABS, 'output', profileName);
+        await fs.mkdir(outputDir, { recursive: true }); // Ensure directory exists
+        //handle name fragments , string / array . 
+        let fullName = "";
+        if (typeof nameFragments === "string") {
+            fullName = nameFragments;
+        }
+        else if (Array.isArray(nameFragments)) {
+            fullName = nameFragments
+                .filter(frag => typeof frag === "string" && frag.length > 0)
+                .join("_");
+        }
+        const outputPath = path.join(outputDir, `tweets_${sqlDateTime}${fullName ? '_' + fullName : ''}.json`);
+        await fs.writeFile(outputPath, JSON.stringify(outputData, null, 2), 'utf8');
+        console.log(`Results saved to: ${outputPath}`);
+        // update seen ids for the current profile
+        console.log(`Saving ${IDs.size} seen IDs for profile "${profileName || 'default'}"`);
+        await fs.writeFile(path.resolve(outputDir + '/ids.json'), JSON.stringify(Array.from(IDs)), 'utf8');
+        // Also output summary to console
+        console.log("\n=== COLLECTION SUMMARY ===");
+        console.log(`Total tweets collected: ${tweets.length}`);
+        console.log(`Profile used: ${profileName || 'credential_login'}`);
+        console.log(`Collection completed at: ${new Date().toISOString()}`);
+        if (tweets.length > 0) {
+            console.log("\n=== SAMPLE TWEETS ===");
+            tweets.slice(0, 3).forEach((tweet, index) => {
+                console.log(`\nTweet ${index + 1}:`);
+                console.log(`ID: ${tweet._uniqueId}`);
+                console.log(`Content: ${JSON.stringify(tweet, null, 2).substring(0, 200)}...`);
+            });
+        }
+    }
+    catch (error) {
+        console.error("Error outputting results:", error);
+    }
+}
+async function extractTweetInfoPlaywright(tweetLocator) {
+    return await tweetLocator.evaluate((tweetEl, loggerEnabled) => {
+        const tweetData = {
+            author: '',
+            content: '',
+            retweetInfo: {},
+            media: [],
+            timestamp: null,
+            id: null
+        };
+        let logData = [];
+        function logMessage(message) {
+            logData.push(message);
+            if (loggerEnabled) {
+                console.log(message);
+            }
+        }
+        function extractRetweetInfo(tweetEl) {
+            try {
+                const retweetInfo = {
+                    is_retweet: false,
+                    retweet_author: null,
+                    original_tweet: null,
+                    retweet_content: null,
+                    is_quote_tweet: false,
+                    quoted_content: null,
+                    quoted_author: null
+                };
+                // Method 1: Check for social context - this is the most reliable indicator
+                const socialContextEl = tweetEl.querySelector("span[data-testid='socialContext']");
+                if (socialContextEl) {
+                    const contextText = socialContextEl.textContent?.trim();
+                    logMessage(`Found social context: ${contextText}`);
+                    if (contextText && (contextText.includes('Retweeted') || contextText.includes('retweeted'))) {
+                        retweetInfo.is_retweet = true;
+                        // Extract who retweeted it - look for pattern "Username Retweeted"
+                        const retweetMatch = contextText.match(/^(.+?)\s+(?:Retweeted|retweeted)/);
+                        if (retweetMatch) {
+                            retweetInfo.retweet_author = retweetMatch[1].trim();
+                        }
+                        logMessage(`Detected retweet by: ${retweetInfo.retweet_author}`);
+                        // Get the original tweet content
+                        const tweetTextEl = tweetEl.querySelector('[data-testid="tweetText"]');
+                        if (tweetTextEl) {
+                            retweetInfo.retweet_content = tweetTextEl.textContent?.trim();
+                        }
+                        return retweetInfo;
+                    }
+                }
+                // Method 2: Check for retweet icon in the tweet structure (not the action buttons)
+                // Look for retweet icon that appears above the tweet content
+                const retweetIconSelectors = [
+                    'svg[viewBox="0 0 24 24"] path[d*="4.5 3.88"]', // Retweet icon path
+                    'svg[viewBox="0 0 24 24"] path[d*="16.5 6H11V4h5.5"]', // Alternative retweet path
+                ];
+                for (const selector of retweetIconSelectors) {
+                    const retweetIcon = tweetEl.querySelector(selector);
+                    if (retweetIcon) {
+                        // Make sure this icon is not in the action buttons area
+                        const actionArea = retweetIcon.closest('[role="group"]');
+                        if (!actionArea) {
+                            retweetInfo.is_retweet = true;
+                            logMessage('Detected retweet via icon structure');
+                            // Get content
+                            const tweetTextEl = tweetEl.querySelector('[data-testid="tweetText"]');
+                            if (tweetTextEl) {
+                                retweetInfo.retweet_content = tweetTextEl.textContent?.trim();
+                            }
+                            return retweetInfo;
+                        }
+                    }
+                }
+                // Method 3: Check for quote tweet structure
+                const quoteElements = tweetEl.querySelectorAll('div[role="link"][tabindex="0"]');
+                for (const quoteEl of quoteElements) {
+                    // Skip if this is just a regular link
+                    if (quoteEl.querySelector('a[href^="http"]'))
+                        continue;
+                    const quotedContent = quoteEl.querySelector('[data-testid="tweetText"]');
+                    if (quotedContent) {
+                        retweetInfo.is_quote_tweet = true;
+                        retweetInfo.quoted_content = quotedContent.textContent?.trim();
+                        // Extract quoted tweet author info
+                        const quotedAuthorElements = quoteEl.querySelectorAll('[data-testid="User-Name"] span');
+                        for (const authorEl of quotedAuthorElements) {
+                            const authorText = authorEl.textContent?.trim();
+                            if (authorText && !authorText.includes('@') && authorText.length > 0) {
+                                retweetInfo.quoted_author = authorText;
+                                break;
+                            }
+                        }
+                        logMessage(`Detected quote tweet. Author: ${retweetInfo.quoted_author}`);
+                        break;
+                    }
+                }
+                // Method 4: Look for "Show this thread" or similar retweet indicators
+                const threadIndicators = tweetEl.querySelectorAll('span');
+                for (const span of threadIndicators) {
+                    const text = span.textContent?.trim().toLowerCase();
+                    if (text && (text.includes('retweeted') || text.includes('retweet'))) {
+                        // Make sure it's not in the action buttons
+                        const actionGroup = span.closest('[role="group"]');
+                        if (!actionGroup) {
+                            retweetInfo.is_retweet = true;
+                            logMessage(`Detected retweet via text indicator: ${text}`);
+                            const tweetTextEl = tweetEl.querySelector('[data-testid="tweetText"]');
+                            if (tweetTextEl) {
+                                retweetInfo.retweet_content = tweetTextEl.textContent?.trim();
+                            }
+                            break;
+                        }
+                    }
+                }
+                return retweetInfo;
+            }
+            catch (error) {
+                logMessage("Error in retweetInfo detection: " + error.message);
+                return {
+                    is_retweet: false,
+                    retweet_author: null,
+                    original_tweet: null,
+                    retweet_content: null,
+                    is_quote_tweet: false,
+                    quoted_content: null,
+                    quoted_author: null
+                };
+            }
+        }
+        try {
+            // Author - look for the username/handle
+            const authorEl = tweetEl.querySelector("div[dir='ltr'] span");
+            if (authorEl) {
+                tweetData.author = authorEl.textContent?.trim() || '';
+            }
+            // Fallback: try different selectors for author
+            if (!tweetData.author) {
+                const authorElements = tweetEl.querySelectorAll('[data-testid="User-Name"] span');
+                for (const el of authorElements) {
+                    const text = el.textContent?.trim();
+                    if (text && !text.includes('@') && text.length > 0) {
+                        tweetData.author = text;
+                        break;
+                    }
+                }
+            }
+            // Tweet content
+            const contentEl = tweetEl.querySelector("div[data-testid='tweetText']");
+            if (contentEl) {
+                tweetData.content = contentEl.textContent?.trim() || '';
+            }
+            // Extract retweet info
+            const retweetInfo = extractRetweetInfo(tweetEl);
+            tweetData.retweetInfo = retweetInfo;
+            // Log the detection result
+            if (retweetInfo.is_retweet) {
+                logMessage(`✓ RETWEET DETECTED - Author: ${retweetInfo.retweet_author}, Content: ${retweetInfo.retweet_content?.substring(0, 50)}...`);
+            }
+            else if (retweetInfo.is_quote_tweet) {
+                logMessage(`✓ QUOTE TWEET DETECTED - Quoted Author: ${retweetInfo.quoted_author}`);
+            }
+            else {
+                logMessage(`○ Regular tweet - Author: ${tweetData.author}`);
+            }
+            // Media links (images + videos)
+            const mediaLinks = [];
+            // Images
+            const images = tweetEl.querySelectorAll("img[src*='pbs.twimg.com/media']");
+            images.forEach(img => {
+                const src = img.getAttribute('src');
+                const alt = img.getAttribute('alt') || '';
+                if (src)
+                    mediaLinks.push({ src: src, alt: alt });
+            });
+            // Videos
+            const videos = tweetEl.querySelectorAll("video source");
+            videos.forEach(vid => {
+                const src = vid.getAttribute('src');
+                const alt = vid.getAttribute('alt') || '';
+                if (src)
+                    mediaLinks.push({ src: src, alt: alt });
+            });
+            // Video thumbnails
+            const videoThumbs = tweetEl.querySelectorAll("img[src*='video_thumb']");
+            videoThumbs.forEach(thumb => {
+                const src = thumb.getAttribute('src');
+                if (src)
+                    mediaLinks.push(src);
+            });
+            tweetData.media = mediaLinks;
+            // Timestamp
+            tweetData.timestamp = null;
+            const timeEl = tweetEl.querySelector('time');
+            if (timeEl) {
+                tweetData.timestamp = timeEl.getAttribute('datetime') || timeEl.textContent?.trim();
+            }
+            // Tweet ID from URL
+            tweetData.id = null;
+            const linkEl = tweetEl.querySelector('a[href*="/status/"]');
+            if (linkEl) {
+                const href = linkEl.getAttribute('href');
+                const match = href?.match(/\/status\/(\d+)/);
+                if (match) {
+                    tweetData.id = match[1];
+                }
+            }
+        }
+        catch (error) {
+            logMessage('Error extracting tweet data: ' + error.message);
+        }
+        return {
+            "tweetData": tweetData,
+            "logs": logData
+        };
+    }, true); // Pass a boolean flag for logging
+}
+// Updated init function to handle both profile and credential login
+const init = async (page, logger, profileName) => {
+    try {
+        console.time('x.com load');
+        await page.goto('https://x.com', { waitUntil: "networkidle" });
+        console.timeEnd('x.com load');
+        const outputDir = path.join(process.env.ROOT_FS_ABS, 'output', profileName);
+        await fs.mkdir(outputDir, { recursive: true }); // Ensure directory exists
+        await page.screenshot({ path: outputDir + "/initial_screenshot.jpg" });
+        const title = await page.title();
+        console.log('Page Title:', title);
+        // Check if already logged in (for profile mode)
+        const isLoggedIn = await checkIfLoggedIn(page);
+        if (profileName && isLoggedIn) {
+            console.log('Already logged in with profile, skipping login process');
+        }
+        else {
+            console.log('Proceeding with login...');
+            await login(page);
+            try {
+                await page.waitForLoadState('networkidle', { timeout: 10000 });
+            }
+            catch (error) {
+                console.log('Warning: Page did not reach networkidle state after login:', error.message);
+            }
         }
         await close_default_popup(page);
     }
@@ -76,12 +607,11 @@ const init = async (page, logger) => {
     }
     try {
         console.time("after login redirect");
-        await page.waitForLoadState("networkidle", { timeout: 10000 }); // the redirect to timeline after login
+        await page.waitForLoadState("networkidle", { timeout: 10000 });
         console.timeEnd("after login redirect");
         let title = await page.title();
         let url = await page.url();
         console.log('Page Title:', title, " - page url : ", url);
-        // Wait 2 seconds
         await new Promise(resolve => setTimeout(resolve, 2000));
         title = await page.title();
         url = await page.url();
@@ -91,46 +621,57 @@ const init = async (page, logger) => {
         console.error('Error during post-login phase:', error);
     }
 };
-const get_tweets = async (page) => {
-    //run multiple times (over entire page ? over new tweets ?)
+async function checkIfLoggedIn(page) {
     try {
-        console.log("get tweets init");
-        let tweet_bulk = [];
-        console.time("tweets load");
-        try {
-            await page.waitForLoadState('networkidle');
-        }
-        catch (error) {
-            console.log('Warning: Page did not reach networkidle state:', error.message);
-        }
-        console.timeEnd("tweets load");
-        const tweets_full = page.locator('[role="article"][tabindex="0"][data-testid="tweet"]');
-        const count = await tweets_full.count();
-        console.log("count = ", count);
-        for (let i = 0; i < count; i++) {
+        // Wait a bit for the page to load
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        // Check for elements that indicate we're logged in
+        const loggedInIndicators = [
+            '[data-testid="SideNav_AccountSwitcher_Button"]', // Profile button
+            '[data-testid="primaryColumn"]', // Main timeline column
+            // 'nav[role="navigation"]', // Navigation bar - ❌ appears for both states
+            '[data-testid="AppTabBar_Home_Link"]', // Home tab
+        ];
+        for (const selector of loggedInIndicators) {
             try {
-                const tweet = tweets_full.nth(i);
-                // const content = await tweet.textContent();
-                // console.log(`Tweet ${i + 1}:`, content);
-                // if (i >= 9){ // Changed condition to be clearer
-                //   break;
-                // }
-                const tweetParsed = extractTweetInfo(await tweet.elementHandle(), await page.evaluateHandle(() => document));
-                tweet_bulk.push(tweetParsed);
-                console.log(`Tweet ${i + 1}:`, tweetParsed);
+                const element = await page.waitForSelector(selector, { timeout: 3000 });
+                if (element) {
+                    console.log(`Found logged-in indicator: ${selector}`);
+                    return true;
+                }
             }
             catch (error) {
-                console.error(`Error processing tweet ${i + 1}:`, error.message);
+                // Continue checking other indicators
+                continue;
             }
         }
+        // Check if we see login button (indicates not logged in)
+        try {
+            const loginButton = await page.waitForSelector('a[href="/login"]', { timeout: 2000 });
+            if (loginButton) {
+                console.log('Found login button - not logged in');
+                return false;
+            }
+        }
+        catch (error) {
+            // Login button not found, might be logged in
+        }
+        // Additional check: look at URL
+        const url = page.url();
+        if (url.includes('/home') || url.includes('/i/flow/login') === false) {
+            console.log('URL suggests logged in state');
+            return true;
+        }
+        console.log('Could not determine login state, assuming not logged in');
+        return false;
     }
     catch (error) {
-        console.log("get tweets failed:", error);
+        console.error('Error checking login state:', error);
+        return false;
     }
-};
+}
 async function close_default_popup(page) {
     try {
-        // Wait up to 5s for the popup to appear
         const popup = await page.waitForSelector('[data-testid="mask"]', { timeout: 5000 });
         try {
             const closeButton = await popup.waitForSelector('[aria-label="Close"][role="button"]', { timeout: 3000 });
@@ -200,7 +741,6 @@ async function handle_password(page) {
         let is_sus = true;
         await Promise.race([
             pass_input.then(async (pass_input) => {
-                //do password
                 is_sus = false;
                 console.log("password input found. entering and submitting");
                 await pass_input.type(process.env.TWITTER_PASSWORD);
@@ -230,7 +770,6 @@ async function handle_password(page) {
 }
 async function handle_confirm_phone(page) {
     try {
-        // Fixed: Use waitForSelector instead of waitForLoadState
         const overlay = await page.waitForSelector('[data-testid="sheetDialog"]', { timeout: 3000 });
         try {
             const phone_text = await overlay.waitForSelector('text="Review your phone"', { timeout: 2000 });
@@ -240,7 +779,6 @@ async function handle_confirm_phone(page) {
             for (let i = 0; i < count; i++) {
                 const button = buttons.nth(i);
                 const text = await button.textContent();
-                // console.log(`Button ${i}: ${text}`);
                 buttonArray.push({
                     text: text,
                     ref: button,
@@ -261,7 +799,6 @@ async function handle_confirm_phone(page) {
 }
 async function mask_exists(page) {
     try {
-        // Fixed: Use waitForSelector instead of waitForLoadState
         const overlay = await page.waitForSelector('[data-testid="mask"]', { timeout: 5000 });
         return !!overlay;
     }
