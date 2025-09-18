@@ -5,7 +5,7 @@
   "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "bash ./workflow_scripts/init.bash && tsc",
     "tsc_watch": "tsc --watch",
     "start": "node cli.js",
     "dev": "node --inspect cli.js"
@@ -17,7 +17,8 @@
   "private": true,
   "devDependencies": {
     "@types/bun": "^1.2.22",
-    "@types/pg": "^8.15.5"
+    "@types/pg": "^8.15.5",
+    "dotenv-cli": "^10.0.0"
   },
   "peerDependencies": {
     "typescript": "^5.8.3"
@@ -28,6 +29,7 @@
     "form-data": "^4.0.0",
     "js-beautify": "^1.15.4",
     "node-fetch": "^2.6.7",
+    "node-pg-migrate": "^8.0.3",
     "path": "^0.12.7",
     "pg": "^8.16.3",
     "playwright": "^1.51.1"

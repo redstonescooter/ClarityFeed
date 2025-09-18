@@ -243,7 +243,7 @@ export class FreeAnalyzer {
     }
     async preProcess(fileContent) {
         const include_media_descriptions = true; // Set to true to include media alt texts
-        const tweet_per_file = null;
+        const tweet_per_file = null; //maximum tweet analysis limit per file
         try {
             const data = JSON.parse(fileContent);
             const texts = data.tweets.map((tweet, index) => {
