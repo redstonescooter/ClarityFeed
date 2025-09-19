@@ -2,8 +2,8 @@
 import { config as dotenvConfig } from 'dotenv';
 import { chromium } from 'playwright';
 import path from 'path';
-import { security_question_sentiment } from './utils/button_sentiment.js';
-import { Logger } from './utils/log.js';
+import { security_question_sentiment } from '../utils/button_sentiment.js';
+import { Logger } from '../utils/log.js';
 import fs from 'fs/promises';
 dotenvConfig({ path: path.resolve('/root/programming/clarityFeed/.env') });
 // Get proxy settings from environment variables

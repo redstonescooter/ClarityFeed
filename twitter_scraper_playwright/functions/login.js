@@ -1,5 +1,5 @@
 // functions/login.js
-import { security_question_sentiment } from '../utils/button_sentiment.js';
+import { security_question_sentiment } from '../../utils/button_sentiment.js';
 
 export async function loginToTwitter(page,logger, resume = false) {
   try {

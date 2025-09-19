@@ -5,7 +5,7 @@ import path from 'path';
 import { initBrowser } from './functions/init.js';
 import { loginToTwitter } from './functions/login.js';
 import { getTweets } from './functions/tweets.js';
-import { Logger } from './utils/log.js';
+import { Logger } from '../utils/log.js';
 
 dotenvConfig({ path: path.resolve('/root/programming/clarityFeed/.env') });
 

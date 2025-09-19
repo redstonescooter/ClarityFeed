@@ -4,8 +4,8 @@ import { chromium } from 'playwright';
 import path from 'path';
 import { text } from 'stream/consumers';
 import { ref } from 'process';
-import { security_question_sentiment } from './utils/button_sentiment.js';
-import { Logger } from './utils/log.js';
+import { security_question_sentiment } from '../utils/button_sentiment.js';
+import { Logger } from '../utils/log.js';
 import fs from 'fs/promises';
 import { isDataView } from 'util/types';
 
