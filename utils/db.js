@@ -10,10 +10,10 @@ import { PositiveInt } from "./typeZod";
 const execAsync = promisify(exec);
 class DB {
     constructor() {
-        this.PG_USER = process.env.PG_USER || 'Sentiment';
+        this.PG_USER = process.env.PG_USER || 'sentiment';
         this.PG_HOST = process.env.PG_HOST || 'localhost';
-        this.PG_DB = process.env.PG_DB || 'Sentiment';
-        this.PG_PASSWORD = process.env.PG_PASSWORD || 'SentimentPassword';
+        this.PG_DB = process.env.PG_DB || 'sentiment';
+        this.PG_PASSWORD = process.env.PG_PASSWORD || 'sentiment123!';
         this.PG_PORT = PositiveInt.safeParse(process.env.PG_PORT).data ?? 5432;
         // Configuration object
         this.dbConfig = {
@@ -38,7 +38,12 @@ class DB {
     async init() {
         //initial pool reset
         if (this.pool != null) {
-            await this.pool.end();
+            try {
+                await this.pool.end();
+            }
+            catch (error) {
+                console.log(error);
+            }
             this.pool = null;
         }
         const testConnectionRes = await this.testConnection(this.dbConfig);
@@ -54,7 +59,7 @@ class DB {
         }
         //determine the errors based on error codes
         const err = this.categorizeConnectionError(testConnectionRes.error);
-        if (err !== 'USER_NOT_FOUND' && err !== 'DATABASE_NOT_FOUND') {
+        if (err !== 'USER_NOT_FOUND' && err !== 'DATABASE_NOT_FOUND' && !testConnectionRes.error.message?.toLowerCase().includes("password")) {
             console.log('❌ Database connection failed:', testConnectionRes.error.code, testConnectionRes.error.message);
             throw new Error(err);
         }
@@ -72,6 +77,25 @@ class DB {
             const dbCreated = await this.createDatabase(this.PG_DB, this.PG_USER);
             if (!dbCreated) {
                 throw new Error("Failed to create database: " + this.PG_DB);
+            }
+            await this.init();
+        }
+        if (testConnectionRes.error.message.includes("password")) {
+            const userExists = await this.checkIfUserExists(this.PG_USER);
+            if (userExists) {
+                throw new Error("Authentication failed: Wrong password for user " + this.PG_USER);
+            }
+            else {
+                console.log("user not found , creating user and db");
+                const userCreated = await this.createUser(this.PG_USER, this.PG_PASSWORD);
+                if (!userCreated) {
+                    throw new Error("Failed to create user: " + this.PG_USER);
+                }
+                //we know if user didnt exist so does the db so we create it
+                const dbCreated = await this.createDatabase(this.PG_DB, this.PG_USER);
+                if (!dbCreated) {
+                    throw new Error("Failed to create database: " + this.PG_DB);
+                }
             }
             await this.init();
         }
@@ -237,9 +261,8 @@ class DB {
         }
     }
     async client_createUser(username, password) {
-        const client = new Client(this.superUserConfig);
+        const client = await this.pool.connect();
         try {
-            await client.connect();
             // Check if user exists
             const userExists = await client.query('SELECT 1 FROM pg_roles WHERE rolname = $1', [username]);
             if (userExists.rows.length === 0) {
@@ -257,13 +280,12 @@ class DB {
             return false;
         }
         finally {
-            await client.end();
+            await client.release();
         }
     }
     async client_createDatabase(dbName, owner) {
-        const client = new Client(this.superUserConfig);
+        const client = await this.pool.connect();
         try {
-            await client.connect();
             // Check if database exists
             const dbExists = await client.query('SELECT 1 FROM pg_database WHERE datname = $1', [dbName]);
             if (dbExists.rows.length === 0) {
@@ -281,7 +303,51 @@ class DB {
             return false;
         }
         finally {
-            await client.end();
+            await client.release();
+        }
+    }
+    async client_checkIfUserExists(username) {
+        const client = await this.pool.connect();
+        try {
+            // Check if user exists
+            const userExists = await client.query('SELECT 1 FROM pg_roles WHERE rolname = $1', [username]);
+            if (userExists.rows.length === 0) {
+                console.log(`✗ User ${username} doesnt exists`);
+                return false;
+            }
+            else {
+                console.log(`✓ User ${username} already exists`);
+                return true;
+            }
+        }
+        catch (error) {
+            console.error(`✗ Error checking user existance ${username} via client:`, error.message);
+            return false;
+        }
+        finally {
+            await client.release();
+        }
+    }
+    async client_checkIfDatabaseExists(dbname) {
+        const client = await this.pool.connect();
+        try {
+            // Check if database exists
+            const dbExists = await client.query('SELECT 1 FROM pg_database WHERE datname = $1', [dbname]);
+            if (dbExists.rows.length === 0) {
+                console.log(`✓ Database ${dbname} doesnt exists`);
+                return false;
+            }
+            else {
+                console.log(`✓ Database ${dbname} already exists`);
+                return true;
+            }
+        }
+        catch (error) {
+            console.error(`✗ Error checking database existance ${dbname} via client:`, error.message);
+            return false;
+        }
+        finally {
+            await client.release();
         }
     }
     // Unified user creation that uses the determined method
@@ -303,6 +369,29 @@ class DB {
         }
         else if (this.adminMethod === 'sudo') {
             return await this.sudo_createDatabase(dbName, owner);
+        }
+        else {
+            throw new Error('No admin method determined');
+        }
+    }
+    async checkIfDatabaseExists(database) {
+        if (this.adminMethod === 'client') {
+            return await this.client_checkIfDatabaseExists(database);
+        }
+        else if (this.adminMethod === 'sudo') {
+            return await this.sudo_checkIfDatabaseExists(database);
+        }
+        else {
+            throw new Error('No admin method determined');
+        }
+    }
+    // Unified database creation that uses the determined method
+    async checkIfUserExists(username) {
+        if (this.adminMethod === 'client') {
+            return await this.client_checkIfUserExists(username);
+        }
+        else if (this.adminMethod === 'sudo') {
+            return await this.sudo_checkIfUserExists(username);
         }
         else {
             throw new Error('No admin method determined');

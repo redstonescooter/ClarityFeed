@@ -1,0 +1,834 @@
+{
+  "collectionInfo": {
+    "totalTweets": 38,
+    "collectedAt": "2025-09-20_08-45-07",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "elhacker.NET",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-18T11:31:36.000Z",
+      "id": "1968639037637374312",
+      "_uniqueId": "1968639037637374312",
+      "_collectedAt": "2025-09-20_08-44-35"
+    },
+    {
+      "author": "Prime Video DE",
+      "content": "Unheimlich wichtiger Abend",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": null,
+      "id": "1966052506418770037",
+      "_uniqueId": "1966052506418770037",
+      "_collectedAt": "2025-09-20_08-44-35"
+    },
+    {
+      "author": "Jon Hernandez",
+      "content": "Matthew McConaughey says he wants a private LLM, fed only with his books, notes, journals, and aspirations, so he can ask it questions and get answers based solely on that information, without any outside influence.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-19T15:01:23.000Z",
+      "id": "1969054219647803765",
+      "_uniqueId": "1969054219647803765",
+      "_collectedAt": "2025-09-20_08-44-35"
+    },
+    {
+      "author": "Maze",
+      "content": "wait fuck, i don’t have a browser\n\nim setting up this new pc\n\nfirst thing i do, i uninstall microsoft edge\n\nthen i realize\n\ni don’t have any other browser\n\nso now i can’t get a browser\n\ni cant install a browser without a browser\n\nplease help",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-19T00:18:28.000Z",
+      "id": "1968832024430440775",
+      "_uniqueId": "1968832024430440775",
+      "_collectedAt": "2025-09-20_08-44-36"
+    },
+    {
+      "author": "Lex Fridman",
+      "content": "Here's my conversation with Norman Ohler, a historian and author of \"Blitzed: Drugs in the Third Reich,\" a book that investigates the role of psychoactive drugs, particularly stimulants such as methamphetamine, in the military history of World War II. It is a book that two",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1969131778028740608/img/Ic7ouI2mWKlYpJWA.jpg"
+      ],
+      "timestamp": "2025-09-19T20:25:06.000Z",
+      "id": "1969135682321871273",
+      "_uniqueId": "1969135682321871273",
+      "_collectedAt": "2025-09-20_08-44-36"
+    },
+    {
+      "author": "GitKraken",
+      "content": "Make your best commit today: Save up to 85% on GitKraken Pro to celebrate Programmers Day!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0Z4_qZWMAAMX-G?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1965448343162597379",
+      "_uniqueId": "1965448343162597379",
+      "_collectedAt": "2025-09-20_08-44-43"
+    },
+    {
+      "author": "Holly - I like tech",
+      "content": "this is so embarrassing",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1969189951473426433/img/R0sBrGLHyrjdwQpb.jpg"
+      ],
+      "timestamp": "2025-09-20T00:00:57.000Z",
+      "id": "1969190005441528265",
+      "_uniqueId": "1969190005441528265",
+      "_collectedAt": "2025-09-20_08-44-43"
+    },
+    {
+      "author": "Matthew",
+      "content": "Clearly fucking isn't",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Highest point in England",
+        "quoted_author": "Tommy Robinson"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1Ijok8XUAAt8u6?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-18T16:44:15.000Z",
+      "id": "1968717716178551147",
+      "_uniqueId": "1968717716178551147",
+      "_collectedAt": "2025-09-20_08-44-43"
+    },
+    {
+      "author": "Austen Allred",
+      "content": "Wait a minute…\n\nThe guy trying desperately to usher in superintelligence at Meta is named Roko’s Basilisk-o????",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1Klqj7WYAAqZal?format=jpg&name=small",
+          "alt": "Mark Zuckerberg wearing dark smart glasses, holding them in front of his face with both hands. He is dressed in a dark shirt and a wristwatch is visible on his left wrist. A rectangular inset with text about Meta Platforms and the smart glasses is positioned to the left of Mark Zuckerberg."
+        }
+      ],
+      "timestamp": "2025-09-18T23:23:18.000Z",
+      "id": "1968818141749792957",
+      "_uniqueId": "1968818141749792957",
+      "_collectedAt": "2025-09-20_08-44-43"
+    },
+    {
+      "author": "Haz",
+      "content": "It's amazing how much you can do with CSS these days.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1968778831025643520/img/aGZGXyajVvSoVUI2.jpg"
+      ],
+      "timestamp": "2025-09-18T20:49:47.000Z",
+      "id": "1968779509651341804",
+      "_uniqueId": "1968779509651341804",
+      "_collectedAt": "2025-09-20_08-44-43"
+    },
+    {
+      "author": "non aesthetic things",
+      "content": "the art of noticing",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/1968915532100333568/pu/img/3yhJ58F2sRY4VVYT.jpg"
+      ],
+      "timestamp": "2025-09-19T05:50:29.000Z",
+      "id": "1968915577679876516",
+      "_uniqueId": "1968915577679876516",
+      "_collectedAt": "2025-09-20_08-44-43"
+    },
+    {
+      "author": "‎Wojak Codes",
+      "content": "watch this and you’ll never take notes the same way again",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/1838425170337267712/pu/img/Ek5T2QE8mOT4U3_T.jpg"
+      ],
+      "timestamp": "2025-09-18T16:55:36.000Z",
+      "id": "1968720572994449545",
+      "_uniqueId": "1968720572994449545",
+      "_collectedAt": "2025-09-20_08-44-43"
+    },
+    {
+      "author": "Flop Hero",
+      "content": "Great coaching starts with great data.\n Try it now",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GtsuVehXwAA8jf8?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1963262080548774345",
+      "_uniqueId": "1963262080548774345",
+      "_collectedAt": "2025-09-20_08-44-43"
+    },
+    {
+      "author": "Aella",
+      "content": "omg",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1Ny8C-WYAEiCD1?format=jpg&name=small",
+          "alt": "Two men sitting in chairs on a stage with a blue background featuring abstract digital patterns. One man wears a dark blue shirt, the other a light blue shirt. Text overlay reads \"ARTIFICIAL FUTURE? UNDERSTANDING AI\" and \"NEW BOOK WARNS OF THREATS TO HUMANITY FROM ARTIFICIAL SUPERINTELLIGENCE\" with an ABC News Live watermark."
+        }
+      ],
+      "timestamp": "2025-09-19T14:20:09.000Z",
+      "id": "1969043840792174644",
+      "_uniqueId": "1969043840792174644",
+      "_collectedAt": "2025-09-20_08-44-43"
+    },
+    {
+      "author": "Neue Zürcher Zeitung Deutschland",
+      "content": "Die Schriftstellerin Monika Maron ist eine unüberhörbare Stimme im deutschen Diskurs. Sie ist überzeugt: Macht die Bundesregierung so weiter, wird die AfD noch grösser. Hier lesen Sie ganze Interview:",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GxBqUhKW0AAw3g0?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1950175612905136351",
+      "_uniqueId": "1950175612905136351",
+      "_collectedAt": "2025-09-20_08-44-51"
+    },
+    {
+      "author": "Fran Zekan",
+      "content": "The fact that this shipped is insane...",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1J04s2XIAAnq-t?format=png&name=240x240",
+          "alt": "Three colored circles on a black background, red on the left, yellow in the middle, and green on the right, resembling traffic lights on a digital interface."
+        }
+      ],
+      "timestamp": "2025-09-18T19:50:15.000Z",
+      "id": "1968764524028186967",
+      "_uniqueId": "1968764524028186967",
+      "_collectedAt": "2025-09-20_08-44-51"
+    },
+    {
+      "author": "cinesthetic.",
+      "content": "During 1917, MacKay accidentally slammed into extras while running. Since every take was insanely expensive, they just kept the cameras rolling.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/1360135328842063872/pu/img/hNJZM38BPvxV_b5C.jpg"
+      ],
+      "timestamp": "2025-09-19T16:10:00.000Z",
+      "id": "1969071485873717727",
+      "_uniqueId": "1969071485873717727",
+      "_collectedAt": "2025-09-20_08-44-51"
+    },
+    {
+      "author": "Terrible Maps",
+      "content": "No one trolls with street names quite like Prague.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1NKNcmbsAA4G3X?format=jpg&name=small",
+          "alt": "A map of Prague highlighting the Russian Embassy in red with the Russian flag. Surrounding streets and areas are labeled in blue, including Alexey Navalny Outlook, Boris Nemtsov Square, Anna Politkovskaya Promenade, and Ukrainian Heroes Street. Text overlays include \"PRAGUE\" with the Czech flag and \"NEZVY HOST\" with question marks."
+        }
+      ],
+      "timestamp": "2025-09-19T11:22:12.000Z",
+      "id": "1968999058233790751",
+      "_uniqueId": "1968999058233790751",
+      "_collectedAt": "2025-09-20_08-44-51"
+    },
+    {
+      "author": "kon",
+      "content": "you can only live & find your wife within one region of the United States. what are you picking?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1NykgVWcAACRK9?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-19T14:18:33.000Z",
+      "id": "1969043437988024407",
+      "_uniqueId": "1969043437988024407",
+      "_collectedAt": "2025-09-20_08-44-51"
+    },
+    {
+      "author": "Claude",
+      "content": "Keep thinking.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1JF9VsXQAM8FYu.jpg",
+          "alt": ""
+        }
+      ],
+      "timestamp": "2025-09-18T15:56:14.000Z",
+      "id": "1968705632095158393",
+      "_uniqueId": "1968705632095158393",
+      "_collectedAt": "2025-09-20_08-44-51"
+    },
+    {
+      "author": "RIO",
+      "content": "we came a long way chat",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1J8tk0WQAI78Ka?format=png&name=small",
+          "alt": "A large orange billboard with white text reading \"Intelligence so big, you\\'d swear it was from Texas\" and the Claude.ai logo below it. The billboard is mounted on a building in an urban setting, with trees, streetlights, and a traffic light visible in the foreground. A street sign reading \"Harvard St\" is partially visible at the bottom right."
+        }
+      ],
+      "timestamp": "2025-09-18T20:24:26.000Z",
+      "id": "1968773127514570891",
+      "_uniqueId": "1968773127514570891",
+      "_collectedAt": "2025-09-20_08-44-51"
+    },
+    {
+      "author": "Kilo Code",
+      "content": "Looking for an alternative to Kiro? Thankfully, it’s a one-letter fix.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0-ixYcXQAAu_VS?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1967972745477755243",
+      "_uniqueId": "1967972745477755243",
+      "_collectedAt": "2025-09-20_08-44-51"
+    },
+    {
+      "author": "Wager.com",
+      "content": "Stop scrolling. Start winning.\n\nWager = Trusted. Secure. Rapid Payouts and User-Interface!\n\nCrypto-friendly: BTC, ETH, USDT, SOL.\n\n300% Deposit Match for new players.\n\nAugust winners cashed out $15M+!\nYour shot at $500,000 is here!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1964031984008630272/img/gm2EBm1iMmFQJXZ2.jpg"
+      ],
+      "timestamp": null,
+      "id": "1968333182300000433",
+      "_uniqueId": "1968333182300000433",
+      "_collectedAt": "2025-09-20_08-44-58"
+    },
+    {
+      "author": "Vishal 0⇀1/acc ▲",
+      "content": "Bro disappeared like he never existed.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1LiwfNbcAAyx4F?format=jpg&name=small",
+          "alt": "A blue stylized logo of a whale with a dorsal fin and tail, positioned to the left of the word \"deepseek\" in lowercase blue text. The design is clean and minimalistic."
+        }
+      ],
+      "timestamp": "2025-09-19T03:50:44.000Z",
+      "id": "1968885443639824724",
+      "_uniqueId": "1968885443639824724",
+      "_collectedAt": "2025-09-20_08-44-58"
+    },
+    {
+      "author": "𝙗𝙡𝙖𝙣𝙠",
+      "content": "Siemens Harlequin Multi-Colored Washing Machine (1998)",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1OH2wiaYAAK-_K?format=jpg&name=small",
+          "alt": "A Siemens Harlequin Multi-Colored Washing Machine from 1998. The machine has a blue body, a red circular door, a yellow control panel, and a green base. The control panel includes buttons and dials, with the Siemens logo visible at the top."
+        }
+      ],
+      "timestamp": "2025-09-19T15:51:32.000Z",
+      "id": "1969066839839015416",
+      "_uniqueId": "1969066839839015416",
+      "_collectedAt": "2025-09-20_08-44-58"
+    },
+    {
+      "author": "Matthew Berman",
+      "content": "Never deleting this app",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1QeahTbQAAJASA?format=jpg&name=small",
+          "alt": "A profile picture of Matthew Berman, showing a man with short brown hair and a light blue shirt, smiling outdoors. A profile picture of Elon Musk, displaying a rocket launch. Text overlay includes usernames @MatthewBerman and @elonmusk, timestamps, and engagement metrics like likes and views."
+        }
+      ],
+      "timestamp": "2025-09-20T02:49:20.000Z",
+      "id": "1969232381451051214",
+      "_uniqueId": "1969232381451051214",
+      "_collectedAt": "2025-09-20_08-44-58"
+    },
+    {
+      "author": "Igal Tabachnik",
+      "content": "ok this just happened",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1MIbWNWIAAm6lj?format=jpg&name=small",
+          "alt": "A profile image of Nikita Bier, depicted as a cartoon-style drawing of a man with short hair and a beard. The text below the image reads \"Nikita Bier @nikitabier head of product @x, advisor @solana, venture partner @lightspeedvp, ex-founder\" with 59K followers. Additional text shows a post timestamped \"Today 9:31 AM\" with the message \"come work for X\" and a heart emoji."
+        }
+      ],
+      "timestamp": "2025-09-19T06:34:48.000Z",
+      "id": "1968926730321547702",
+      "_uniqueId": "1968926730321547702",
+      "_collectedAt": "2025-09-20_08-44-58"
+    },
+    {
+      "author": "Joscha Bach",
+      "content": "God is the global optimum of shared agency, the collective agent that gets instantiated by those who do what's best. God exists, across all those that serve him, to the degree they recognize what's best. But institutions are failing at this. God is not dead, but the church is.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-19T21:32:02.000Z",
+      "id": "1969152526973882878",
+      "_uniqueId": "1969152526973882878",
+      "_collectedAt": "2025-09-20_08-44-58"
+    },
+    {
+      "author": "Dying Light",
+      "content": "Sie wollten ihn brechen. Sie machten ihn zur Bestie. Hol dir Dying Light: The Beast jetzt",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1968705300040445953/img/6W4qW-AXaEBpYtDT.jpg"
+      ],
+      "timestamp": null,
+      "id": "1968705632074190990",
+      "_uniqueId": "1968705632074190990",
+      "_collectedAt": "2025-09-20_08-44-58"
+    },
+    {
+      "author": "Joseph Alessio",
+      "content": "marketing and design watching engineering eat all the budget",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1Kp27xaQAEMDBw?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-18T23:41:37.000Z",
+      "id": "1968822752942387627",
+      "_uniqueId": "1968822752942387627",
+      "_collectedAt": "2025-09-20_08-44-58"
+    },
+    {
+      "author": "TopDomains",
+      "content": "SOLD\n\nhttp://Watch.now for $79,988 USD\n\nBig congrats to the buyer!\n\n.Now—a new TLD from the Amazon Registry—is making headlines once again, shortly after Love​.now sold for $79.5K.\n\nNow breaking $300K in aftermarket and $1M in registry sales as a 9-month new TLD in 2025 —",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/Gv_S1u5X0AA8VUr?format=jpg&name=small",
+          "alt": "The image features a person wearing a futuristic virtual reality headset, set against a cityscape background transitioning from night to day. The text overlay prominently displays \"Watch.now\" in large white letters, with \"Sold for $79,988 USD\" written below it. The context from the post text indicates that this is an announcement of the sale of the domain name Watch.now for $79,988 USD. The image is branded with the TopDomains logo in the top right corner, emphasizing the business aspect of domain sales. The overall theme suggests a modern, tech-forward approach to branding and domain acquisition."
+        }
+      ],
+      "timestamp": null,
+      "id": "1945507805076582400",
+      "_uniqueId": "1945507805076582400",
+      "_collectedAt": "2025-09-20_08-45-05"
+    },
+    {
+      "author": "Not Now John",
+      "content": "My favorite thing about my new apartment is the ominous giant cross about to break through the wall",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1KfDM6WwAEK1Ur?format=jpg&name=small",
+          "alt": "Two windows with white frames and wooden blinds on a light-colored wall. A large vertical indentation resembling a cross is visible on the wall between the windows. Radiators are positioned below each window, and wooden flooring extends across the room. Trees and greenery are visible through the windows."
+        }
+      ],
+      "timestamp": "2025-09-18T22:54:25.000Z",
+      "id": "1968810874451243313",
+      "_uniqueId": "1968810874451243313",
+      "_collectedAt": "2025-09-20_08-45-05"
+    },
+    {
+      "author": "Andrew Gazdecki",
+      "content": "Founders when they see a shit product with better distribution win:",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1KFEFhbAAAIcCK?format=jpg&name=small",
+          "alt": "A man with dark, shoulder-length hair wearing a blue and red patterned shirt, sitting in a dimly lit setting with blurred warm lights in the background."
+        }
+      ],
+      "timestamp": "2025-09-18T21:02:05.000Z",
+      "id": "1968782602476585373",
+      "_uniqueId": "1968782602476585373",
+      "_collectedAt": "2025-09-20_08-45-05"
+    },
+    {
+      "author": "Retro Tech Dreams",
+      "content": "Before Meta Ray-Ban Display glasses, we had NASA's Virtual Interface Environment Workstation (VIEW)",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1JCRSuW4AE6wvD?format=jpg&name=small",
+          "alt": "A person wearing a blue shirt and a large headset labeled NASA, with wires and sensors attached. Black gloves with wires are on both hands, one making a pointing gesture and the other a thumbs-up. The person is seated at a table against a gray background."
+        }
+      ],
+      "timestamp": "2025-09-18T16:09:02.000Z",
+      "id": "1968708855593930974",
+      "_uniqueId": "1968708855593930974",
+      "_collectedAt": "2025-09-20_08-45-05"
+    },
+    {
+      "author": "Yue Wu",
+      "content": "Our vending machine at @xai run by @grok just randomly decided to order some AGI pills for us. Ingredient unknown yet.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1KfU6basAEHySr?format=jpg&name=360x360",
+          "alt": "A white rectangular container labeled \"AGI Pills\" with \"By Grokbox\" and a logo featuring a stylized slash design. Inside the container are several white cylindrical pills, each marked with \"AGI\" in red text. The container is placed on a plain surface."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G1KfU6QaQAIxiCp?format=jpg&name=360x360",
+          "alt": "A white rectangular container labeled \"AGI Pills\" with \"By Grokbox\" and a logo featuring a stylized slash design. Inside the container are several white cylindrical pills, each marked with \"AGI\" in red text. The container is placed on a plain surface."
+        }
+      ],
+      "timestamp": "2025-09-18T22:55:37.000Z",
+      "id": "1968811173966389471",
+      "_uniqueId": "1968811173966389471",
+      "_collectedAt": "2025-09-20_08-45-05"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1IGVr4aQAEW-JG?format=jpg&name=small",
+          "alt": "A black Toyota car parked on a narrow street. The car\\'s hood appears distorted with a colorful, iridescent effect, resembling a digital or artistic alteration. Buildings, parked cars, and a sidewalk are visible in the background."
+        }
+      ],
+      "timestamp": "2025-09-18T11:47:11.000Z",
+      "id": "1968642959244660918",
+      "_uniqueId": "1968642959244660918",
+      "_collectedAt": "2025-09-20_08-45-05"
+    },
+    {
+      "author": "IJ Engineer",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0ZyRd4WMAAGxov?format=jpg&name=small",
+          "alt": "Article cover image"
+        }
+      ],
+      "timestamp": null,
+      "id": "1965412778904289348",
+      "_uniqueId": "1965412778904289348",
+      "_collectedAt": "2025-09-20_08-45-05"
+    },
+    {
+      "author": "Nathan Riley",
+      "content": "Motion R&D\n\n#redshift #tracery #c4d #motiondesign",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-18T10:49:50.000Z",
+      "id": "1968628524002033835",
+      "_uniqueId": "1968628524002033835",
+      "_collectedAt": "2025-09-20_08-45-05"
+    }
+  ]
+}

@@ -1,0 +1,674 @@
+{
+  "collectionInfo": {
+    "totalTweets": 31,
+    "collectedAt": "2025-09-20_09-31-00",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "Jay Dwivedi",
+      "content": "Please let me see where my cursor is",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-19T08:17:53.000Z",
+      "id": "1968952675774431583",
+      "_uniqueId": "1968952675774431583",
+      "_collectedAt": "2025-09-20_09-30-28"
+    },
+    {
+      "author": "Mario Zechner",
+      "content": "So tired of this.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1M8mHvWMAALuHj?format=jpg&name=small",
+          "alt": "A screenshot of code in a text editor displaying a file named README.md. The code includes lines of text with comments and features listed, such as \"Auto-reload on file changes\" and \"Injects reload script into HTML files automatically.\" Text is highlighted in different colors, including red and green, indicating changes or additions."
+        }
+      ],
+      "timestamp": "2025-09-19T10:22:52.000Z",
+      "id": "1968984126238736825",
+      "_uniqueId": "1968984126238736825",
+      "_collectedAt": "2025-09-20_09-30-28"
+    },
+    {
+      "author": "Kraken",
+      "content": "Zugang zu regulierten Krypto-Derivaten und den Tools, um sie mit Präzision zu traden.\n\nErhöhe deinen Hebel, trade mit Präzision. Ohne Abstriche.\n\nKrypto-Trading ohne Kompromisse.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": null,
+      "id": "1953013957142393025",
+      "_uniqueId": "1953013957142393025",
+      "_collectedAt": "2025-09-20_09-30-35"
+    },
+    {
+      "author": "kanav",
+      "content": "just added OAuth to my saas. did i miss anything???",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1Ml5CKWgAAzIXj?format=jpg&name=small",
+          "alt": "A computer screen displaying a list of login options. Options include Login with YouTube, Login with Pinterest, Login with OnlyFans, Login with Roblox, Login with Shein, Login with a Potato, Login with Settings, Login with your mom, Login with Pancake Cartoon, Login with Form 117, Login with Credit Card, Login with Fingerprint, Login with Beef Caldereta, Login with your Age, Login with PDF, Login with Calculator, Login with your Address, and Login with National ID. Each option has an associated icon or image next to it."
+        }
+      ],
+      "timestamp": "2025-09-19T08:43:33.000Z",
+      "id": "1968959131877847351",
+      "_uniqueId": "1968959131877847351",
+      "_collectedAt": "2025-09-20_09-30-35"
+    },
+    {
+      "author": "Barack Obama",
+      "content": "After years of complaining about cancel culture, the current administration has taken it to a new and dangerous level by routinely threatening regulatory action against media companies unless they muzzle or fire reporters and commentators it doesn’t like.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-18T14:11:04.000Z",
+      "id": "1968679167286763678",
+      "_uniqueId": "1968679167286763678",
+      "_collectedAt": "2025-09-20_09-30-35"
+    },
+    {
+      "author": "@levelsio",
+      "content": "Guys McDonald's in Paris doesn't give you straws anymore but this soggy paper cup",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1PVf54XwAAV0k7?format=jpg&name=small",
+          "alt": "A white McDonald\\'s paper cup with a plastic lid, showing a straw slot and seven circular indentations. The lid has visible stains and drips of a yellowish liquid. The cup is placed on a surface with a cluttered background, including a bed, white pillows, and various items like a plate, mug, and red cup."
+        }
+      ],
+      "timestamp": "2025-09-19T21:31:48.000Z",
+      "id": "1969152468324905458",
+      "_uniqueId": "1969152468324905458",
+      "_collectedAt": "2025-09-20_09-30-35"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1O9WxdbQAAraVB?format=jpg&name=small",
+          "alt": "A concrete wall with a metallic inlay forming a zigzag pattern. The inlay is gold-colored and embedded along the edge of the wall, creating a decorative border."
+        }
+      ],
+      "timestamp": "2025-09-19T19:45:17.000Z",
+      "id": "1969125665233649751",
+      "_uniqueId": "1969125665233649751",
+      "_collectedAt": "2025-09-20_09-30-35"
+    },
+    {
+      "author": "XTB Deutschland",
+      "content": "Wie hoch ist die Kommission? Keine Kommission! So viel zahlen Sie, wenn Sie sich für ein Investment in Aktien und ETFs bei XTB entscheiden.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1953860758237814784/img/S47FEnm2vz3fPcg0.jpg"
+      ],
+      "timestamp": null,
+      "id": "1953862317877104822",
+      "_uniqueId": "1953862317877104822",
+      "_collectedAt": "2025-09-20_09-30-35"
+    },
+    {
+      "author": "Cynus",
+      "content": "She's 67.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "What happened to Ellen DeGeneres ??",
+        "quoted_author": "︀︀︀Maddie"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1OLHfiXkAA2Mrz?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-19T16:21:04.000Z",
+      "id": "1969074270723559559",
+      "_uniqueId": "1969074270723559559",
+      "_collectedAt": "2025-09-20_09-30-35"
+    },
+    {
+      "author": "Carl  Creative Coding Club",
+      "content": "A student asked me to \"nerd snipe\" this gradient effect. At first I was quite puzzled  \nCSS? SVG? Shaders?\n\nA quick inspection revealed the secret!\nBasic demo and full lesson video in thread.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1969009651845943296/img/iBxnzBNy6HVI5L_x.jpg"
+      ],
+      "timestamp": "2025-09-19T12:34:02.000Z",
+      "id": "1969017134194770012",
+      "_uniqueId": "1969017134194770012",
+      "_collectedAt": "2025-09-20_09-30-42"
+    },
+    {
+      "author": "Friedrich Report",
+      "content": "Endlich raus aus dem Hamsterrad der Finanzwelt - sichere deine Zukunft!\n\nEntdecke exklusive Analysen zu Bitcoin, Gold , Rohstoffen und Makro-Trends, die dir helfen, deine Zukunft wieder in die eigene Hand zunehmen.\n\n10% Rabatt zum testen sichern und sofort investieren lernen.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1938259335068491776/img/uxG2C_Co77NjmU2I.jpg"
+      ],
+      "timestamp": null,
+      "id": "1939586471033487457",
+      "_uniqueId": "1939586471033487457",
+      "_collectedAt": "2025-09-20_09-30-42"
+    },
+    {
+      "author": "Kyros",
+      "content": "2015:\n- Clash of Clans\n- Subway Surfers\n- Pokémon\n- Shadow fight 2\n\n2019:\n- PUBG\n- Minecraft \n- Fortnite\n- GTA V\n\n2025:\n- X\n- GitHub\n- VS Code\n- ChatGPT\n- Cursor",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-19T06:12:17.000Z",
+      "id": "1968921067356901604",
+      "_uniqueId": "1968921067356901604",
+      "_collectedAt": "2025-09-20_09-30-42"
+    },
+    {
+      "author": "@levelsio",
+      "content": "This guy is SO interesting when I listened to him on JRE\n\nI learnt about the existence of \"Pervitin\", the Nazi meth that essentially the entire society was on back then, they used it to try and get rid of the entire concept of sleep, because they felt it was wasting time\n\nSo",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Here's my conversation with Norman Ohler, a historian and author of \"Blitzed: Drugs in the Third Reich,\" a book that investigates the role of psychoactive drugs, particularly stimulants such as methamphetamine, in the military history of World War II. It is a book that two",
+        "quoted_author": "Lex Fridman"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1PN35mWYAIteS9?format=jpg&name=small",
+          "alt": "Three rectangular boxes labeled \"Pervitin\" with blue and red designs, including text \"1 Amp à 1 ml\" and \"Verschreibungspflichtig.\" A cylindrical container labeled \"Pervitin\" with similar blue and red designs lies in front."
+        },
+        "https://pbs.twimg.com/amplify_video_thumb/1969131778028740608/img/Ic7ouI2mWKlYpJWA?format=jpg&name=240x240"
+      ],
+      "timestamp": "2025-09-19T21:00:46.000Z",
+      "id": "1969144658921209911",
+      "_uniqueId": "1969144658921209911",
+      "_collectedAt": "2025-09-20_09-30-42"
+    },
+    {
+      "author": "Steven Johnson",
+      "content": "Uh, Matthew, I’d like to introduce you to a little app called @NotebookLM",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Matthew McConaughey says he wants a private LLM, fed only with his books, notes, journals, and aspirations, so he can ask it questions and get answers based solely on that information, without any outside influence.",
+        "quoted_author": "Jon Hernandez"
+      },
+      "media": [],
+      "timestamp": "2025-09-19T20:03:09.000Z",
+      "id": "1969130159379730652",
+      "_uniqueId": "1969130159379730652",
+      "_collectedAt": "2025-09-20_09-30-42"
+    },
+    {
+      "author": "Joshua Guo",
+      "content": "Drawing mode on",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Tried something fun.",
+        "quoted_author": "Joshua Guo"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1968869653834514432/img/oaNAyZ6gx20TstsR.jpg",
+        "https://pbs.twimg.com/amplify_video_thumb/1968586213545361408/img/61cyIFKg4CK4WQMv?format=jpg&name=120x120"
+      ],
+      "timestamp": "2025-09-19T02:48:27.000Z",
+      "id": "1968869769211179303",
+      "_uniqueId": "1968869769211179303",
+      "_collectedAt": "2025-09-20_09-30-42"
+    },
+    {
+      "author": "Ekaeo",
+      "content": "People who don't do hard things have no depth to them",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1I71IsXYAAkTxL?format=jpg&name=small",
+          "alt": "Two white mechanical keyboards with split layouts on a wooden desk. A spiral-bound notebook with handwritten mathematical equations and graphs on graph paper. A scientific calculator with a blue and black design. Two pens and a pencil near the notebook. A sticky note with handwritten text on the desk."
+        }
+      ],
+      "timestamp": "2025-09-18T15:41:58.000Z",
+      "id": "1968702041766629598",
+      "_uniqueId": "1968702041766629598",
+      "_collectedAt": "2025-09-20_09-30-51"
+    },
+    {
+      "author": "Sanofi Myeloma",
+      "content": "Driving progress, delivering hope: We're sharing  new insights and our continued commitment towards improving patient outcomes in Multiple Myeloma.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0kwG1gWwAAoT2W?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1966155845940682883",
+      "_uniqueId": "1966155845940682883",
+      "_collectedAt": "2025-09-20_09-30-51"
+    },
+    {
+      "author": "Mike Rundle",
+      "content": "iPhone Air feels like I've just got the screen in my hand and not an entire phone\n\nApple cooked on this one",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1PNB07WIAE4gnL?format=jpg&name=small",
+          "alt": "A hand holding an iPhone with a dark screen displaying text. The text reads, \"iPhone Air feels like I\\'ve just got the screen in my hand and not an entire phone Apple cooked on this one.\" Buttons labeled \"Cancel\" and \"Poll\" are visible at the top, and a keyboard is shown at the bottom of the screen."
+        }
+      ],
+      "timestamp": "2025-09-19T20:53:46.000Z",
+      "id": "1969142896541540818",
+      "_uniqueId": "1969142896541540818",
+      "_collectedAt": "2025-09-20_09-30-51"
+    },
+    {
+      "author": "Theo - t3.gg",
+      "content": "Hot take: Zuck handled this incredibly.\n\nCan’t imagine how stressed the team must have been. He went out of his way to not put any additional pressure on them.\n\nWhen the lead came out, he consoled them and said “don’t worry, we’ll share a video of it soon”\n\nGreat leadership",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "feeling really bad for the Meta OS team  x.com/nearcyan/statu…",
+        "quoted_author": "near"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1968472523991040000/img/hC6YAZye6zgUxWwM.jpg"
+      ],
+      "timestamp": "2025-09-18T18:55:05.000Z",
+      "id": "1968750643385958858",
+      "_uniqueId": "1968750643385958858",
+      "_collectedAt": "2025-09-20_09-30-51"
+    },
+    {
+      "author": "JP 𖣂⍣",
+      "content": "this and a small town where somethings not right",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "FBI agent breakfast",
+        "quoted_author": "averyluna"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/Gy-VyGDWQAEGB2O?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-19T14:36:35.000Z",
+      "id": "1969047976468168947",
+      "_uniqueId": "1969047976468168947",
+      "_collectedAt": "2025-09-20_09-30-51"
+    },
+    {
+      "author": "kon",
+      "content": "void filling foid",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-20T02:55:38.000Z",
+      "id": "1969233964029136942",
+      "_uniqueId": "1969233964029136942",
+      "_collectedAt": "2025-09-20_09-30-51"
+    },
+    {
+      "author": "RIO",
+      "content": "foid filling void",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-20T03:02:43.000Z",
+      "id": "1969235748474720354",
+      "_uniqueId": "1969235748474720354",
+      "_collectedAt": "2025-09-20_09-30-51"
+    },
+    {
+      "author": "jaden",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1K-Ck7WMAAesjC?format=jpg&name=small",
+          "alt": "A Minecraft screenshot of an organized base with multiple shelves filled with books and items, viewed from above in a multi-level structure. Below, a photo of a cluttered room with a person sitting on a bed, surrounded by scattered clothes, a desk with a computer, and various objects on the floor."
+        }
+      ],
+      "timestamp": "2025-09-19T01:09:51.000Z",
+      "id": "1968844956052644162",
+      "_uniqueId": "1968844956052644162",
+      "_collectedAt": "2025-09-20_09-30-58"
+    },
+    {
+      "author": "Insane Content",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1NTWFOXsAAUeXT?format=jpg&name=small",
+          "alt": "Hands holding a yellow highlighter marking text in an open book. The pages are filled with dense text, now highlighted in bright yellow. The text \"EVERYTHING is important\" is overlaid in black."
+        }
+      ],
+      "timestamp": "2025-09-19T12:02:07.000Z",
+      "id": "1969009104648564823",
+      "_uniqueId": "1969009104648564823",
+      "_collectedAt": "2025-09-20_09-30-58"
+    },
+    {
+      "author": "Shreya Shankar",
+      "content": "We have done 2 cohorts and ~800 people have meaningfully engaged with the AI evals course. Hamel shared a bunch of testimonials with me yesterday. I was really astounded that they are not just generic testimonials; people mentioned very specific results and concepts. It seems",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GykjypKasAAkIc3?format=jpg&name=small",
+          "alt": "The image shows three testimonial quotes from participants of an AI evaluation course, displayed as cards on a dark background. Each card includes a profile picture, name, and specific feedback about the course\\'s impact, such as improved code analysis and systematic error handling. The post text by Shreya Shankar highlights the course\\'s success, with ~800 participants and detailed, non-generic testimonials, emphasizing practical AI project advancements. No platform watermarks are visible, and the composition is clear, well-lit, and focused, reflecting high technical quality."
+        }
+      ],
+      "timestamp": null,
+      "id": "1957139727322411291",
+      "_uniqueId": "1957139727322411291",
+      "_collectedAt": "2025-09-20_09-30-58"
+    },
+    {
+      "author": "Shevon Salmon",
+      "content": "Things happen. Rip my 17 Pro Max",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1NxXXMWMAAiTSr?format=jpg&name=360x360",
+          "alt": "A hand holding an orange iPhone 17 Pro Max with a visible scratch on the corner. The phone is inside a Mercedes car, showing the steering wheel, dashboard with digital screens, and interior details."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G1NxXW_WEAA0mL3?format=jpg&name=360x360",
+          "alt": "A hand holding an orange iPhone 17 Pro Max with a visible scratch on the corner. The phone is inside a Mercedes car, showing the steering wheel, dashboard with digital screens, and interior details."
+        }
+      ],
+      "timestamp": "2025-09-19T14:13:19.000Z",
+      "id": "1969042121542832500",
+      "_uniqueId": "1969042121542832500",
+      "_collectedAt": "2025-09-20_09-30-58"
+    },
+    {
+      "author": "Nikita Bier",
+      "content": "Not looking good bros",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1LxwPMaQAATIwg?format=jpg&name=small",
+          "alt": "A person wearing a dark blue cap, dark blue t-shirt, jeans, and green sneakers stands in front of open electrical panels filled with wires, circuit boards, and control equipment. Yellow safety railings and a blue mat are visible on the floor. A digital scale or monitor is mounted on the panel."
+        }
+      ],
+      "timestamp": "2025-09-19T04:55:44.000Z",
+      "id": "1968901802692091959",
+      "_uniqueId": "1968901802692091959",
+      "_collectedAt": "2025-09-20_09-30-58"
+    },
+    {
+      "author": "Moosa",
+      "content": "Zinc and Testosterone\n\nMen between the ages of 50 and 80 supplemented with 30mg zinc gluconate daily for 6 months\n\nOver the 6 months, their testosterone doubled from 240ng/dl to 460ng/dl, putting them in the normal range",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1JpOetX0AAg3V7?format=png&name=small",
+          "alt": "A table titled \"TABLE 1\" displaying zinc concentrations in plasma, lymphocytes, and granulocytes, and serum testosterone levels in elderly men. Columns list measurements before and after three and six months of zinc supplementation, with numerical data and standard deviations in parentheses. Text includes statistical analysis results like \"Analysis of Variance p.\""
+        }
+      ],
+      "timestamp": "2025-09-18T19:03:25.000Z",
+      "id": "1968752738860204074",
+      "_uniqueId": "1968752738860204074",
+      "_collectedAt": "2025-09-20_09-30-58"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1PkgrZbQAIKcml?format=jpg&name=small",
+          "alt": "A wooden sculpture of a robed figure holding prayer beads, standing on a black base. The figure is carved from a textured piece of wood with flowing robes. Traditional wooden lattice doors with red paint are visible in the background. Chinese characters are inscribed on the base."
+        }
+      ],
+      "timestamp": "2025-09-19T22:36:21.000Z",
+      "id": "1969168714781376651",
+      "_uniqueId": "1969168714781376651",
+      "_collectedAt": "2025-09-20_09-30-58"
+    },
+    {
+      "author": "IMMOWERT",
+      "content": "In Top-Lagen von München, Erlangen und Nürnberg verwandeln wir Bestandsbauten in neuwertig sanierte Co-Living-Wohnungen.\n\nInvestieren Sie jetzt in nachhaltigen Wohnraum mit attraktiver Rendite!\n\nKlicken Sie unten, um mehr zu erfahren!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/Gxk8-gbXgAANyjn?format=jpg&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1955180957092229296",
+      "_uniqueId": "1955180957092229296",
+      "_collectedAt": "2025-09-20_09-30-58"
+    },
+    {
+      "author": "Joscha Bach",
+      "content": "Did it occur to you that biblically correct angels are  agents within a cognitive architecture? Some have periodic functionality (wheels), or a thousand attention heads (eyes), some disappear after their task. Fallen angels give rewards that violate alignment with your purpose",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-19T21:46:22.000Z",
+      "id": "1969156137493651803",
+      "_uniqueId": "1969156137493651803",
+      "_collectedAt": "2025-09-20_09-30-58"
+    }
+  ]
+}

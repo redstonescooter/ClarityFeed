@@ -385,9 +385,11 @@ export async function main() {
     const inputFiles = cliInputFiles.length > 0
         ? cliInputFiles
         : [
-            'output/sadra1/tweets_2025-09-15_06-30-58__scroll--6_profile--sadra1.json',
-            'output/sadra1/tweets_2025-09-15_07-25-10__scroll--6_profile--sadra1.json',
-            'output/sadra1/tweets_2025-09-15_07-14-05__scroll--6_profile--sadra1.json'
+            // 'output/sadra1/tweets_2025-09-15_06-30-58__scroll--6_profile--sadra1.json',
+            // 'output/sadra1/tweets_2025-09-15_07-25-10__scroll--6_profile--sadra1.json',
+            // 'output/sadra1/tweets_2025-09-15_07-14-05__scroll--6_profile--sadra1.json',
+            'output/sadra1/tweets_2025-09-20_08-45-07__scroll--5_profile--sadra1.json',
+            'output/sadra1/tweets_2025-09-20_08-49-04__scroll--5_profile--sadra1.json'
         ];
     
     try {

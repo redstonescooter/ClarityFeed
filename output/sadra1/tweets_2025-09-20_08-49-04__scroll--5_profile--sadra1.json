@@ -1,0 +1,893 @@
+{
+  "collectionInfo": {
+    "totalTweets": 40,
+    "collectedAt": "2025-09-20_08-49-04",
+    "source": "twitter_scraper",
+    "profile": "sadra1"
+  },
+  "tweets": [
+    {
+      "author": "Dhruv",
+      "content": "I made a random number generator with 0 lines of code.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-19T11:59:39.000Z",
+      "id": "1969008484466274745",
+      "_uniqueId": "1969008484466274745",
+      "_collectedAt": "2025-09-20_08-48-32"
+    },
+    {
+      "author": "‹div›RIOTS",
+      "content": "Lovable → Figma \n1. Generate with Lovable\n2. Open the -html.to.design- Chrome extension\n3.Hit “Import” — and boom, all editable in Figma",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": null,
+      "id": "1963908213402705942",
+      "_uniqueId": "1963908213402705942",
+      "_collectedAt": "2025-09-20_08-48-32"
+    },
+    {
+      "author": "Panzer-Chan",
+      "content": "i can imagine exactly zero useful applications for this",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Startup idea: electrically heated kitchen knife",
+        "quoted_author": "djcows"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1Gk7-vaQAYKTM8?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-18T19:21:44.000Z",
+      "id": "1968757348945494302",
+      "_uniqueId": "1968757348945494302",
+      "_collectedAt": "2025-09-20_08-48-32"
+    },
+    {
+      "author": "Andrew McCarthy",
+      "content": "I’m proud of this one.\n\nI brought a solar telescope to Florida to capture a Falcon 9 rocket launch transiting the sun. While these have been captured before, never with the details of the sun’s chromosphere, which makes this one the first!\n\nSee the video or get the print below",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1IUUWGacAAGPq0?format=jpg&name=small",
+          "alt": "A bright orange sun with visible surface details, including the chromosphere. A dark silhouette of a Falcon 9 rocket transits across the sun, leaving a trail extending downward."
+        }
+      ],
+      "timestamp": "2025-09-18T12:48:18.000Z",
+      "id": "1968658340679921925",
+      "_uniqueId": "1968658340679921925",
+      "_collectedAt": "2025-09-20_08-48-39"
+    },
+    {
+      "author": "internet hall of fame",
+      "content": "bro ejected the casing right back into the gun",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-19T10:00:31.000Z",
+      "id": "1968978500674523245",
+      "_uniqueId": "1968978500674523245",
+      "_collectedAt": "2025-09-20_08-48-39"
+    },
+    {
+      "author": "𝙗𝙡𝙖𝙣𝙠",
+      "content": "by Robert Dawson",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1NS5OKbcAAp_Z6?format=jpg&name=small",
+          "alt": "A white porcelain plate with a blue and white design. The design features a central scene with birds, trees, and a pagoda, surrounded by a decorative border with intricate patterns."
+        }
+      ],
+      "timestamp": "2025-09-19T12:00:09.000Z",
+      "id": "1969008608223617131",
+      "_uniqueId": "1969008608223617131",
+      "_collectedAt": "2025-09-20_08-48-39"
+    },
+    {
+      "author": "RIO",
+      "content": "process",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1JPZtcWcAwRN1_?format=jpg&name=small",
+          "alt": "Multiple abstract geometric patterns arranged in a grid. Each pattern features variations of interconnected lines and shapes, including squares, stars, and zigzag forms, all in black and white."
+        }
+      ],
+      "timestamp": "2025-09-18T17:06:47.000Z",
+      "id": "1968723389477974275",
+      "_uniqueId": "1968723389477974275",
+      "_collectedAt": "2025-09-20_08-48-39"
+    },
+    {
+      "author": "ksa",
+      "content": "finally",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1HjTJOXQAANHEH?format=jpg&name=small",
+          "alt": "Code snippet with C programming text. Includes #include <stdio.h>, #define macros with curly braces, and a main function with int i = 0; and printf statements."
+        }
+      ],
+      "timestamp": "2025-09-18T09:14:06.000Z",
+      "id": "1968604432343408919",
+      "_uniqueId": "1968604432343408919",
+      "_collectedAt": "2025-09-20_08-48-39"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1QuPivbQAEy3xF?format=png&name=small",
+          "alt": "A bicycle tire with a detailed cityscape design on its tread. The tire features miniature buildings, roads, and structures resembling an urban environment. The design is integrated into the tire\\'s surface, visible against the black rubber and silver wheel rim."
+        }
+      ],
+      "timestamp": "2025-09-20T03:58:30.000Z",
+      "id": "1969249785027969259",
+      "_uniqueId": "1969249785027969259",
+      "_collectedAt": "2025-09-20_08-48-39"
+    },
+    {
+      "author": "JetBrains",
+      "content": "Create web apps and websites - no coding needed. Perfect for small apps like trackers, planners, blogs, or quizzes. \nJoin the waitlist and start building with Kineto for free!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1962874553534705664/img/0lCMNwJ0OKJFHD8q.jpg"
+      ],
+      "timestamp": null,
+      "id": "1962895811572044190",
+      "_uniqueId": "1962895811572044190",
+      "_collectedAt": "2025-09-20_08-48-39"
+    },
+    {
+      "author": "Internet Slop",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1PHo04WgAAVO2K?format=jpg&name=small",
+          "alt": "A close-up of a parrotfish with a large mouth and colorful orange and blue hues underwater. A hand holds four paper slips labeled \"Green,\" \"Red,\" \"Black,\" and \"Blue\" in different colors. Text overlay reads \"CHOOSE A COLOR\" in uppercase letters."
+        }
+      ],
+      "timestamp": "2025-09-19T20:30:13.000Z",
+      "id": "1969136969721446830",
+      "_uniqueId": "1969136969721446830",
+      "_collectedAt": "2025-09-20_08-48-39"
+    },
+    {
+      "author": "src",
+      "content": "latest brand identity highlights",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1968479605896949760/img/13yG5KjE_IHx6fXF.jpg"
+      ],
+      "timestamp": "2025-09-18T17:40:00.000Z",
+      "id": "1968731747102732552",
+      "_uniqueId": "1968731747102732552",
+      "_collectedAt": "2025-09-20_08-48-46"
+    },
+    {
+      "author": "Mitchell Hashimoto",
+      "content": "The bell emoji in the title for macOS will be fixed in 1.2.1 (this was a regression). I also got `bell-features = border` working (default off), which was a tiny enough change I'll also be backporting it into 1.2.1. \n\nI really like the border bell though, I've had it on on Linux",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1968800433197264896/img/qFUJbx2qrkdHQjef.jpg"
+      ],
+      "timestamp": "2025-09-18T22:14:09.000Z",
+      "id": "1968800739939209586",
+      "_uniqueId": "1968800739939209586",
+      "_collectedAt": "2025-09-20_08-48-46"
+    },
+    {
+      "author": "Michael Nowak",
+      "content": "Obsessed how this came out... Sharing full soon",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1JbcnuaQAEo50W?format=jpg&name=360x360",
+          "alt": "A payment interface for Joyful Goods, order JG-18492. It shows Cloud-Soft Tee x2, Everyday Tote x1, Sticker Pack x1. Subtotal, tax, and total of 104.09 USD are listed. Buttons for Bank payment and Download receipt are visible, with a 3-D Secure badge."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G1Jbc6_aQAASNby?format=jpg&name=360x360",
+          "alt": "A payment interface for Joyful Goods, order JG-18492. It shows Cloud-Soft Tee x2, Everyday Tote x1, Sticker Pack x1. Subtotal, tax, and total of 104.09 USD are listed. Buttons for Bank payment and Download receipt are visible, with a 3-D Secure badge."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G1JbdKLakAATEuQ?format=jpg&name=360x360",
+          "alt": "A payment interface for Joyful Goods, order JG-18492. It shows Cloud-Soft Tee x2, Everyday Tote x1, Sticker Pack x1. Subtotal, tax, and total of 104.09 USD are listed. Buttons for Bank payment and Download receipt are visible, with a 3-D Secure badge."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G1JbdX3aMAAdBDA?format=jpg&name=360x360",
+          "alt": "A payment interface for Joyful Goods, order JG-18492. It shows Cloud-Soft Tee x2, Everyday Tote x1, Sticker Pack x1. Subtotal, tax, and total of 104.09 USD are listed. Buttons for Bank payment and Download receipt are visible, with a 3-D Secure badge."
+        }
+      ],
+      "timestamp": "2025-09-18T17:59:05.000Z",
+      "id": "1968736550679875828",
+      "_uniqueId": "1968736550679875828",
+      "_collectedAt": "2025-09-20_08-48-46"
+    },
+    {
+      "author": "Ｃ:。ミ",
+      "content": "Why is our generation so unhappy?",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Why is our generation so unhappy?",
+        "quoted_author": "ysl"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1KawRHaQAE_n_g?format=jpg&name=small",
+          "alt": "A meme featuring a person with light brown hair and blue eyes, looking forward. White text overlay reads \"i was born in the right generation i love -AI GENERATED ART -UBER EATS -BITCOIN -GETTING GHOSTED ON DATING APPS -LEARNING MY BEST FRIEND O\\'D ON FENT\" in a list format."
+        }
+      ],
+      "timestamp": "2025-09-18T22:35:40.000Z",
+      "id": "1968806152956678476",
+      "_uniqueId": "1968806152956678476",
+      "_collectedAt": "2025-09-20_08-48-46"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1ODqHraAAAxYIK?format=jpg&name=small",
+          "alt": "A bright blue sky with a fluffy, golden-orange cloud illuminated by sunlight. Green tree branches extend from the right side, partially overlapping the cloud."
+        }
+      ],
+      "timestamp": "2025-09-19T15:33:12.000Z",
+      "id": "1969062225043399161",
+      "_uniqueId": "1969062225043399161",
+      "_collectedAt": "2025-09-20_08-48-46"
+    },
+    {
+      "author": "Dmitriy Kovalenko",
+      "content": "Okay Apple, I just implemented a calculator app entirely in arm64 darwin assembly, yes with UI.\n\nIt might be not as slick and fancy as yours but at least it does not do heap allocation at all so have a constant memory usage no matter what I calculate :D",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Bravo Apple! Calculator app has a memory leak.",
+        "quoted_author": "Dmitriy Kovalenko"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1JuezrXEAAjO9M?format=jpg&name=360x360",
+          "alt": "Image"
+        },
+        "https://pbs.twimg.com/amplify_video_thumb/1969152452965388288/img/f8sGcXQMfRkxzZMM.jpg"
+      ],
+      "timestamp": "2025-09-19T21:32:26.000Z",
+      "id": "1969152627670708448",
+      "_uniqueId": "1969152627670708448",
+      "_collectedAt": "2025-09-20_08-48-46"
+    },
+    {
+      "author": "rare.jpg reposted",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1D5L9SawAAhIBx?format=jpg&name=small",
+          "alt": "A Mercedes-Benz delivery van with open rear doors, revealing a blue car inside. Two men in dark jackets and casual pants stand on a ramp extending from the van. The van has a logo reading \"umzug\" on its side, and the scene is set on a gravel surface near a building."
+        }
+      ],
+      "timestamp": "2025-09-17T16:11:15.000Z",
+      "id": "1968347024455254142",
+      "_uniqueId": "1968347024455254142",
+      "_collectedAt": "2025-09-20_08-48-46"
+    },
+    {
+      "author": "RIO",
+      "content": "you have 6 months to acquire some boxers and escape the permanent undie class",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-18T17:58:36.000Z",
+      "id": "1968736427400659251",
+      "_uniqueId": "1968736427400659251",
+      "_collectedAt": "2025-09-20_08-48-46"
+    },
+    {
+      "author": "@levelsio",
+      "content": "It turns out @IAmMarkManson was mostly right about Brazil\n\nOver the last 2 years my Brazil ETF lost 16%, so I sold it\n\nI also visited Brazil many more times (most recent just a few weeks ago) and while I still love it a lot, I think the problems are just a lot deeper than I",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Brazil makes a fantastic first impression but as you get deeper into its culture and systems you see how utterly corrupt, inefficient and impossibly broken everything is.\n\nAsia has its challenges but ultimately its had a massive multi-decade economic tailwind so in the end,",
+        "quoted_author": "Mark Manson"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1KJai-WYAA-ufr?format=jpg&name=small",
+          "alt": "A screenshot of a trading app interface displaying details for IBZL ETF. Visible elements include the ticker IBZL, price 1,690.22, size 2000, trade codes TRWBKUKEFT, exchange TRWBKEFT, and date Aug 19 12:42:12. Additional details show account ID U356835, commission 16.9022, net amount 3364.4, and order ID 0065d5d00310b9a5a3ff001. A watermark from X is present."
+        }
+      ],
+      "timestamp": "2025-09-18T21:26:40.000Z",
+      "id": "1968788789951934890",
+      "_uniqueId": "1968788789951934890",
+      "_collectedAt": "2025-09-20_08-48-46"
+    },
+    {
+      "author": "signüll",
+      "content": "in many ways as far as timing is concerned for new breakthrough technology is facebook / meta operating against the zeitgeist?\n\nlike who is asking to be *more* plugged in?\n\nthe iphone was born into a pre smartphone vacuum, everyone wanted a single device for music + calls +",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "as a man who's always wanted to watch tiktoks when i get bored during conversations with people - the meta display glasses are looking very compelling",
+        "quoted_author": "Rhys"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1GJ71ha0AAkecu?format=png&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-19T14:54:10.000Z",
+      "id": "1969052401240875418",
+      "_uniqueId": "1969052401240875418",
+      "_collectedAt": "2025-09-20_08-48-54"
+    },
+    {
+      "author": "Jay Dwivedi",
+      "content": "Onboarding designs at Kree8",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1MN6IuakAAGgNq?format=jpg&name=360x360",
+          "alt": "A hand holding an iPhone displaying various app onboarding screens. One screen shows colorful gallery icons for Calorie Gallery, Art, and Travel, with text \"Create and Share your Gallery\" and a \"Next\" button. Another screen displays cryptocurrency icons and text \"Your Crypto Journey: Simple & Secure\" with a \"Get Started\" button. A third screen shows a room photo and text \"Welcome to the TripStar\" with a \"Continue\" button. The final screen displays gallery icons for Food, Travel, and others, with text \"Galleries according to your interests\" and a \"Next\" button."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G1MN6IFaQAAASAB?format=jpg&name=small",
+          "alt": "A hand holding an iPhone displaying various app onboarding screens. One screen shows colorful gallery icons for Calorie Gallery, Art, and Travel, with text \"Create and Share your Gallery\" and a \"Next\" button. Another screen displays cryptocurrency icons and text \"Your Crypto Journey: Simple & Secure\" with a \"Get Started\" button. A third screen shows a room photo and text \"Welcome to the TripStar\" with a \"Continue\" button. The final screen displays gallery icons for Food, Travel, and others, with text \"Galleries according to your interests\" and a \"Next\" button."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G1MN6INaQAAVWnr?format=jpg&name=360x360",
+          "alt": "A hand holding an iPhone displaying various app onboarding screens. One screen shows colorful gallery icons for Calorie Gallery, Art, and Travel, with text \"Create and Share your Gallery\" and a \"Next\" button. Another screen displays cryptocurrency icons and text \"Your Crypto Journey: Simple & Secure\" with a \"Get Started\" button. A third screen shows a room photo and text \"Welcome to the TripStar\" with a \"Continue\" button. The final screen displays gallery icons for Food, Travel, and others, with text \"Galleries according to your interests\" and a \"Next\" button."
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G1MN6ITbwAA3O3G?format=jpg&name=360x360",
+          "alt": "A hand holding an iPhone displaying various app onboarding screens. One screen shows colorful gallery icons for Calorie Gallery, Art, and Travel, with text \"Create and Share your Gallery\" and a \"Next\" button. Another screen displays cryptocurrency icons and text \"Your Crypto Journey: Simple & Secure\" with a \"Get Started\" button. A third screen shows a room photo and text \"Welcome to the TripStar\" with a \"Continue\" button. The final screen displays gallery icons for Food, Travel, and others, with text \"Galleries according to your interests\" and a \"Next\" button."
+        }
+      ],
+      "timestamp": "2025-09-19T06:58:49.000Z",
+      "id": "1968932776851173467",
+      "_uniqueId": "1968932776851173467",
+      "_collectedAt": "2025-09-20_08-48-54"
+    },
+    {
+      "author": "Gustave Flowbert",
+      "content": "We're sooo back, time drop our best template ever. \nGASPAR, bold and immersive agency @framer template.\n\nFree, for the next 48H only.\nLike + RT + comment \"GASPAR\" for remix link.\n\nPreview link in first comment.  ↓↓↓\n\n#framerChallenge",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1968693305954258944/img/uaYvYW_t_Q1uSnSe.jpg"
+      ],
+      "timestamp": "2025-09-18T15:13:08.000Z",
+      "id": "1968694785461367285",
+      "_uniqueId": "1968694785461367285",
+      "_collectedAt": "2025-09-20_08-48-54"
+    },
+    {
+      "author": "sucks",
+      "content": "indians panicking but the funny part is this will be clearly good for India right? stopping the brain drain I mean? they should be happy",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": ".@POTUS signs a Proclamation to restrict the entry of certain H-1B aliens into the U.S. as nonimmigrant workers, requiring a $100,000 payment to accompany or supplement H-1B petitions for new applications.\n\nAMERICA FIRST!",
+        "quoted_author": "Rapid Response 47"
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1969155075055484928/img/VH1eAK32p7BUy8PH.jpg"
+      ],
+      "timestamp": "2025-09-19T22:55:55.000Z",
+      "id": "1969173638038294952",
+      "_uniqueId": "1969173638038294952",
+      "_collectedAt": "2025-09-20_08-48-54"
+    },
+    {
+      "author": "Jason Cui",
+      "content": "Excited to share that I’ve joined @a16z as a partner on the infrastructure team, where I’ll be investing in all things infra, data, and AI.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1JU5cGaQAIJEM0?format=jpg&name=small",
+          "alt": "Jason Cui standing in front of a bookshelf and a wall with the Andreessen Horowitz logo in black letters. He is wearing a brown t-shirt and smiling. The bookshelf holds books, a black vase, and green plants."
+        }
+      ],
+      "timestamp": "2025-09-18T17:30:43.000Z",
+      "id": "1968729410489446408",
+      "_uniqueId": "1968729410489446408",
+      "_collectedAt": "2025-09-20_08-48-54"
+    },
+    {
+      "author": "DHH",
+      "content": "The problem with media training: Everyone ends up playing the same role, repeating the same scripted gesticulation. It looks uncanny and fake because it is. They might as well just use AI.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "all hands on deck! @ThePrimeagen @cmuratori",
+        "quoted_author": "markersniffen"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0gV-hfWEAAy6sS?format=jpg&name=small",
+          "alt": "Image"
+        }
+      ],
+      "timestamp": "2025-09-19T11:27:55.000Z",
+      "id": "1969000497609613769",
+      "_uniqueId": "1969000497609613769",
+      "_collectedAt": "2025-09-20_08-48-54"
+    },
+    {
+      "author": "Theo - t3.gg",
+      "content": "So cool to see Apple supporting the Linux ecosystem by driving devs away from MacOS with the latest release",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-18T23:22:05.000Z",
+      "id": "1968817836035354664",
+      "_uniqueId": "1968817836035354664",
+      "_collectedAt": "2025-09-20_08-48-54"
+    },
+    {
+      "author": "XProtocol.org | Xardian Nodes",
+      "content": "XForge DePin Phone - Get 40% Discount + Gifts\n\n- Be one of the first to secure your device — the first 10,000 orders will include 1 XProtocol Xardian Node \n- Run XProtocol Xardian Nodes from your XForge phone and earn 20% bonus on your rewards. Get more, on-the-go!",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G0api1MWEAAgTqN?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1965447885853737001",
+      "_uniqueId": "1965447885853737001",
+      "_collectedAt": "2025-09-20_08-48-54"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1MlU_daYAApa7g?format=jpg&name=small",
+          "alt": "A man in a blue shirt and jeans stands on a balcony, holding a large NVIDIA RTX 3090 graphics card with visible text and a large fan. The card is positioned near a window on a white building wall, with greenery and a sunny outdoor setting in the background."
+        }
+      ],
+      "timestamp": "2025-09-19T08:41:04.000Z",
+      "id": "1968958507451052424",
+      "_uniqueId": "1968958507451052424",
+      "_collectedAt": "2025-09-20_08-48-54"
+    },
+    {
+      "author": "Jackson Dahl",
+      "content": "Keep thinking.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": true,
+        "quoted_content": "Keep thinking.",
+        "quoted_author": "Claude"
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1OFooza4AAlWOT?format=jpg&name=small",
+          "alt": "A speech bubble with a blue gradient background. White text reads \"This ad alone turned me bullish on Anthropic.\""
+        },
+        {
+          "src": "https://pbs.twimg.com/media/G1JF9VsXQAM8FYu?format=jpg&name=240x240",
+          "alt": "Embedded video"
+        }
+      ],
+      "timestamp": "2025-09-19T15:41:50.000Z",
+      "id": "1969064398464360625",
+      "_uniqueId": "1969064398464360625",
+      "_collectedAt": "2025-09-20_08-49-02"
+    },
+    {
+      "author": "Alex Hormozi",
+      "content": "Indecision kills more dreams than bad decisions.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-18T14:15:11.000Z",
+      "id": "1968680204143857943",
+      "_uniqueId": "1968680204143857943",
+      "_collectedAt": "2025-09-20_08-49-02"
+    },
+    {
+      "author": "Vadim Carazan",
+      "content": "App icon & 3D Animation\n\nDesigned by us at http://wegrow.design",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1968659701555482625/img/IDIZta2ITLNisQ5a.jpg"
+      ],
+      "timestamp": "2025-09-18T12:54:17.000Z",
+      "id": "1968659843381645822",
+      "_uniqueId": "1968659843381645822",
+      "_collectedAt": "2025-09-20_08-49-02"
+    },
+    {
+      "author": "Bearly AI",
+      "content": "Zuck on his massive AI researcher deals.\n\nUnlike other Meta software roles, he says building LLMs is like a “group science project” and best to have “the smallest group of people who can fit the whole thing in their head at once.”\n\nSo, the investment for each hire can be huge.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/1968833909225078784/img/MA2oBBBLRp5TQcbS.jpg"
+      ],
+      "timestamp": "2025-09-19T00:26:41.000Z",
+      "id": "1968834092457132152",
+      "_uniqueId": "1968834092457132152",
+      "_collectedAt": "2025-09-20_08-49-02"
+    },
+    {
+      "author": "Nicholas Fabiano, MD",
+      "content": "You're not at your cognitive potential if you're not at your physical potential.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1OLogZWoAAb9H5?format=jpg&name=small",
+          "alt": "A diagram of a person exercising, with arrows and text showing connections between skeletal muscle, mitochondria, and brain health. Text labels include \"Release of circulating factors,\" \"Myokines and mitokines,\" \"Mitochondrial components,\" \"Brain mitochondrial health,\" \"Neuroprotection,\" \"Microglia,\" \"Astrocyte,\" \"Neuron,\" \"Systemic exercise effects,\" \"Temperature,\" \"Blood pressure,\" \"Oxygen availability,\" \"Mitochondrial effects in skeletal muscle,\" \"Mitochondrial fusion,\" \"Mitochondrial biogenesis,\" \"Mitochondrial respiration,\" and \"Mitochondrial quality control.\""
+        }
+      ],
+      "timestamp": "2025-09-19T16:09:44.000Z",
+      "id": "1969071419066642484",
+      "_uniqueId": "1969071419066642484",
+      "_collectedAt": "2025-09-20_08-49-02"
+    },
+    {
+      "author": "Noah Cat",
+      "content": "iPhone Air internals\n\nRender vs reality",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1MmEh9bAAA5L8a?format=jpg&name=small",
+          "alt": "Two images of iPhone Air internals side by side. The left image shows a transparent render with visible components like a camera, circuit boards, and battery. The right image displays the actual internal hardware, including a camera, circuit boards, battery, and an Apple logo."
+        }
+      ],
+      "timestamp": "2025-09-19T08:44:19.000Z",
+      "id": "1968959326678131096",
+      "_uniqueId": "1968959326678131096",
+      "_collectedAt": "2025-09-20_08-49-02"
+    },
+    {
+      "author": "DANN©",
+      "content": "Everyone thinks it's Framer vs Figma right now.\n\nBut I remember when it was Photoshop vs Sketch and then Figma came out of no where and destroyed them both.\n\nI think we get something that comes out of no where soon. I've seen a few.\n\nRegardless, WE win either way.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-18T18:36:42.000Z",
+      "id": "1968746016078762319",
+      "_uniqueId": "1968746016078762319",
+      "_collectedAt": "2025-09-20_08-49-02"
+    },
+    {
+      "author": "rare.jpg",
+      "content": "",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/G1P4bucbQAEFtwa?format=jpg&name=small",
+          "alt": "An escalator partially submerged in water, with plants growing on its steps. The structure is inside an abandoned building with visible decay and broken walls. Curved metal handrails extend into the water, and greenery emerges from the surroundings."
+        }
+      ],
+      "timestamp": "2025-09-20T00:03:24.000Z",
+      "id": "1969190619831812531",
+      "_uniqueId": "1969190619831812531",
+      "_collectedAt": "2025-09-20_08-49-02"
+    },
+    {
+      "author": "sent",
+      "content": "One API. Send messages on all channels.",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [
+        {
+          "src": "https://pbs.twimg.com/media/GwofOflW8AAQpgW?format=png&name=small",
+          "alt": ""
+        }
+      ],
+      "timestamp": null,
+      "id": "1952524217792266474",
+      "_uniqueId": "1952524217792266474",
+      "_collectedAt": "2025-09-20_08-49-02"
+    },
+    {
+      "author": "@levelsio reposted",
+      "content": "the reason you feel insane is because all of your \"hobbies\" are nothing more than glorified consumption. you won't find God in $15k a month of skis, camera gear, or coffee machines. you NEED to create something, just go BUILD, a chair, a bench, carve some wood, anything, please",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-18T18:27:12.000Z",
+      "id": "1968743626365608269",
+      "_uniqueId": "1968743626365608269",
+      "_collectedAt": "2025-09-20_08-49-02"
+    },
+    {
+      "author": "Theo - t3.gg",
+      "content": "Just remembered that tomorrow is iPhone day",
+      "retweetInfo": {
+        "is_retweet": false,
+        "retweet_author": null,
+        "original_tweet": null,
+        "retweet_content": null,
+        "is_quote_tweet": false,
+        "quoted_content": null,
+        "quoted_author": null
+      },
+      "media": [],
+      "timestamp": "2025-09-18T19:55:03.000Z",
+      "id": "1968765734063935935",
+      "_uniqueId": "1968765734063935935",
+      "_collectedAt": "2025-09-20_08-49-02"
+    }
+  ]
+}

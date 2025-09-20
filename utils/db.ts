@@ -11,10 +11,10 @@ import { PositiveInt } from "./typeZod";
 const execAsync = promisify(exec);
 
 class DB{
-  PG_USER = process.env.PG_USER || 'Sentiment';
+  PG_USER = process.env.PG_USER || 'sentiment';
   PG_HOST = process.env.PG_HOST || 'localhost';
-  PG_DB = process.env.PG_DB || 'Sentiment';
-  PG_PASSWORD = process.env.PG_PASSWORD ;
+  PG_DB = process.env.PG_DB || 'sentiment';
+  PG_PASSWORD = process.env.PG_PASSWORD || 'sentiment123!';
   PG_PORT = PositiveInt.safeParse(process.env.PG_PORT).data ?? 5432
   // Configuration object
   dbConfig = {
@@ -58,7 +58,7 @@ class DB{
     }
     //determine the errors based on error codes
     const err = this.categorizeConnectionError(testConnectionRes.error);
-    if(err !== 'USER_NOT_FOUND' && err !== 'DATABASE_NOT_FOUND' && !testConnectionRes.error.message.includes("password")){
+    if(err !== 'USER_NOT_FOUND' && err !== 'DATABASE_NOT_FOUND' && !testConnectionRes.error.message?.toLowerCase().includes("password")){
       console.log('❌ Database connection failed:',testConnectionRes.error.code, testConnectionRes.error.message);
       throw new Error(err);
     }else{
@@ -79,7 +79,22 @@ class DB{
       await this.init();
     }
     if(testConnectionRes.error.message.includes("password")){
-
+      const userExists = await this.checkIfUserExists(this.PG_USER);
+      if(userExists){
+        throw new Error("Authentication failed: Wrong password for user " + this.PG_USER);
+      }else{
+        console.log("user not found , creating user and db");
+        const userCreated = await this.createUser(this.PG_USER, this.PG_PASSWORD);
+        if(!userCreated){
+          throw new Error("Failed to create user: " + this.PG_USER);
+        }
+        //we know if user didnt exist so does the db so we create it
+        const dbCreated = await this.createDatabase(this.PG_DB, this.PG_USER);
+        if(!dbCreated){
+          throw new Error("Failed to create database: " + this.PG_DB);
+        }
+      }
+      await this.init();
     }
   }
   async executeAsPostgres(sqlCommand:string) {
@@ -366,13 +381,31 @@ async client_createDatabase(dbName:string, owner:string) {
       throw new Error('No admin method determined');
     }
   }
-
   // Unified database creation that uses the determined method
   async createDatabase(dbName:string, owner:string) {
     if (this.adminMethod === 'client') {
       return await this.client_createDatabase(dbName, owner);
     } else if (this.adminMethod === 'sudo') {
       return await this.sudo_createDatabase(dbName, owner);
+    } else {
+      throw new Error('No admin method determined');
+    }
+  }
+    async checkIfDatabaseExists(database:string) {
+    if (this.adminMethod === 'client') {
+      return await this.client_checkIfDatabaseExists(database);
+    } else if (this.adminMethod === 'sudo') {
+      return await this.sudo_checkIfDatabaseExists(database);
+    } else {
+      throw new Error('No admin method determined');
+    }
+  }
+  // Unified database creation that uses the determined method
+  async checkIfUserExists(username:string) {
+    if (this.adminMethod === 'client') {
+      return await this.client_checkIfUserExists(username);
+    } else if (this.adminMethod === 'sudo') {
+      return await this.sudo_checkIfUserExists(username);
     } else {
       throw new Error('No admin method determined');
     }

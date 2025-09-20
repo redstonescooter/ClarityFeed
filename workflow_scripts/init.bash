@@ -15,9 +15,11 @@ source "$ENV_STATIC"
 ENV_PRE="$REPO_ROOT/.env.pre"
 ENV_FINAL="$REPO_ROOT/.env"
 
-echo "\n# @setting root (build)" >> "$ENV_PRE"
-echo "ROOT_FS_ABS=$REPO_ROOT/" >> "$ENV_PRE"
 cat "$ENV_STATIC" > "$ENV_PRE"
+
+echo "# @setting root (build)" >> "$ENV_PRE"
+echo "ROOT_FS_ABS=$REPO_ROOT/" >> "$ENV_PRE"
+
 
 if [[ "${WSL_PROXY:-}" == "TRUE" ]]; then
   echo "WSL proxy is enabled."
